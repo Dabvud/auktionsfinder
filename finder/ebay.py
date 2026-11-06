@@ -171,4 +171,5 @@ def zu_auktion(summary: dict, erk: Erkennung, jetzt: str) -> dict:
         "zuerst_gesehen": jetzt, "zuletzt_gesehen": jetzt,
         "spieler": list(erk.spieler), "vereine": list(erk.vereine), "typen": list(erk.typen),
         "verdaechtig": erk.verdaechtig, "status": "laufend", "endpreis_cent": None,
+        "land": (summary.get("itemLocation") or {}).get("country"),
     }

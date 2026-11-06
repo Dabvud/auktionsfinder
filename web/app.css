@@ -150,6 +150,8 @@ select, input[type="text"], input[type="search"], input[type="number"], input[ty
   background: var(--tinte); color: var(--grund);
 }
 .uhr.bald { background: var(--pfiff); color: var(--pfiff-tinte); }
+.neu-marke { position: absolute; top: 8px; right: 8px; padding: 2px 7px; border-radius: 6px; font-size: 12px;
+  font-weight: 600; background: var(--rasen); color: var(--rasen-tinte, #fff); }
 .uhr.vorbei { background: var(--linie); color: var(--tinte); }
 .karte-text { padding: 10px 10px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
 .preis { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }

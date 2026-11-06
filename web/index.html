@@ -59,6 +59,26 @@
       <label>Verein<select id="f-verein"></select></label>
       <label>Gruppe<select id="f-gruppe"></select></label>
       <label class="breit">Spieler<input id="f-spieler" type="search" list="spieler-liste" placeholder="Name eingeben" autocomplete="off"></label>
+      <label class="breit">Titel enthält<input id="f-text" type="search" placeholder="z. B. Merlin, Gold, PSA" autocomplete="off"></label>
+      <label>Auflage höchstens<select id="f-auflage">
+        <option value="">egal</option>
+        <option value="1">1/1</option>
+        <option value="5">/5</option>
+        <option value="10">/10</option>
+        <option value="25">/25</option>
+        <option value="50">/50</option>
+        <option value="99">/99</option>
+      </select></label>
+      <label>Gebote<select id="f-gebote">
+        <option value="">egal</option>
+        <option value="ohne">ohne Gebote</option>
+        <option value="mit">mit Geboten</option>
+      </select></label>
+      <label>Sortierung<select id="f-sortierung">
+        <option value="ende">Endet bald</option>
+        <option value="preis">Günstigste zuerst</option>
+        <option value="neu">Neueste zuerst</option>
+      </select></label>
       <label>Höchstpreis (€)<input id="f-preis" type="number" min="0" step="1" inputmode="numeric" placeholder="egal"></label>
       <label id="f-zeit-label">Endet in<select id="f-zeit">
         <option value="24">24 Stunden</option>
@@ -66,6 +86,9 @@
         <option value="168" selected>7 Tagen</option>
         <option value="">beliebig</option>
       </select></label>
+      <label class="schalter"><input id="f-de" type="checkbox"> Nur Standort Deutschland</label>
+      <label class="schalter"><input id="f-versand" type="checkbox"> Preis inkl. Versand</label>
+      <label class="schalter"><input id="f-neu" type="checkbox"> Nur neue seit letztem Besuch</label>
       <label class="schalter"><input id="f-verdaechtig" type="checkbox"> Verdächtige zeigen</label>
       <label class="schalter"><input id="f-ohne" type="checkbox"> Nur nicht zugeordnete</label>
     </div>

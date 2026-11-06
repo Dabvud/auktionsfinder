@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { STANDARD, filtere, findeSpieler } from './filter.js';
+import { STANDARD, filtere, findeSpieler, auflage } from './filter.js';
 
 const jetzt = new Date('2026-11-06T12:00:00Z');
 const spielerById = {
@@ -160,4 +160,45 @@ test('findeSpieler: wie der Suchlauf über vollen Namen oder Suchnamen, akzent- 
   assert.equal(findeSpieler('Müller', liste), null); // mehrdeutig
   assert.equal(findeSpieler('Unbekannt', liste), null);
   assert.equal(findeSpieler('!!!', liste), null);
+});
+
+test('auflage: kleinste Nummerierung aus dem Titel, Saisonangaben zählen nicht', () => {
+  assert.equal(auflage('Topps Reus Auto 12/25'), 25);
+  assert.equal(auflage('Gold 1/1 Superfractor'), 1);
+  assert.equal(auflage('Topps 2023/24 Chrome /99'), 99);
+  assert.equal(auflage('Topps Chrome 23/24 Base'), null);
+  assert.equal(auflage('Panini 2023/2024'), null);
+  assert.equal(auflage('Reus Base'), null);
+});
+
+test('neue Filter: Deutschland, Titelsuche, Auflage, Gebote, Preis mit Versand', () => {
+  const liste = [
+    auktion('de', { land: 'DE', titel: 'Topps Merlin Reus Auto /25', gebote: 0, preis_cent: 900, versand_cent: 200 }),
+    auktion('uk', { land: 'GB', titel: 'Topps Chrome Reus Auto /99', gebote: 2, preis_cent: 500, versand_cent: 900 }),
+    auktion('alt', { titel: 'Panini Prizm Réus Gold 1/1', gebote: 5, preis_cent: 3000, versand_cent: 0 }),
+  ];
+  assert.deepEqual(ids(liste, { nur_de: true }), ['de']);
+  assert.deepEqual(ids(liste, { text: 'merlin' }), ['de']);
+  assert.deepEqual(ids(liste, { text: 'reus  GOLD' }), ['alt']);
+  assert.deepEqual(ids(liste, { max_auflage: 25 }).sort(), ['alt', 'de']);
+  assert.deepEqual(ids(liste, { gebote: 'ohne' }), ['de']);
+  assert.deepEqual(ids(liste, { gebote: 'mit' }).sort(), ['alt', 'uk']);
+  assert.deepEqual(ids(liste, { max_preis_cent: 1000 }).sort(), ['de', 'uk']);
+  assert.deepEqual(ids(liste, { max_preis_cent: 1000, preis_mit_versand: true }), []);
+  assert.deepEqual(ids(liste, { max_preis_cent: 1100, preis_mit_versand: true }), ['de']);
+});
+
+test('Sortierung und nur neue seit dem letzten gesehenen Lauf', () => {
+  const liste = [
+    auktion('a', { ende: '2026-11-06T13:00:00Z', preis_cent: 900, zuerst_gesehen: '2026-11-05T06:00:00Z' }),
+    auktion('b', { ende: '2026-11-06T14:00:00Z', preis_cent: 100, versand_cent: 2000, zuerst_gesehen: '2026-11-06T06:00:00Z' }),
+    auktion('c', { ende: '2026-11-06T15:00:00Z', preis_cent: 500, zuerst_gesehen: '2026-11-06T18:00:00Z' }),
+  ];
+  assert.deepEqual(ids(liste), ['a', 'b', 'c']);
+  assert.deepEqual(ids(liste, { sortierung: 'preis' }), ['b', 'c', 'a']);
+  assert.deepEqual(ids(liste, { sortierung: 'preis', preis_mit_versand: true }), ['c', 'a', 'b']);
+  assert.deepEqual(ids(liste, { sortierung: 'neu' }), ['c', 'b', 'a']);
+  const mitStichtag = (f) => filtere(liste, { ...STANDARD, ...f }, jetzt, spielerById, vereine, '2026-11-05T06:00:00Z').map(a => a.item_id);
+  assert.deepEqual(mitStichtag({ nur_neue: true }), ['b', 'c']);
+  assert.deepEqual(ids(liste, { nur_neue: true }), ['a', 'b', 'c']); // ohne Stichtag (erster Besuch) kein Filter
 });

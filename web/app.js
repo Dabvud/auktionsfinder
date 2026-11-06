@@ -7,6 +7,7 @@ const { owner: OWNER, repo: REPO } = repoAusAdresse(location.hostname, location.
 const SCHLUESSEL_TOKEN = 'auktionsfinder.token';
 const SCHLUESSEL_FILTER = 'auktionsfinder.filter';
 const SCHLUESSEL_DAUER = 'auktionsfinder.dauer';
+const SCHLUESSEL_BESUCH = 'auktionsfinder.besuch';
 // Vor und nach dem eigentlichen Suchen: Start des Rechners, Speichern, Seite bauen.
 const RAHMEN_MS = 90000;
 const SEITE = 60;
@@ -38,6 +39,7 @@ const zustand = {
   aktiveSuche: null,
   angezeigt: SEITE,
   sucheLaeuft: false,
+  neuSeit: null,
 };
 
 /* ---------- Speicher im Browser (darf fehlen) ---------- */
@@ -83,6 +85,7 @@ async function ladeAlles() {
   zustand.favoriten = favoriten.namen || [];
   markiereFavoriten();
   zustand.tage = index.tage || [];
+  merkeBesuch(status);
   zeigeStatus(status);
   baueAuswahlen();
   baueSuchen();
@@ -98,6 +101,20 @@ async function ladeArchiv() {
 }
 
 /* ---------- Kopfzeile ---------- */
+/**
+ * Stichtag für "neu": Start des Laufs, den dieser Browser zuletzt gesehen hat. Neu laden ändert ihn nicht,
+ * erst ein neuer Suchlauf schiebt ihn weiter. Beim ersten Besuch gibt es keinen Stichtag.
+ */
+function merkeBesuch(status) {
+  if (!status?.ok) return;
+  let besuch = null;
+  try { besuch = JSON.parse(lies(SCHLUESSEL_BESUCH) || 'null'); } catch { /* kaputter Eintrag */ }
+  if (!besuch) besuch = { lauf: status.start, neuSeit: null };
+  else if (besuch.lauf !== status.start) besuch = { lauf: status.start, neuSeit: besuch.lauf };
+  schreib(SCHLUESSEL_BESUCH, JSON.stringify(besuch));
+  zustand.neuSeit = besuch.neuSeit;
+}
+
 function zeigeStatus(status) {
   const text = $('lauf-text');
   text.classList.remove('fehler');
@@ -232,6 +249,13 @@ function setzeFilterfelder() {
   $('f-zeit').value = f.ende_in_h === null ? '' : String(f.ende_in_h);
   $('f-verdaechtig').checked = f.verdaechtige;
   $('f-ohne').checked = f.nicht_zugeordnet;
+  $('f-text').value = f.text || '';
+  $('f-auflage').value = f.max_auflage === null ? '' : String(f.max_auflage);
+  $('f-gebote').value = f.gebote || '';
+  $('f-sortierung').value = f.sortierung || 'ende';
+  $('f-de').checked = f.nur_de;
+  $('f-versand').checked = f.preis_mit_versand;
+  $('f-neu').checked = f.nur_neue;
 }
 
 function liesFilterfelder() {
@@ -248,6 +272,13 @@ function liesFilterfelder() {
     ende_in_h: zeit === '' ? null : Number(zeit),
     verdaechtige: $('f-verdaechtig').checked,
     nicht_zugeordnet: $('f-ohne').checked,
+    text: $('f-text').value.trim(),
+    max_auflage: $('f-auflage').value === '' ? null : Number($('f-auflage').value),
+    gebote: $('f-gebote').value || null,
+    sortierung: $('f-sortierung').value || 'ende',
+    nur_de: $('f-de').checked,
+    preis_mit_versand: $('f-versand').checked,
+    nur_neue: $('f-neu').checked,
   };
   schreib(SCHLUESSEL_FILTER, JSON.stringify(zustand.filter));
 }
@@ -255,7 +286,8 @@ function liesFilterfelder() {
 function zaehleFilter() {
   const f = zustand.filter;
   const n = [f.typ !== 'alle', f.liga, f.verein, f.gruppe, f.spieler, f.max_preis_cent !== null,
-    f.verdaechtige, f.nicht_zugeordnet].filter(Boolean).length;
+    f.verdaechtige, f.nicht_zugeordnet, f.text, f.max_auflage !== null, f.gebote, f.nur_de, f.nur_neue,
+  ].filter(Boolean).length;
   $('filter-zahl').textContent = n ? `${n} aktiv` : '';
 }
 
@@ -494,6 +526,7 @@ function karte(a, jetzt) {
   }
   const uhr = restzeit(a.ende, jetzt);
   bild.append(element('span', `uhr ${uhr.klasse}`, uhr.text));
+  if (zustand.neuSeit && Date.parse(a.zuerst_gesehen) > Date.parse(zustand.neuSeit)) bild.append(element('span', 'neu-marke', 'neu'));
   li.append(bild);
 
   const text = element('div', 'karte-text');
@@ -536,8 +569,8 @@ function zeichne() {
   const jetzt = new Date();
   const quelle = zustand.ansicht === 'laufend' ? zustand.laufend : zustand.archiv;
   const filter = zustand.ansicht === 'laufend' ? zustand.filter : { ...zustand.filter, ende_in_h: null };
-  let treffer = filtere(quelle, filter, jetzt, zustand.spieler, zustand.vereine);
-  if (zustand.ansicht === 'archiv') treffer = treffer.reverse();
+  let treffer = filtere(quelle, filter, jetzt, zustand.spieler, zustand.vereine, zustand.neuSeit);
+  if (zustand.ansicht === 'archiv' && filter.sortierung === 'ende') treffer = treffer.reverse();
 
   const liste = $('liste');
   if (!treffer.length) {
@@ -599,7 +632,8 @@ function verdrahte() {
     speichereFavorit();
   });
 
-  for (const id of ['f-typ', 'f-liga', 'f-verein', 'f-gruppe', 'f-zeit', 'f-verdaechtig', 'f-ohne']) {
+  for (const id of ['f-typ', 'f-liga', 'f-verein', 'f-gruppe', 'f-zeit', 'f-verdaechtig', 'f-ohne',
+    'f-auflage', 'f-gebote', 'f-sortierung', 'f-de', 'f-versand', 'f-neu']) {
     $(id).addEventListener('change', () => {
       liesFilterfelder();
       if (id === 'f-liga') baueVereine();
@@ -607,7 +641,7 @@ function verdrahte() {
       baueSuchen(); zeichne();
     });
   }
-  for (const id of ['f-spieler', 'f-preis']) {
+  for (const id of ['f-spieler', 'f-preis', 'f-text']) {
     $(id).addEventListener('input', () => {
       liesFilterfelder(); zustand.aktiveSuche = null; zustand.angezeigt = SEITE; baueSuchen(); zeichne();
     });

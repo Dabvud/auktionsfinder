@@ -167,7 +167,7 @@ def test_zu_auktion_mit_gebot(fixture_json, jetzt):
         "ende": "2026-11-07T12:00:00Z",
         "zuerst_gesehen": jetzt, "zuletzt_gesehen": jetzt, "spieler": ["marco-reus"],
         "vereine": ["bvb"], "typen": ["auto"], "verdaechtig": False,
-        "status": "laufend", "endpreis_cent": None,
+        "status": "laufend", "endpreis_cent": None, "land": None,
     }
     # Die echte Browse-Antwort enthält currentBidPrice statt price.
     echt = fixture_json("ebay_echt_beispiel.json")["itemSummaries"][1]
@@ -178,6 +178,7 @@ def test_zu_auktion_mit_gebot(fixture_json, jetzt):
     assert auktion["gebote"] == 2
     assert auktion["ende"] == "2026-11-06T20:25:54.000Z"
     assert auktion["bild"] == "9lkAAeSwxrdq28iU"
+    assert auktion["land"] == "DE"
 
 
 def test_zu_auktion_ohne_gebot(fixture_json, jetzt):
