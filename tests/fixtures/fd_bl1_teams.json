@@ -1,0 +1,48 @@
+{
+ "count": 2,
+ "competition": {
+  "id": 2002,
+  "name": "Bundesliga",
+  "code": "BL1",
+  "type": "LEAGUE"
+ },
+ "season": {
+  "id": 2026,
+  "startDate": "2026-08-21",
+  "endDate": "2027-05-22",
+  "currentMatchday": 10
+ },
+ "teams": [
+  {
+   "id": 4,
+   "name": "Borussia Dortmund",
+   "shortName": "Dortmund",
+   "tla": "BVB",
+   "squad": [
+    {
+     "id": 1,
+     "name": "Julian Brandt",
+     "position": "Midfield"
+    },
+    {
+     "id": 2,
+     "name": "Gregor Kobel",
+     "position": "Goalkeeper"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "FC Bayern München",
+   "shortName": "Bayern",
+   "tla": "FCB",
+   "squad": [
+    {
+     "id": 3,
+     "name": "Jamal Musiala",
+     "position": "Midfield"
+    }
+   ]
+  }
+ ]
+}
