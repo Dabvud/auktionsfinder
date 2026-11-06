@@ -6,6 +6,9 @@ const { owner: OWNER, repo: REPO } = repoAusAdresse(location.hostname, location.
   || { owner: 'Dabvud', repo: 'auktionsfinder' };
 const SCHLUESSEL_TOKEN = 'auktionsfinder.token';
 const SCHLUESSEL_FILTER = 'auktionsfinder.filter';
+const SCHLUESSEL_DAUER = 'auktionsfinder.dauer';
+// Vor und nach dem eigentlichen Suchen: Start des Rechners, Speichern, Seite bauen.
+const RAHMEN_MS = 90000;
 const SEITE = 60;
 const ABFRAGE_MS = 15000;
 
@@ -102,6 +105,8 @@ function zeigeStatus(status) {
   if (!status) { text.textContent = 'Noch kein Suchlauf.'; return; }
   const wann = datum.format(new Date(status.ende || status.start));
   if (status.ok) {
+    const dauer = Date.parse(status.ende) - Date.parse(status.start);
+    if (dauer > 0) schreib(SCHLUESSEL_DAUER, String(dauer + RAHMEN_MS));
     text.textContent = `Letzte Suche: ${wann}, ${status.gefunden} Auktionen, davon ${status.neu} neu.`;
   } else {
     text.textContent = `Letzte Suche ${wann} fehlgeschlagen: ${status.fehler}`;
@@ -117,30 +122,69 @@ function aktualisiereKnoepfe() {
   $('suche-speichern').title = $('jetzt-suchen').title;
 }
 
-async function jetztSuchen() {
-  const text = $('lauf-text');
+/** Fortschritt geschätzt aus der Dauer des letzten erfolgreichen Laufs; ohne Vergleichswert nur die Minuten. */
+function zeigeFortschritt(startMs) {
+  const vergangen = Date.now() - startMs;
+  const dauer = Number(lies(SCHLUESSEL_DAUER)) || 0;
+  const balken = $('lauf-balken');
+  if (dauer > 0) {
+    const prozent = Math.min(99, Math.max(1, Math.round(vergangen / dauer * 100)));
+    $('lauf-text').textContent = `Suche läuft … ca. ${prozent} %`;
+    balken.value = prozent;
+    balken.hidden = false;
+  } else {
+    $('lauf-text').textContent = `Suche läuft seit ${Math.round(vergangen / 60000)} Min …`;
+    balken.hidden = true;
+  }
+}
+
+/** Wartet auf das Ende des Laufs, der ab startMs (ms) gestartet wurde, und lädt dann neu. */
+async function verfolgeLauf(startMs) {
   zustand.sucheLaeuft = true;
   aktualisiereKnoepfe();
-  text.classList.remove('fehler');
-  text.textContent = 'Suche gestartet. Das dauert einige Minuten …';
-  const start = Date.now();
+  $('lauf-text').classList.remove('fehler');
+  let laufStart = startMs;
   try {
-    await zustand.gh.starteSuchlauf();
     for (;;) {
+      zeigeFortschritt(laufStart);
       await new Promise(r => setTimeout(r, ABFRAGE_MS));
       const lauf = await zustand.gh.letzterLauf();
-      const minuten = Math.round((Date.now() - start) / 60000);
-      if (lauf && Date.parse(lauf.erstellt) >= start - 60000 && lauf.status === 'completed') break;
-      text.textContent = `Suche läuft seit ${minuten} Min …`;
+      if (lauf && Date.parse(lauf.erstellt) >= startMs - 60000) {
+        laufStart = Date.parse(lauf.erstellt);
+        if (lauf.status === 'completed') break;
+      }
     }
     zustand.sucheLaeuft = false;
+    $('lauf-balken').hidden = true;
     await ladeAlles();
   } catch (fehler) {
     zustand.sucheLaeuft = false;
-    text.textContent = `Suche konnte nicht gestartet werden: ${fehler.message} Zugangsschlüssel in den Einstellungen prüfen.`;
-    text.classList.add('fehler');
+    $('lauf-balken').hidden = true;
+    $('lauf-text').textContent = `Stand der Suche nicht abrufbar: ${fehler.message}`;
+    $('lauf-text').classList.add('fehler');
   }
   aktualisiereKnoepfe();
+}
+
+async function jetztSuchen() {
+  const start = Date.now();
+  try {
+    await zustand.gh.starteSuchlauf();
+  } catch (fehler) {
+    $('lauf-text').textContent = `Suche konnte nicht gestartet werden: ${fehler.message} Zugangsschlüssel in den Einstellungen prüfen.`;
+    $('lauf-text').classList.add('fehler');
+    return;
+  }
+  await verfolgeLauf(start);
+}
+
+/** Läuft beim Öffnen schon eine Suche (Zeitplan oder anderes Gerät), deren Fortschritt zeigen. */
+async function laufendeSucheZeigen() {
+  if (!lies(SCHLUESSEL_TOKEN) || zustand.sucheLaeuft) return;
+  try {
+    const lauf = await zustand.gh.letzterLauf();
+    if (lauf && lauf.status !== 'completed') await verfolgeLauf(Date.parse(lauf.erstellt));
+  } catch { /* ohne Verbindung zu GitHub einfach den letzten Stand zeigen */ }
 }
 
 /* ---------- Auswahlfelder ---------- */
@@ -616,7 +660,7 @@ function start() {
   neuerClient();
   verdrahte();
   aktualisiereKnoepfe();
-  ladeAlles();
+  ladeAlles().then(laufendeSucheZeigen);
 }
 
 start();

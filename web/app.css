@@ -48,6 +48,9 @@ h1 {
   margin: 0; font: 700 26px/1 var(--schrift-eng); letter-spacing: 0.01em;
 }
 .lauf { display: flex; align-items: center; gap: 12px; margin-top: 8px; }
+.lauf-info { flex: 1; min-width: 0; }
+.lauf-balken { display: block; width: 100%; height: 6px; margin-top: 6px; accent-color: var(--rasen); }
+.lauf-balken[hidden] { display: none; }
 .lauf-text { margin: 0; flex: 1; font-size: 14px; color: var(--tinte-leise); min-width: 0; }
 .lauf-text.fehler { color: var(--rot); }
 

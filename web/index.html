@@ -20,7 +20,10 @@
     </button>
   </div>
   <div class="lauf">
-    <p id="lauf-text" class="lauf-text">Lade Daten …</p>
+    <div class="lauf-info">
+      <p id="lauf-text" class="lauf-text" aria-live="polite">Lade Daten …</p>
+      <progress id="lauf-balken" class="lauf-balken" max="100" value="0" hidden aria-label="Fortschritt der Suche"></progress>
+    </div>
     <button type="button" id="jetzt-suchen" class="knopf-haupt">Jetzt suchen</button>
   </div>
 </header>
