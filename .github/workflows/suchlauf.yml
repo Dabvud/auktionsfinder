@@ -1,0 +1,77 @@
+name: suchlauf
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"   # UTC: 7/19 Uhr MEZ, 8/20 Uhr MESZ
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daten
+  cancel-in-progress: false
+
+jobs:
+  suche:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests
+        run: |
+          pip install --quiet pytest
+          python -m pytest -q
+
+      - name: Suchlauf
+        id: lauf
+        continue-on-error: true
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: python -m finder.suchlauf --daten daten
+
+      - name: Daten speichern
+        if: always()
+        run: |
+          git config user.name "auktionsfinder-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daten
+          if git diff --cached --quiet; then echo "Keine Änderungen."; exit 0; fi
+          git commit -q -m "Suchlauf $(date -u +%Y-%m-%dT%H:%MZ)"
+          for versuch in 1 2 3; do
+            git pull --rebase -q && git push -q && exit 0
+            sleep 5
+          done
+          exit 1
+
+      - name: Seite bauen
+        if: always()
+        run: |
+          mkdir -p _site
+          cp -r web/* _site/
+          rm -f _site/*.test.mjs
+          rsync -a --exclude entwurf daten/ _site/daten/
+
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        if: always()
+
+      - name: Ergebnis
+        if: steps.lauf.outcome == 'failure'
+        run: |
+          echo "Der Suchlauf ist fehlgeschlagen, siehe daten/status.json."
+          exit 1
