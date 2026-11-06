@@ -12,7 +12,7 @@ export class GitHub {
   #schluessel;
   #abrufen;
 
-  constructor({ owner: eigentuemer, repo: repository, token: schluessel, fetch: abrufen = globalThis.fetch }) {
+  constructor({ owner: eigentuemer, repo: repository, token: schluessel, fetch: abrufen = (...argumente) => globalThis.fetch(...argumente) }) {
     this.#basis = `https://api.github.com/repos/${encodeURIComponent(eigentuemer)}/${encodeURIComponent(repository)}`;
     this.#schluessel = schluessel;
     this.#abrufen = abrufen;

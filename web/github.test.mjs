@@ -187,3 +187,17 @@ test('letzterLauf', async () => {
   assert.equal(fake.aufrufe.length, 1);
   pruefeApiHeader(fake.aufrufe);
 });
+
+test('Standard-fetch wird ohne fremdes this aufgerufen (Browser: Illegal invocation)', async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = function (url) {
+    if (this !== undefined && this !== globalThis) throw new TypeError("Failed to execute 'fetch' on 'Window': Illegal invocation");
+    return Promise.resolve({ status: 200, ok: true, text: async () => '{"x":1}', json: async () => ({ x: 1 }) });
+  };
+  try {
+    const ergebnis = await new GitHub({ owner: 'Dabvud', repo: 'auktionsfinder' }).leseJson('daten/status.json');
+    assert.deepEqual(ergebnis, { daten: { x: 1 }, sha: null });
+  } finally {
+    globalThis.fetch = original;
+  }
+});
