@@ -51,7 +51,7 @@ def test_nummeriert(erkennung, nummer):
     assert erkennung(f"Topps Reus {nummer}").typen == ["nummeriert"]
 
 
-@pytest.mark.parametrize("titel", ["Topps 2023/24 Base", "2024 / 25", "Topps 1999/00 Base"])
+@pytest.mark.parametrize("titel", ["Topps 2023/24 Base", "2024 / 25", "Topps 1999/00 Base", "Topps Chrome 23/24", "Topps 2023/2024", "Panini 99/00"])
 def test_saison_nicht_nummeriert(erkennung, titel):
     assert erkennung(titel, "nummeriert").typen == []
     assert erkennung(titel + " Reus 12/99").typen == ["nummeriert"]

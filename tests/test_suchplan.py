@@ -70,3 +70,11 @@ def test_plan_ohne_doppelte(kartentypen, vereine, spieler_daten):
     assert len(alle) == 2
     assert {suche.aspekt for suche in alle} == {True, False}
     assert [sorted(suche.q[1:-1].split(", ")) for suche in alle] == [["haaland", "reus"], ["haaland", "reus"]]
+
+
+def test_plan_ueberspringt_unbrauchbare_namen(kartentypen, vereine, spieler_fabrik):
+    daten = {"spieler": [spieler_fabrik("leer", "!!!", gruppen=["favorit"]),
+                         spieler_fabrik("lang", "x" + "y" * 120, gruppen=["favorit"]),
+                         spieler_fabrik("ibarbo", "Ibarbo", gruppen=["favorit"])]}
+    plan = plane_suchen(kartentypen, {"suchen": [gespeichert(gruppe="favorit")]}, baue_index(daten), vereine)
+    assert {suche.q for suche in plan if suche.typ == "alle"} == {"(ibarbo)"}

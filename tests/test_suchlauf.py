@@ -180,3 +180,14 @@ def test_ohne_favoriten_bleibt_spieler_json_unberuehrt(daten_ordner, fake_client
     vorher = (daten_ordner / "spieler.json").read_bytes()
     suchlauf(daten_ordner, fake_client(), jetzt)
     assert (daten_ordner / "spieler.json").read_bytes() == vorher
+
+
+def test_abfragegrenze_stoppt_sauber(daten_ordner, fake_client, fixture_json, json_lesen, jetzt, monkeypatch):
+    monkeypatch.setattr(suchlauf_modul, "MAX_ABFRAGEN", 3)
+    treffer = fixture_json("ebay_seite1.json")["itemSummaries"]
+    client = fake_client(lambda q, aspekt: treffer)
+    status = suchlauf(daten_ordner, client, jetzt)
+    assert len(client.aufrufe) == 3
+    assert status["ok"] == True
+    assert any("Abfragegrenze" in w for w in status["warnungen"])
+    assert json_lesen(daten_ordner / "laufend.json")["auktionen"] != []

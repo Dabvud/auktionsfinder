@@ -12,6 +12,9 @@ from .jsondatei import lese_json, schreibe_auktionen, schreibe_json
 from .spieler import baue_index, pflege_favoriten
 from .suchplan import plane_suchen
 
+# Tageskontingent eBay 5000: zwei geplante Läufe plus einige "Jetzt suchen" müssen hineinpassen.
+MAX_ABFRAGEN = 1500
+
 
 def _jetzt() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
@@ -49,6 +52,10 @@ def suchlauf(daten: Path, client: EbayClient, jetzt: str) -> dict:
         laufend = lese_json(daten / "laufend.json", {"auktionen": []})["auktionen"]
         gefunden = []
         for suche in plane_suchen(kartentypen, suchen, index, vereine):
+            if client.abfragen >= MAX_ABFRAGEN:
+                # Teilergebnis ist sicher: Auktionen enden nur über ihre Endzeit, nie durch Nichtfinden.
+                client.warnungen.append(f"Abfragegrenze {MAX_ABFRAGEN} erreicht, restliche Suchen im nächsten Lauf")
+                break
             for summary in client.suche(suche.q, suche.aspekt):
                 erk = erkenne(summary["title"], suche.typ, index, vereine, kartentypen)
                 if suche.aspekt or erk.spieler or erk.vereine or erk.fussball:

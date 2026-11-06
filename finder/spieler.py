@@ -66,7 +66,7 @@ def pflege_favoriten(daten: dict, namen: list[str]) -> dict:
     for name in namen:
         name = " ".join(name.split())
         treffer = index.namen.get(vereinheitliche(name), ())
-        if name:
+        if vereinheitliche(name):
             # Eindeutiger Suchname ("Haaland") meint den vorhandenen Spieler, nicht einen neuen.
             entwurf.append({"name": index.spieler[treffer[0]]["name"] if len(treffer) == 1 else name})
     return uebernehme_entwurf(neu, entwurf, "favorit", quelle="favorit")

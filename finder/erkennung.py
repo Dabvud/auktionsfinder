@@ -47,7 +47,10 @@ def erkenne(titel: str, such_typ: str | None, index: SpielerIndex,
         if (typ == such_typ and konfiguration.get("typ_aus_suche", False)
                 or any(map(trifft, konfiguration.get("titel", [])))):
             typen.add(typ)
-    ohne_saison = re.sub(r"\b(?:19|20)\d{2}\s*/\s*\d{2}\b", " ", titel)
+    ohne_saison = re.sub(r"\b(?:19|20)\d{2}\s*/\s*(?:(?:19|20)\d{2}|\d{2})\b", " ", titel)
+    # Kurze Saison "23/24" (zweite Zahl = erste + 1) ist keine Nummerierung; "12/99" schon.
+    ohne_saison = re.sub(r"\b(\d{2})\s*/\s*(\d{2})\b",
+                         lambda m: " " if (int(m[1]) + 1) % 100 == int(m[2]) else m[0], ohne_saison)
     if re.search(r"/\s*\d{1,4}\b", ohne_saison):
         typen.add("nummeriert")
     return Erkennung(

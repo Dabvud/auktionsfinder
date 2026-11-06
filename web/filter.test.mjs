@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { STANDARD, filtere } from './filter.js';
+import { STANDARD, filtere, findeSpieler } from './filter.js';
 
 const jetzt = new Date('2026-11-06T12:00:00Z');
 const spielerById = {
@@ -146,4 +146,18 @@ test('sortiert nach ende', () => {
     auktion('903', { ende: '2026-11-07T12:00:00Z' }),
   ];
   assert.deepEqual(ids(daten), ['902', '903', '901']);
+});
+
+test('findeSpieler: wie der Suchlauf über vollen Namen oder Suchnamen, akzent- und schreibweisenfrei', () => {
+  const liste = [
+    { id: 'erling-haaland', name: 'Erling Haaland', suchnamen: ['haaland'] },
+    { id: 'victor-ibarbo', name: 'Víctor Ibarbo', suchnamen: ['ibarbo'] },
+    { id: 'a', name: 'Anton Müller', suchnamen: ['muller'] },
+    { id: 'b', name: 'Bernd Müller', suchnamen: ['muller'] },
+  ];
+  assert.equal(findeSpieler('Haaland', liste), 'erling-haaland');
+  assert.equal(findeSpieler('  victor   IBARBO ', liste), 'victor-ibarbo');
+  assert.equal(findeSpieler('Müller', liste), null); // mehrdeutig
+  assert.equal(findeSpieler('Unbekannt', liste), null);
+  assert.equal(findeSpieler('!!!', liste), null);
 });

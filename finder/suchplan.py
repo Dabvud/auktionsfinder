@@ -48,7 +48,8 @@ def plane_suchen(kartentypen: dict, suchen: dict, index: SpielerIndex, vereine: 
         if filterwerte.get("typ") != "alle" or not any(
                 filterwerte.get(feld) for feld in ("spieler", "verein", "gruppe")):
             continue
-        namen = sorted({vereinheitliche(s["name"]).split()[-1]
-                        for s in index.spieler.values() if _passt(s, filterwerte)})
+        # Unbrauchbare Namen (nur Sonderzeichen, überlang) überspringen statt den ganzen Lauf abzubrechen.
+        namen = sorted({teile[-1] for s in index.spieler.values() if _passt(s, filterwerte)
+                        if (teile := vereinheitliche(s["name"]).split()) and len(teile[-1]) <= 90})
         abfragen.extend((q, "alle") for q in oder_gruppen(namen))
     return list(dict.fromkeys(Suche(q, typ, aspekt) for q, typ in abfragen for aspekt in (True, False)))

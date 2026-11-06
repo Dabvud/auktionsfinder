@@ -97,3 +97,8 @@ def test_favoriten_markieren_anlegen_und_entfernen(spieler_daten):
     assert "favorit" not in nach_id["marco-reus"]["gruppen"]
     assert nach_id["erling-haaland"]["gruppen"] == ["fifa-kult"]
     assert len(weniger["spieler"]) == 3  # angelegte Einträge bleiben, alte Auktionen verweisen darauf
+
+
+def test_favorit_ohne_buchstaben_wird_ignoriert(spieler_daten):
+    neu = pflege_favoriten(spieler_daten, ["!!!", " - "])
+    assert neu["spieler"] == spieler_daten["spieler"]

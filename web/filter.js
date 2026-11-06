@@ -50,3 +50,18 @@ export function filtere(auktionen, filter, jetzt, spielerNachId, vereine) {
     return true;
   }).sort((erste, zweite) => Date.parse(erste.ende) - Date.parse(zweite.ende));
 }
+
+/** Wie finder/normalisieren.py: Kleinschreibung, ohne Akzente, nur a-z und 0-9. */
+export function vereinheitliche(text) {
+  return text.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
+/** Spieler-ID zu einem eingegebenen Namen, wie der Suchlauf es auflöst; mehrdeutig oder unbekannt → null. */
+export function findeSpieler(name, spielerListe) {
+  const gesucht = vereinheitliche(name);
+  if (!gesucht) return null;
+  const treffer = spielerListe.filter(s =>
+    [s.name, ...(s.suchnamen || [])].some(n => vereinheitliche(n) === gesucht));
+  return treffer.length === 1 ? treffer[0].id : null;
+}

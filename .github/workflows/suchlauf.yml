@@ -50,6 +50,7 @@ jobs:
           git commit -q -m "Suchlauf $(date -u +%Y-%m-%dT%H:%MZ)"
           for versuch in 1 2 3; do
             git pull --rebase -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
             sleep 5
           done
           exit 1

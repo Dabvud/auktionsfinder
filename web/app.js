@@ -1,4 +1,4 @@
-import { STANDARD, filtere } from './filter.js';
+import { STANDARD, filtere, findeSpieler } from './filter.js';
 import { GitHub } from './github.js';
 
 const OWNER = 'Dabvud';
@@ -304,10 +304,12 @@ async function loescheSuche(suche) {
 
 /* ---------- Favoriten ---------- */
 function markiereFavoriten() {
-  const namen = new Set(zustand.favoriten.map(name => name.toLowerCase()));
-  for (const s of Object.values(zustand.spieler)) {
+  // Gleiche Auflösung wie der Suchlauf (voller Name oder Suchname), damit App und Lauf übereinstimmen.
+  const liste = Object.values(zustand.spieler);
+  const ids = new Set(zustand.favoriten.map(name => findeSpieler(name, liste)));
+  for (const s of liste) {
     s.gruppen = (s.gruppen || []).filter(gruppe => gruppe !== 'favorit');
-    if (namen.has(s.name.toLowerCase())) s.gruppen.push('favorit');
+    if (ids.has(s.id)) s.gruppen.push('favorit');
   }
 }
 
@@ -325,7 +327,7 @@ function baueFavoriten() {
     return;
   }
   leiste.replaceChildren(...zustand.favoriten.map(name => {
-    const id = zustand.spielerNachName.get(name.toLowerCase());
+    const id = findeSpieler(name, Object.values(zustand.spieler));
     const chip = element('span', 'suche-chip');
     const knopf = element('button', '', name);
     knopf.type = 'button';
@@ -339,7 +341,7 @@ function baueFavoriten() {
       zustand.aktiveSuche = null;
       zustand.angezeigt = SEITE;
       setzeFilterfelder();
-      $('f-spieler').value = name;
+      $('f-spieler').value = zustand.spieler[id].name;
       liesFilterfelder();
       baueSuchen();
       zeichne();
@@ -370,7 +372,7 @@ async function speichereFavorit() {
     $('favorit-hinweis').textContent = 'Steht schon in den Favoriten.';
     return;
   }
-  const id = zustand.spielerNachName.get(name.toLowerCase());
+  const id = findeSpieler(name, Object.values(zustand.spieler));
   if (id) name = zustand.spieler[id].name;
   try {
     await aendereFavoriten(d => ({
