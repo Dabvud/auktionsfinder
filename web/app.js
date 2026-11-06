@@ -531,6 +531,7 @@ async function speichereToken() {
     await ladeAlles();
   } catch (fehler) {
     $('token-hinweis').textContent = `Schlüssel funktioniert nicht (${fehler.message}). Rechte „Contents“ und „Actions“ prüfen.`;
+    aktualisiereKnoepfe();
   }
 }
 
