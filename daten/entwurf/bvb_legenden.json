@@ -15,7 +15,8 @@
  {
   "name": "Max Michallek",
   "suchnamen": [
-   "maximilian michallek"
+   "maximilian michallek",
+   "michallek"
   ],
   "vereine": [
    {
@@ -46,7 +47,8 @@
   "name": "Alfred Preißler",
   "suchnamen": [
    "adi preissler",
-   "ady preissler"
+   "ady preissler",
+   "addi preissler"
   ],
   "vereine": [
    {
@@ -716,7 +718,9 @@
  {
   "name": "Rolf Rüssmann",
   "suchnamen": [
-   "rolf ruessmann"
+   "rolf ruessmann",
+   "russmann",
+   "ruessmann"
   ],
   "vereine": [
    {
@@ -1062,9 +1066,7 @@
  },
  {
   "name": "Júlio César da Silva",
-  "suchnamen": [
-   "julio cesar"
-  ],
+  "suchnamen": [],
   "vereine": [
    {
     "verein": "juventus",

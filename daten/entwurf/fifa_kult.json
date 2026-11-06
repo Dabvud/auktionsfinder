@@ -263,9 +263,7 @@
  },
  {
   "name": "Givanildo Vieira de Sousa",
-  "suchnamen": [
-   "hulk"
-  ],
+  "suchnamen": [],
   "vereine": [
    {
     "verein": "fc-porto",
@@ -383,7 +381,8 @@
  {
   "name": "Bojan Krkić",
   "suchnamen": [
-   "bojan"
+   "bojan",
+   "krkic"
   ],
   "vereine": [
    {
@@ -763,9 +762,7 @@
  },
  {
   "name": "Anthony Martial",
-  "suchnamen": [
-   "martial"
-  ],
+  "suchnamen": [],
   "vereine": [
    {
     "verein": "as-monaco",
@@ -1593,9 +1590,7 @@
  },
  {
   "name": "Kelvin Mateus de Oliveira",
-  "suchnamen": [
-   "kelvin"
-  ],
+  "suchnamen": [],
   "vereine": [
    {
     "verein": "fc-porto",
@@ -2246,7 +2241,6 @@
  {
   "name": "Memphis Depay",
   "suchnamen": [
-   "memphis",
    "depay"
   ],
   "vereine": [
@@ -2711,7 +2705,6 @@
  {
   "name": "Bernard Anício Caldeira Duarte",
   "suchnamen": [
-   "bernard",
    "bernard duarte"
   ],
   "vereine": [
@@ -2827,9 +2820,7 @@
  },
  {
   "name": "Carlos Eduardo Marques",
-  "suchnamen": [
-   "carlos eduardo"
-  ],
+  "suchnamen": [],
   "vereine": [
    {
     "verein": "tsg-hoffenheim",

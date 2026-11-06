@@ -1,6 +1,9 @@
 [
  {
   "name": "Wolfgang de Beer",
+  "suchnamen": [
+   "teddy de beer"
+  ],
   "wikidata": "Q128419",
   "vereine": [
    {
@@ -13,6 +16,9 @@
  },
  {
   "name": "Lars Ricken",
+  "suchnamen": [
+   "ricken"
+  ],
   "wikidata": "Q506919",
   "vereine": [
    {
@@ -25,6 +31,9 @@
  },
  {
   "name": "Andreas Möller",
+  "suchnamen": [
+   "andreas moeller"
+  ],
   "wikidata": "Q155919",
   "vereine": [
    {
@@ -37,6 +46,9 @@
  },
  {
   "name": "Jürgen Kohler",
+  "suchnamen": [
+   "juergen kohler"
+  ],
   "wikidata": "Q308925",
   "vereine": [
    {
@@ -49,6 +61,7 @@
  },
  {
   "name": "Dedê",
+  "suchnamen": [],
   "wikidata": "Q58762",
   "vereine": [
    {
@@ -61,6 +74,7 @@
  },
  {
   "name": "Karsten Baumann",
+  "suchnamen": [],
   "wikidata": "Q49811",
   "vereine": [
    {
@@ -73,6 +87,7 @@
  },
  {
   "name": "Evanilson",
+  "suchnamen": [],
   "wikidata": "Q720606",
   "vereine": [
    {
@@ -85,6 +100,9 @@
  },
  {
   "name": "Fredi Bobic",
+  "suchnamen": [
+   "bobic"
+  ],
   "wikidata": "Q61219",
   "vereine": [
    {
@@ -97,6 +115,7 @@
  },
  {
   "name": "Giuseppe Reina",
+  "suchnamen": [],
   "wikidata": "Q96430",
   "vereine": [
    {
@@ -109,6 +128,7 @@
  },
  {
   "name": "Jens Lehmann",
+  "suchnamen": [],
   "wikidata": "Q57114",
   "vereine": [
    {
@@ -121,6 +141,7 @@
  },
  {
   "name": "Miroslav Stević",
+  "suchnamen": [],
   "wikidata": "Q567434",
   "vereine": [
    {
@@ -133,6 +154,7 @@
  },
  {
   "name": "Otto Addo",
+  "suchnamen": [],
   "wikidata": "Q472293",
   "vereine": [
    {
@@ -145,6 +167,7 @@
  },
  {
   "name": "Christoph Metzelder",
+  "suchnamen": [],
   "wikidata": "Q152984",
   "vereine": [
    {
@@ -157,6 +180,7 @@
  },
  {
   "name": "Emmanuel Krontiris",
+  "suchnamen": [],
   "wikidata": "Q1338323",
   "vereine": [
    {
@@ -169,6 +193,7 @@
  },
  {
   "name": "Ewerthon",
+  "suchnamen": [],
   "wikidata": "Q528590",
   "vereine": [
    {
@@ -181,6 +206,9 @@
  },
  {
   "name": "Florian Kringe",
+  "suchnamen": [
+   "kringe"
+  ],
   "wikidata": "Q315641",
   "vereine": [
    {
@@ -193,6 +221,7 @@
  },
  {
   "name": "Jan Koller",
+  "suchnamen": [],
   "wikidata": "Q152340",
   "vereine": [
    {
@@ -205,6 +234,7 @@
  },
  {
   "name": "Juan Ramón Fernández",
+  "suchnamen": [],
   "wikidata": "Q2009446",
   "vereine": [
    {
@@ -217,6 +247,7 @@
  },
  {
   "name": "Michael Ratajczak",
+  "suchnamen": [],
   "wikidata": "Q1928980",
   "vereine": [
    {
@@ -229,6 +260,7 @@
  },
  {
   "name": "Márcio Amoroso",
+  "suchnamen": [],
   "wikidata": "Q309731",
   "vereine": [
    {
@@ -241,6 +273,9 @@
  },
  {
   "name": "Tomáš Rosický",
+  "suchnamen": [
+   "rosicky"
+  ],
   "wikidata": "Q29162",
   "vereine": [
    {
@@ -253,6 +288,9 @@
  },
  {
   "name": "David Odonkor",
+  "suchnamen": [
+   "odonkor"
+  ],
   "wikidata": "Q160795",
   "vereine": [
    {
@@ -265,6 +303,9 @@
  },
  {
   "name": "Roman Weidenfeller",
+  "suchnamen": [
+   "weidenfeller"
+  ],
   "wikidata": "Q154397",
   "vereine": [
    {
@@ -277,6 +318,9 @@
  },
  {
   "name": "Sebastian Kehl",
+  "suchnamen": [
+   "kehl"
+  ],
   "wikidata": "Q141354",
   "vereine": [
    {
@@ -289,6 +333,9 @@
  },
  {
   "name": "Torsten Frings",
+  "suchnamen": [
+   "frings"
+  ],
   "wikidata": "Q107076",
   "vereine": [
    {
@@ -301,6 +348,7 @@
  },
  {
   "name": "Nuri Şahin",
+  "suchnamen": [],
   "wikidata": "Q75857",
   "vereine": [
    {
@@ -323,6 +371,9 @@
  },
  {
   "name": "Alexander Frei",
+  "suchnamen": [
+   "alex frei"
+  ],
   "wikidata": "Q193024",
   "vereine": [
    {
@@ -335,6 +386,7 @@
  },
  {
   "name": "Nelson Valdez",
+  "suchnamen": [],
   "wikidata": "Q157584",
   "vereine": [
    {
@@ -347,6 +399,7 @@
  },
  {
   "name": "Steven Pienaar",
+  "suchnamen": [],
   "wikidata": "Q193488",
   "vereine": [
    {
@@ -359,6 +412,10 @@
  },
  {
   "name": "Sören Pirson",
+  "suchnamen": [
+   "soeren pirson",
+   "pirson"
+  ],
   "wikidata": "Q1636541",
   "vereine": [
    {
@@ -371,6 +428,7 @@
  },
  {
   "name": "Tinga",
+  "suchnamen": [],
   "wikidata": "Q531080",
   "vereine": [
    {
@@ -383,6 +441,7 @@
  },
  {
   "name": "Marc Ziegler",
+  "suchnamen": [],
   "wikidata": "Q64035",
   "vereine": [
    {
@@ -395,6 +454,7 @@
  },
  {
   "name": "Mladen Petrić",
+  "suchnamen": [],
   "wikidata": "Q294467",
   "vereine": [
    {
@@ -407,6 +467,7 @@
  },
  {
   "name": "Nico Hillenbrand",
+  "suchnamen": [],
   "wikidata": "Q1985949",
   "vereine": [
    {
@@ -419,6 +480,7 @@
  },
  {
   "name": "Robert Kovač",
+  "suchnamen": [],
   "wikidata": "Q271882",
   "vereine": [
    {
@@ -431,6 +493,7 @@
  },
  {
   "name": "Lee Young-pyo",
+  "suchnamen": [],
   "wikidata": "Q312512",
   "vereine": [
    {
@@ -443,6 +506,9 @@
  },
  {
   "name": "Marcel Schmelzer",
+  "suchnamen": [
+   "schmelzer"
+  ],
   "wikidata": "Q153416",
   "vereine": [
    {
@@ -455,6 +521,9 @@
  },
  {
   "name": "Mats Hummels",
+  "suchnamen": [
+   "hummels"
+  ],
   "wikidata": "Q110053",
   "vereine": [
    {
@@ -477,6 +546,7 @@
  },
  {
   "name": "Mohamed Zidan",
+  "suchnamen": [],
   "wikidata": "Q76866",
   "vereine": [
    {
@@ -489,6 +559,7 @@
  },
  {
   "name": "Neven Subotić",
+  "suchnamen": [],
   "wikidata": "Q161038",
   "vereine": [
    {
@@ -501,6 +572,9 @@
  },
  {
   "name": "Patrick Owomoyela",
+  "suchnamen": [
+   "owomoyela"
+  ],
   "wikidata": "Q167294",
   "vereine": [
    {
@@ -513,6 +587,9 @@
  },
  {
   "name": "Tamás Hajnal",
+  "suchnamen": [
+   "hajnal"
+  ],
   "wikidata": "Q351463",
   "vereine": [
    {
@@ -525,6 +602,7 @@
  },
  {
   "name": "Christopher Kullmann",
+  "suchnamen": [],
   "wikidata": "Q509436",
   "vereine": [
    {
@@ -537,6 +615,7 @@
  },
  {
   "name": "Julian Koch",
+  "suchnamen": [],
   "wikidata": "Q691285",
   "vereine": [
    {
@@ -549,6 +628,9 @@
  },
  {
   "name": "Kevin Großkreutz",
+  "suchnamen": [
+   "grosskreutz"
+  ],
   "wikidata": "Q158367",
   "vereine": [
    {
@@ -561,6 +643,7 @@
  },
  {
   "name": "Kevin-Prince Boateng",
+  "suchnamen": [],
   "wikidata": "Q151034",
   "vereine": [
    {
@@ -573,6 +656,7 @@
  },
  {
   "name": "Lucas Barrios",
+  "suchnamen": [],
   "wikidata": "Q154623",
   "vereine": [
    {
@@ -585,6 +669,9 @@
  },
  {
   "name": "Markus Feulner",
+  "suchnamen": [
+   "feulner"
+  ],
   "wikidata": "Q545001",
   "vereine": [
    {
@@ -597,6 +684,7 @@
  },
  {
   "name": "Sven Bender",
+  "suchnamen": [],
   "wikidata": "Q165697",
   "vereine": [
    {
@@ -609,6 +697,7 @@
  },
  {
   "name": "Antônio da Silva",
+  "suchnamen": [],
   "wikidata": "Q612077",
   "vereine": [
    {
@@ -621,6 +710,9 @@
  },
  {
   "name": "Daniel Ginczek",
+  "suchnamen": [
+   "ginczek"
+  ],
   "wikidata": "Q826863",
   "vereine": [
    {
@@ -633,6 +725,7 @@
  },
  {
   "name": "Johannes Focher",
+  "suchnamen": [],
   "wikidata": "Q679674",
   "vereine": [
    {
@@ -645,6 +738,7 @@
  },
  {
   "name": "Lasse Sobiech",
+  "suchnamen": [],
   "wikidata": "Q506532",
   "vereine": [
    {
@@ -657,6 +751,7 @@
  },
  {
   "name": "Lukas Nottbeck",
+  "suchnamen": [],
   "wikidata": "Q1233368",
   "vereine": [
    {
@@ -669,6 +764,9 @@
  },
  {
   "name": "Mitchell Langerak",
+  "suchnamen": [
+   "langerak"
+  ],
   "wikidata": "Q691911",
   "vereine": [
    {
@@ -681,6 +779,9 @@
  },
  {
   "name": "Robert Lewandowski",
+  "suchnamen": [
+   "lewandowski"
+  ],
   "wikidata": "Q151269",
   "vereine": [
    {
@@ -693,6 +794,9 @@
  },
  {
   "name": "Shinji Kagawa",
+  "suchnamen": [
+   "kagawa"
+  ],
   "wikidata": "Q154708",
   "vereine": [
    {
@@ -710,6 +814,10 @@
  },
  {
   "name": "Łukasz Piszczek",
+  "suchnamen": [
+   "lukasz piszczek",
+   "piszczek"
+  ],
   "wikidata": "Q153266",
   "vereine": [
    {
@@ -722,6 +830,9 @@
  },
  {
   "name": "Chris Löwe",
+  "suchnamen": [
+   "chris loewe"
+  ],
   "wikidata": "Q335653",
   "vereine": [
    {
@@ -734,6 +845,9 @@
  },
  {
   "name": "Ivan Perišić",
+  "suchnamen": [
+   "perisic"
+  ],
   "wikidata": "Q161054",
   "vereine": [
    {
@@ -746,6 +860,7 @@
  },
  {
   "name": "Marvin Bakalorz",
+  "suchnamen": [],
   "wikidata": "Q822751",
   "vereine": [
    {
@@ -758,6 +873,7 @@
  },
  {
   "name": "Moritz Leitner",
+  "suchnamen": [],
   "wikidata": "Q217089",
   "vereine": [
    {
@@ -770,6 +886,7 @@
  },
  {
   "name": "Mustafa Amini",
+  "suchnamen": [],
   "wikidata": "Q745506",
   "vereine": [
    {
@@ -782,6 +899,11 @@
  },
  {
   "name": "İlkay Gündoğan",
+  "suchnamen": [
+   "gundogan",
+   "guendogan",
+   "ilkay guendogan"
+  ],
   "wikidata": "Q161089",
   "vereine": [
    {
@@ -794,6 +916,7 @@
  },
  {
   "name": "Bálint Bajner",
+  "suchnamen": [],
   "wikidata": "Q556057",
   "vereine": [
    {
@@ -806,6 +929,7 @@
  },
  {
   "name": "Jonas Hofmann",
+  "suchnamen": [],
   "wikidata": "Q822781",
   "vereine": [
    {
@@ -818,6 +942,7 @@
  },
  {
   "name": "Julian Schieber",
+  "suchnamen": [],
   "wikidata": "Q61371",
   "vereine": [
    {
@@ -830,6 +955,7 @@
  },
  {
   "name": "Leonardo Bittencourt",
+  "suchnamen": [],
   "wikidata": "Q687140",
   "vereine": [
    {
@@ -842,6 +968,9 @@
  },
  {
   "name": "Marco Reus",
+  "suchnamen": [
+   "reus"
+  ],
   "wikidata": "Q152377",
   "vereine": [
    {
@@ -854,6 +983,7 @@
  },
  {
   "name": "Oliver Kirch",
+  "suchnamen": [],
   "wikidata": "Q39287",
   "vereine": [
    {
@@ -866,6 +996,7 @@
  },
  {
   "name": "Zlatan Alomerović",
+  "suchnamen": [],
   "wikidata": "Q207112",
   "vereine": [
    {
@@ -878,6 +1009,9 @@
  },
  {
   "name": "Erik Durm",
+  "suchnamen": [
+   "durm"
+  ],
   "wikidata": "Q823064",
   "vereine": [
    {
@@ -890,6 +1024,11 @@
  },
  {
   "name": "Henrich Mchitarjan",
+  "suchnamen": [
+   "mchitarjan",
+   "mkhitaryan",
+   "henrikh mkhitaryan"
+  ],
   "wikidata": "Q196219",
   "vereine": [
    {
@@ -902,6 +1041,7 @@
  },
  {
   "name": "Jannik Bandowski",
+  "suchnamen": [],
   "wikidata": "Q9072741",
   "vereine": [
    {
@@ -914,6 +1054,9 @@
  },
  {
   "name": "Koray Günter",
+  "suchnamen": [
+   "koray guenter"
+  ],
   "wikidata": "Q39209",
   "vereine": [
    {
@@ -926,6 +1069,7 @@
  },
  {
   "name": "Manuel Friedrich",
+  "suchnamen": [],
   "wikidata": "Q110523",
   "vereine": [
    {
@@ -938,6 +1082,7 @@
  },
  {
   "name": "Marian Sarr",
+  "suchnamen": [],
   "wikidata": "Q3291229",
   "vereine": [
    {
@@ -950,6 +1095,9 @@
  },
  {
   "name": "Marvin Ducksch",
+  "suchnamen": [
+   "ducksch"
+  ],
   "wikidata": "Q822789",
   "vereine": [
    {
@@ -962,6 +1110,9 @@
  },
  {
   "name": "Pierre-Emerick Aubameyang",
+  "suchnamen": [
+   "aubameyang"
+  ],
   "wikidata": "Q44977",
   "vereine": [
    {
@@ -974,6 +1125,10 @@
  },
  {
   "name": "Sokratis",
+  "suchnamen": [
+   "papastathopoulos",
+   "sokratis papastathopoulos"
+  ],
   "wikidata": "Q192923",
   "vereine": [
    {
@@ -986,6 +1141,7 @@
  },
  {
   "name": "Willy Aubameyang",
+  "suchnamen": [],
   "wikidata": "Q440409",
   "vereine": [
    {
@@ -998,6 +1154,7 @@
  },
  {
   "name": "Adrián Ramos",
+  "suchnamen": [],
   "wikidata": "Q370348",
   "vereine": [
    {
@@ -1010,6 +1167,9 @@
  },
  {
   "name": "Ciro Immobile",
+  "suchnamen": [
+   "immobile"
+  ],
   "wikidata": "Q458101",
   "vereine": [
    {
@@ -1022,6 +1182,7 @@
  },
  {
   "name": "Ji Dong-won",
+  "suchnamen": [],
   "wikidata": "Q371788",
   "vereine": [
    {
@@ -1034,6 +1195,7 @@
  },
  {
   "name": "Joseph-Claude Gyau",
+  "suchnamen": [],
   "wikidata": "Q777164",
   "vereine": [
    {
@@ -1046,6 +1208,7 @@
  },
  {
   "name": "Matthias Ginter",
+  "suchnamen": [],
   "wikidata": "Q129109",
   "vereine": [
    {
@@ -1058,6 +1221,9 @@
  },
  {
   "name": "Miloš Jojić",
+  "suchnamen": [
+   "jojic"
+  ],
   "wikidata": "Q6860599",
   "vereine": [
    {
@@ -1070,6 +1236,7 @@
  },
  {
   "name": "Mitsuru Maruoka",
+  "suchnamen": [],
   "wikidata": "Q15524059",
   "vereine": [
    {
@@ -1082,6 +1249,9 @@
  },
  {
   "name": "Adnan Januzaj",
+  "suchnamen": [
+   "januzaj"
+  ],
   "wikidata": "Q14558450",
   "vereine": [
    {
@@ -1094,6 +1264,7 @@
  },
  {
   "name": "Gonzalo Castro",
+  "suchnamen": [],
   "wikidata": "Q28239",
   "vereine": [
    {
@@ -1106,6 +1277,9 @@
  },
  {
   "name": "Hendrik Bonmann",
+  "suchnamen": [
+   "bonmann"
+  ],
   "wikidata": "Q14613572",
   "vereine": [
    {
@@ -1118,6 +1292,9 @@
  },
  {
   "name": "Jeremy Dudziak",
+  "suchnamen": [
+   "dudziak"
+  ],
   "wikidata": "Q2388894",
   "vereine": [
    {
@@ -1130,6 +1307,9 @@
  },
  {
   "name": "Julian Weigl",
+  "suchnamen": [
+   "weigl"
+  ],
   "wikidata": "Q15844698",
   "vereine": [
    {
@@ -1142,6 +1322,7 @@
  },
  {
   "name": "Park Joo-ho",
+  "suchnamen": [],
   "wikidata": "Q211698",
   "vereine": [
    {
@@ -1154,6 +1335,7 @@
  },
  {
   "name": "Pascal Stenzel",
+  "suchnamen": [],
   "wikidata": "Q17518494",
   "vereine": [
    {
@@ -1166,6 +1348,9 @@
  },
  {
   "name": "Roman Bürki",
+  "suchnamen": [
+   "roman buerki"
+  ],
   "wikidata": "Q524870",
   "vereine": [
    {
@@ -1178,6 +1363,11 @@
  },
  {
   "name": "André Schürrle",
+  "suchnamen": [
+   "andre schuerrle",
+   "schurrle",
+   "schuerrle"
+  ],
   "wikidata": "Q58377",
   "vereine": [
    {
@@ -1190,6 +1380,9 @@
  },
  {
   "name": "Christian Pulisic",
+  "suchnamen": [
+   "pulisic"
+  ],
   "wikidata": "Q22279773",
   "vereine": [
    {
@@ -1207,6 +1400,9 @@
  },
  {
   "name": "Dženis Burnić",
+  "suchnamen": [
+   "burnic"
+  ],
   "wikidata": "Q27468610",
   "vereine": [
    {
@@ -1219,6 +1415,7 @@
  },
  {
   "name": "Emre Mor",
+  "suchnamen": [],
   "wikidata": "Q22007007",
   "vereine": [
    {
@@ -1231,6 +1428,9 @@
  },
  {
   "name": "Felix Passlack",
+  "suchnamen": [
+   "passlack"
+  ],
   "wikidata": "Q20995048",
   "vereine": [
    {
@@ -1243,6 +1443,9 @@
  },
  {
   "name": "Marc Bartra",
+  "suchnamen": [
+   "bartra"
+  ],
   "wikidata": "Q310625",
   "vereine": [
    {
@@ -1255,6 +1458,7 @@
  },
  {
   "name": "Mikel Merino",
+  "suchnamen": [],
   "wikidata": "Q17612631",
   "vereine": [
    {
@@ -1267,6 +1471,7 @@
  },
  {
   "name": "Ousmane Dembélé",
+  "suchnamen": [],
   "wikidata": "Q20851003",
   "vereine": [
    {
@@ -1279,6 +1484,7 @@
  },
  {
   "name": "Raphaël Guerreiro",
+  "suchnamen": [],
   "wikidata": "Q4241680",
   "vereine": [
    {
@@ -1291,6 +1497,7 @@
  },
  {
   "name": "Sebastian Rode",
+  "suchnamen": [],
   "wikidata": "Q642850",
   "vereine": [
    {
@@ -1303,6 +1510,7 @@
  },
  {
   "name": "Alexander Isak",
+  "suchnamen": [],
   "wikidata": "Q23759917",
   "vereine": [
    {
@@ -1315,6 +1523,12 @@
  },
  {
   "name": "Andrij Jarmolenko",
+  "suchnamen": [
+   "jarmolenko",
+   "yarmolenko",
+   "andriy yarmolenko",
+   "andrey yarmolenko"
+  ],
   "wikidata": "Q310328",
   "vereine": [
    {
@@ -1327,6 +1541,7 @@
  },
  {
   "name": "Eike Bansen",
+  "suchnamen": [],
   "wikidata": "Q47502719",
   "vereine": [
    {
@@ -1339,6 +1554,9 @@
  },
  {
   "name": "Jadon Sancho",
+  "suchnamen": [
+   "sancho"
+  ],
   "wikidata": "Q30148558",
   "vereine": [
    {
@@ -1356,6 +1574,9 @@
  },
  {
   "name": "Jeremy Toljan",
+  "suchnamen": [
+   "toljan"
+  ],
   "wikidata": "Q3177357",
   "vereine": [
    {
@@ -1368,6 +1589,9 @@
  },
  {
   "name": "Jürgen Damm",
+  "suchnamen": [
+   "juergen damm"
+  ],
   "wikidata": "Q5957357",
   "vereine": [
    {
@@ -1380,6 +1604,9 @@
  },
  {
   "name": "Mahmoud Dahoud",
+  "suchnamen": [
+   "dahoud"
+  ],
   "wikidata": "Q17659996",
   "vereine": [
    {
@@ -1392,6 +1619,7 @@
  },
  {
   "name": "Maximilian Philipp",
+  "suchnamen": [],
   "wikidata": "Q16320332",
   "vereine": [
    {
@@ -1404,6 +1632,7 @@
  },
  {
   "name": "Niklas Beste",
+  "suchnamen": [],
   "wikidata": "Q36391177",
   "vereine": [
    {
@@ -1416,6 +1645,7 @@
  },
  {
   "name": "Sergio Gómez",
+  "suchnamen": [],
   "wikidata": "Q30346413",
   "vereine": [
    {
@@ -1428,6 +1658,9 @@
  },
  {
   "name": "Ömer Toprak",
+  "suchnamen": [
+   "oemer toprak"
+  ],
   "wikidata": "Q279436",
   "vereine": [
    {
@@ -1440,6 +1673,7 @@
  },
  {
   "name": "Abdou Diallo",
+  "suchnamen": [],
   "wikidata": "Q18685713",
   "vereine": [
    {
@@ -1452,6 +1686,9 @@
  },
  {
   "name": "Achraf Hakimi",
+  "suchnamen": [
+   "hakimi"
+  ],
   "wikidata": "Q26932598",
   "vereine": [
    {
@@ -1464,6 +1701,9 @@
  },
  {
   "name": "Axel Witsel",
+  "suchnamen": [
+   "witsel"
+  ],
   "wikidata": "Q151838",
   "vereine": [
    {
@@ -1476,6 +1716,9 @@
  },
  {
   "name": "Manuel Akanji",
+  "suchnamen": [
+   "akanji"
+  ],
   "wikidata": "Q19938984",
   "vereine": [
    {
@@ -1488,6 +1731,7 @@
  },
  {
   "name": "Marius Wolf",
+  "suchnamen": [],
   "wikidata": "Q18342471",
   "vereine": [
    {
@@ -1500,6 +1744,7 @@
  },
  {
   "name": "Marwin Hitz",
+  "suchnamen": [],
   "wikidata": "Q691193",
   "vereine": [
    {
@@ -1512,6 +1757,9 @@
  },
  {
   "name": "Michy Batshuayi",
+  "suchnamen": [
+   "batshuayi"
+  ],
   "wikidata": "Q2301910",
   "vereine": [
    {
@@ -1524,6 +1772,9 @@
  },
  {
   "name": "Paco Alcácer",
+  "suchnamen": [
+   "alcacer"
+  ],
   "wikidata": "Q507190",
   "vereine": [
    {
@@ -1536,6 +1787,7 @@
  },
  {
   "name": "Thomas Delaney",
+  "suchnamen": [],
   "wikidata": "Q961878",
   "vereine": [
    {
@@ -1548,6 +1800,9 @@
  },
  {
   "name": "Gio Reyna",
+  "suchnamen": [
+   "giovanni reyna"
+  ],
   "wikidata": "Q75019636",
   "vereine": [
    {
@@ -1560,6 +1815,7 @@
  },
  {
   "name": "Julian Brandt",
+  "suchnamen": [],
   "wikidata": "Q3189078",
   "vereine": [
    {
@@ -1572,6 +1828,9 @@
  },
  {
   "name": "Leonardo Balerdi",
+  "suchnamen": [
+   "balerdi"
+  ],
   "wikidata": "Q50233588",
   "vereine": [
    {
@@ -1584,6 +1843,7 @@
  },
  {
   "name": "Mateu Morey",
+  "suchnamen": [],
   "wikidata": "Q42427279",
   "vereine": [
    {
@@ -1596,6 +1856,7 @@
  },
  {
   "name": "Nico Schulz",
+  "suchnamen": [],
   "wikidata": "Q1350685",
   "vereine": [
    {
@@ -1608,6 +1869,7 @@
  },
  {
   "name": "Thorgan Hazard",
+  "suchnamen": [],
   "wikidata": "Q714116",
   "vereine": [
    {
@@ -1620,6 +1882,9 @@
  },
  {
   "name": "Ansgar Knauff",
+  "suchnamen": [
+   "knauff"
+  ],
   "wikidata": "Q104035264",
   "vereine": [
    {
@@ -1632,6 +1897,7 @@
  },
  {
   "name": "Emre Can",
+  "suchnamen": [],
   "wikidata": "Q27694",
   "vereine": [
    {
@@ -1649,6 +1915,10 @@
  },
  {
   "name": "Erling Haaland",
+  "suchnamen": [
+   "haaland",
+   "erling braut haaland"
+  ],
   "wikidata": "Q28967995",
   "vereine": [
    {
@@ -1661,6 +1931,7 @@
  },
  {
   "name": "Jude Bellingham",
+  "suchnamen": [],
   "wikidata": "Q66241169",
   "vereine": [
    {
@@ -1673,6 +1944,7 @@
  },
  {
   "name": "Reinier",
+  "suchnamen": [],
   "wikidata": "Q64606160",
   "vereine": [
    {
@@ -1685,6 +1957,7 @@
  },
  {
   "name": "Thomas Meunier",
+  "suchnamen": [],
   "wikidata": "Q2036160",
   "vereine": [
    {
@@ -1697,6 +1970,9 @@
  },
  {
   "name": "Youssoufa Moukoko",
+  "suchnamen": [
+   "moukoko"
+  ],
   "wikidata": "Q41896054",
   "vereine": [
    {
@@ -1709,6 +1985,7 @@
  },
  {
   "name": "Donyell Malen",
+  "suchnamen": [],
   "wikidata": "Q24084301",
   "vereine": [
    {
@@ -1721,6 +1998,7 @@
  },
  {
   "name": "Gregor Kobel",
+  "suchnamen": [],
   "wikidata": "Q36184031",
   "vereine": [
    {
@@ -1733,6 +2011,7 @@
  },
  {
   "name": "Lennard Maloney",
+  "suchnamen": [],
   "wikidata": "Q51217743",
   "vereine": [
    {
@@ -1745,6 +2024,9 @@
  },
  {
   "name": "Steffen Tigges",
+  "suchnamen": [
+   "tigges"
+  ],
   "wikidata": "Q24061870",
   "vereine": [
    {
@@ -1757,6 +2039,7 @@
  },
  {
   "name": "Anthony Modeste",
+  "suchnamen": [],
   "wikidata": "Q573640",
   "vereine": [
    {
@@ -1769,6 +2052,7 @@
  },
  {
   "name": "Cole Campbell",
+  "suchnamen": [],
   "wikidata": "Q116725515",
   "vereine": [
    {
@@ -1781,6 +2065,10 @@
  },
  {
   "name": "Jamie Gittens",
+  "suchnamen": [
+   "bynoe gittens",
+   "jamie bynoe gittens"
+  ],
   "wikidata": "Q111627959",
   "vereine": [
    {
@@ -1793,6 +2081,9 @@
  },
  {
   "name": "Karim Adeyemi",
+  "suchnamen": [
+   "adeyemi"
+  ],
   "wikidata": "Q56424307",
   "vereine": [
    {
@@ -1805,6 +2096,7 @@
  },
  {
   "name": "Nico Schlotterbeck",
+  "suchnamen": [],
   "wikidata": "Q62015814",
   "vereine": [
    {
@@ -1817,6 +2109,11 @@
  },
  {
   "name": "Niklas Süle",
+  "suchnamen": [
+   "sule",
+   "suele",
+   "niklas suele"
+  ],
   "wikidata": "Q13365847",
   "vereine": [
    {
@@ -1829,6 +2126,9 @@
  },
  {
   "name": "Salih Özcan",
+  "suchnamen": [
+   "salih oezcan"
+  ],
   "wikidata": "Q26965570",
   "vereine": [
    {
@@ -1841,6 +2141,7 @@
  },
  {
   "name": "Sébastien Haller",
+  "suchnamen": [],
   "wikidata": "Q7665927",
   "vereine": [
    {
@@ -1853,6 +2154,9 @@
  },
  {
   "name": "Julian Ryerson",
+  "suchnamen": [
+   "ryerson"
+  ],
   "wikidata": "Q28717698",
   "vereine": [
    {
@@ -1865,6 +2169,7 @@
  },
  {
   "name": "Marcel Sabitzer",
+  "suchnamen": [],
   "wikidata": "Q472300",
   "vereine": [
    {
@@ -1877,6 +2182,11 @@
  },
  {
   "name": "Niclas Füllkrug",
+  "suchnamen": [
+   "fullkrug",
+   "fuellkrug",
+   "niclas fuellkrug"
+  ],
   "wikidata": "Q326159",
   "vereine": [
    {
@@ -1889,6 +2199,9 @@
  },
  {
   "name": "Ian Maatsen",
+  "suchnamen": [
+   "maatsen"
+  ],
   "wikidata": "Q69495231",
   "vereine": [
    {
@@ -1901,6 +2214,7 @@
  },
  {
   "name": "Maximilian Beier",
+  "suchnamen": [],
   "wikidata": "Q80314837",
   "vereine": [
    {
@@ -1913,6 +2227,7 @@
  },
  {
   "name": "Pascal Groß",
+  "suchnamen": [],
   "wikidata": "Q509489",
   "vereine": [
    {
@@ -1925,6 +2240,9 @@
  },
  {
   "name": "Serhou Guirassy",
+  "suchnamen": [
+   "guirassy"
+  ],
   "wikidata": "Q18637429",
   "vereine": [
    {
@@ -1937,6 +2255,7 @@
  },
  {
   "name": "Carney Chukwuemeka",
+  "suchnamen": [],
   "wikidata": "Q106915801",
   "vereine": [
    {
@@ -1949,6 +2268,7 @@
  },
  {
   "name": "Daniel Svensson",
+  "suchnamen": [],
   "wikidata": "Q106967174",
   "vereine": [
    {
@@ -1961,6 +2281,7 @@
  },
  {
   "name": "Patrick Drewes",
+  "suchnamen": [],
   "wikidata": "Q21923379",
   "vereine": [
    {
@@ -1973,6 +2294,9 @@
  },
  {
   "name": "Ethan Nwaneri",
+  "suchnamen": [
+   "nwaneri"
+  ],
   "wikidata": "Q114027518",
   "vereine": [
    {
@@ -1985,6 +2309,9 @@
  },
  {
   "name": "Giannis Konstantelias",
+  "suchnamen": [
+   "konstantelias"
+  ],
   "wikidata": "Q104870781",
   "vereine": [
    {
@@ -1997,6 +2324,7 @@
  },
  {
   "name": "Joey Veerman",
+  "suchnamen": [],
   "wikidata": "Q27518278",
   "vereine": [
    {
