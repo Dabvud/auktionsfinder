@@ -1,0 +1,1 @@
+"""Auktionsfinder fuer Fussball-Sammelkarten."""
