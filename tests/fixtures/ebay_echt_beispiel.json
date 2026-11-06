@@ -1,0 +1,227 @@
+{
+ "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=%28auto%2C+autograph%29+dortmund&limit=3&category_ids=261328&filter=buyingOptions%3A%7BAUCTION%7D%2CdeliveryCountry%3ADE&aspect_filter=categoryId%3A261328%2CSportart%3A%7BFu%C3%9Fball%7D&offset=0",
+ "total": 104,
+ "next": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=%28auto%2C+autograph%29+dortmund&limit=3&category_ids=261328&filter=buyingOptions%3A%7BAUCTION%7D%2CdeliveryCountry%3ADE&aspect_filter=categoryId%3A261328%2CSportart%3A%7BFu%C3%9Fball%7D&offset=3",
+ "limit": 3,
+ "offset": 0,
+ "itemSummaries": [
+  {
+   "itemId": "v1|206674629019|0",
+   "title": "Topps Bundesliga Gold 2025/26 Borussia Dortmund Quad Autograph Book 4x Auto",
+   "leafCategoryIds": [
+    "261328"
+   ],
+   "categories": [
+    {
+     "categoryId": "261328",
+     "categoryName": "Trading Card Einzelkarten"
+    },
+    {
+     "categoryId": "1",
+     "categoryName": "Sammeln & Seltenes"
+    },
+    {
+     "categoryId": "212",
+     "categoryName": "Sport Trading Cards"
+    },
+    {
+     "categoryId": "8662",
+     "categoryName": "Trading Cards"
+    }
+   ],
+   "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/OHIAAeSw3pJq6vZ3/s-l225.jpg"
+   },
+   "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C206674629019%7C0",
+   "condition": "Nicht bewertet",
+   "conditionId": "4000",
+   "thumbnailImages": [
+    {
+     "imageUrl": "https://i.ebayimg.com/images/g/OHIAAeSw3pJq6vZ3/s-l1600.jpg"
+    }
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "6.19",
+      "currency": "EUR"
+     },
+     "minEstimatedDeliveryDate": "2026-11-09T23:00:00.000Z",
+     "maxEstimatedDeliveryDate": "2026-11-10T23:00:00.000Z"
+    }
+   ],
+   "buyingOptions": [
+    "AUCTION"
+   ],
+   "bidCount": 0,
+   "currentBidPrice": {
+    "value": "700.00",
+    "currency": "EUR"
+   },
+   "itemWebUrl": "https://www.ebay.de/itm/206674629019?_skw=%28auto%2C+autograph%29+dortmund&hash=item301ec4919b:g:OHIAAeSw3pJq6vZ3",
+   "itemLocation": {
+    "country": "DE"
+   },
+   "adultOnly": false,
+   "legacyItemId": "206674629019",
+   "availableCoupons": false,
+   "itemOriginDate": "2026-11-04T09:11:58.000Z",
+   "itemCreationDate": "2026-11-04T09:11:58.000Z",
+   "itemEndDate": "2026-11-07T09:11:58.000Z",
+   "topRatedBuyingExperience": false,
+   "priorityListing": false,
+   "listingMarketplaceId": "EBAY_DE"
+  },
+  {
+   "itemId": "v1|377608893769|0",
+   "title": "Topps Museum 2025/26 Borussia Dortmund Matthias Sammer Auto Relic 20/25",
+   "leafCategoryIds": [
+    "261328"
+   ],
+   "categories": [
+    {
+     "categoryId": "261328",
+     "categoryName": "Trading Card Einzelkarten"
+    },
+    {
+     "categoryId": "1",
+     "categoryName": "Sammeln & Seltenes"
+    },
+    {
+     "categoryId": "212",
+     "categoryName": "Sport Trading Cards"
+    },
+    {
+     "categoryId": "8662",
+     "categoryName": "Trading Cards"
+    }
+   ],
+   "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/9lkAAeSwxrdq28iU/s-l225.jpg"
+   },
+   "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C377608893769%7C0",
+   "condition": "Nicht bewertet",
+   "conditionId": "4000",
+   "thumbnailImages": [
+    {
+     "imageUrl": "https://i.ebayimg.com/images/g/9lkAAeSwxrdq28iU/s-l1600.jpg"
+    }
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "6.19",
+      "currency": "EUR"
+     },
+     "minEstimatedDeliveryDate": "2026-11-10T23:00:00.000Z",
+     "maxEstimatedDeliveryDate": "2026-11-16T23:00:00.000Z"
+    }
+   ],
+   "buyingOptions": [
+    "AUCTION"
+   ],
+   "bidCount": 2,
+   "currentBidPrice": {
+    "value": "10.50",
+    "currency": "EUR"
+   },
+   "itemWebUrl": "https://www.ebay.de/itm/377608893769?_skw=%28auto%2C+autograph%29+dortmund&hash=item57eb3e7549:g:9lkAAeSwxrdq28iU",
+   "itemLocation": {
+    "country": "DE"
+   },
+   "additionalImages": [
+    {
+     "imageUrl": "https://i.ebayimg.com/images/g/euoAAeSw3TJq28hu/s-l225.jpg"
+    },
+    {
+     "imageUrl": "https://i.ebayimg.com/images/g/A5UAAeSwOZtq28h7/s-l225.jpg"
+    }
+   ],
+   "adultOnly": false,
+   "legacyItemId": "377608893769",
+   "availableCoupons": false,
+   "itemOriginDate": "2026-10-23T20:51:56.000Z",
+   "itemCreationDate": "2026-10-30T20:25:54.000Z",
+   "itemEndDate": "2026-11-06T20:25:54.000Z",
+   "topRatedBuyingExperience": false,
+   "priorityListing": false,
+   "listingMarketplaceId": "EBAY_DE"
+  },
+  {
+   "itemId": "v1|366778621731|0",
+   "title": "Jamie Bynoe-Gittens Topps Midnight Auto /99 Borussia Dortmund BVB SSP Autograph",
+   "leafCategoryIds": [
+    "261328"
+   ],
+   "categories": [
+    {
+     "categoryId": "261328",
+     "categoryName": "Trading Card Einzelkarten"
+    },
+    {
+     "categoryId": "1",
+     "categoryName": "Sammeln & Seltenes"
+    },
+    {
+     "categoryId": "212",
+     "categoryName": "Sport Trading Cards"
+    },
+    {
+     "categoryId": "8662",
+     "categoryName": "Trading Cards"
+    }
+   ],
+   "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/JYUAAeSwyWlqA0J2/s-l225.jpg"
+   },
+   "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C366778621731%7C0",
+   "condition": "Nicht bewertet",
+   "conditionId": "4000",
+   "thumbnailImages": [
+    {
+     "imageUrl": "https://i.ebayimg.com/images/g/JYUAAeSwyWlqA0J2/s-l1600.jpg"
+    }
+   ],
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "1.80",
+      "currency": "EUR"
+     },
+     "minEstimatedDeliveryDate": "2026-11-11T23:00:00.000Z",
+     "maxEstimatedDeliveryDate": "2026-11-17T23:00:00.000Z"
+    }
+   ],
+   "buyingOptions": [
+    "AUCTION",
+    "BEST_OFFER"
+   ],
+   "bidCount": 0,
+   "currentBidPrice": {
+    "value": "15.00",
+    "currency": "EUR"
+   },
+   "itemWebUrl": "https://www.ebay.de/itm/366778621731?_skw=%28auto%2C+autograph%29+dortmund&hash=item5565b59f23:g:JYUAAeSwyWlqA0J2",
+   "itemLocation": {
+    "country": "DE"
+   },
+   "additionalImages": [
+    {
+     "imageUrl": "https://i.ebayimg.com/images/g/Pf8AAeSwjiVqA0J3/s-l225.jpg"
+    }
+   ],
+   "adultOnly": false,
+   "legacyItemId": "366778621731",
+   "availableCoupons": false,
+   "itemOriginDate": "2026-05-12T15:10:33.000Z",
+   "itemCreationDate": "2026-11-02T13:33:55.000Z",
+   "itemEndDate": "2026-11-09T13:33:55.000Z",
+   "topRatedBuyingExperience": false,
+   "priorityListing": false,
+   "listingMarketplaceId": "EBAY_DE"
+  }
+ ]
+}
