@@ -1,4 +1,4 @@
-from finder.spieler import baue_index, uebernehme_entwurf
+from finder.spieler import baue_index, pflege_favoriten, uebernehme_entwurf
 
 
 def test_voller_name_immer(spieler_fabrik):
@@ -78,3 +78,22 @@ def test_uebernehmen_neu():
         "vereine": [{"verein": "cagliari", "von": 2011, "bis": 2015}],
         "liga": None, "gruppen": ["fifa-kult"], "quelle": "manuell",
     }]}
+
+
+def test_favoriten_markieren_anlegen_und_entfernen(spieler_daten):
+    spieler_daten["spieler"][1]["gruppen"].append("favorit")
+    neu = pflege_favoriten(spieler_daten, ["  marco   REUS ", "Ibarbo", "Haaland", "Ibarbo", ""])
+    nach_id = {s["id"]: s for s in neu["spieler"]}
+    # voller Name (egal wie geschrieben) und Suchname treffen den vorhandenen Spieler
+    assert "favorit" in nach_id["marco-reus"]["gruppen"]
+    assert "favorit" in nach_id["erling-haaland"]["gruppen"]
+    assert nach_id["ibarbo"] == {"id": "ibarbo", "name": "Ibarbo", "suchnamen": [], "vereine": [],
+                                 "liga": None, "gruppen": ["favorit"], "quelle": "favorit"}
+    assert len(neu["spieler"]) == 3
+    assert "favorit" not in spieler_daten["spieler"][0]["gruppen"]  # Eingabe unverändert
+
+    weniger = pflege_favoriten(neu, ["Ibarbo"])
+    nach_id = {s["id"]: s for s in weniger["spieler"]}
+    assert "favorit" not in nach_id["marco-reus"]["gruppen"]
+    assert nach_id["erling-haaland"]["gruppen"] == ["fifa-kult"]
+    assert len(weniger["spieler"]) == 3  # angelegte Einträge bleiben, alte Auktionen verweisen darauf

@@ -26,7 +26,7 @@ def baue_index(daten: dict) -> SpielerIndex:
     return SpielerIndex({name: tuple(sorted(ids)) for name, ids in namen.items()}, spieler)
 
 
-def uebernehme_entwurf(daten: dict, entwurf: list[dict], gruppe: str) -> dict:
+def uebernehme_entwurf(daten: dict, entwurf: list[dict], gruppe: str, quelle: str = "manuell") -> dict:
     """Gepruefte Spieler ohne Verlust bestehender Daten uebernehmen."""
     neu = deepcopy(daten)
     nach_name = {vereinheitliche(s["name"]): s for s in neu["spieler"]}
@@ -41,7 +41,7 @@ def uebernehme_entwurf(daten: dict, entwurf: list[dict], gruppe: str) -> dict:
                 nummer += 1
             spieler = {
                 "id": kennung, "name": eintrag["name"], "suchnamen": [],
-                "vereine": [], "liga": None, "gruppen": [], "quelle": "manuell",
+                "vereine": [], "liga": None, "gruppen": [], "quelle": quelle,
             }
             neu["spieler"].append(spieler)
             nach_name[name] = spieler
@@ -53,3 +53,20 @@ def uebernehme_entwurf(daten: dict, entwurf: list[dict], gruppe: str) -> dict:
                 if wert not in ziel:
                     ziel.append(deepcopy(wert))
     return neu
+
+
+def pflege_favoriten(daten: dict, namen: list[str]) -> dict:
+    """Gruppe "favorit" genau an die Favoriten vergeben, Unbekannte als Spieler anlegen."""
+    neu = deepcopy(daten)
+    for spieler in neu["spieler"]:
+        if "favorit" in spieler.get("gruppen", []):
+            spieler["gruppen"].remove("favorit")
+    index = baue_index(neu)
+    entwurf = []
+    for name in namen:
+        name = " ".join(name.split())
+        treffer = index.namen.get(vereinheitliche(name), ())
+        if name:
+            # Eindeutiger Suchname ("Haaland") meint den vorhandenen Spieler, nicht einen neuen.
+            entwurf.append({"name": index.spieler[treffer[0]]["name"] if len(treffer) == 1 else name})
+    return uebernehme_entwurf(neu, entwurf, "favorit", quelle="favorit")

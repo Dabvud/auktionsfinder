@@ -162,3 +162,21 @@ def test_b_mit_fussball_oder_verein_behalten(
     assert auktionen[0]["spieler"] == []
     assert auktionen[0]["vereine"] == erwartete_vereine
     assert status["neu"] == 1
+
+
+def test_favoriten_werden_angelegt_und_gesucht(daten_ordner, fake_client, json_schreiben, json_lesen, jetzt):
+    json_schreiben(daten_ordner / "favoriten.json", {"namen": ["Víctor Ibarbo", "Marco Reus"]})
+    client = fake_client()
+    status = suchlauf(daten_ordner, client, jetzt)
+    assert status["ok"] == True
+    spieler = {s["id"]: s for s in json_lesen(daten_ordner / "spieler.json")["spieler"]}
+    assert spieler["victor-ibarbo"]["gruppen"] == ["favorit"]
+    assert "favorit" in spieler["marco-reus"]["gruppen"]
+    assert {(q, aspekt) for q, aspekt in client.aufrufe if q == "(ibarbo, reus)"} == {
+        ("(ibarbo, reus)", True), ("(ibarbo, reus)", False)}
+
+
+def test_ohne_favoriten_bleibt_spieler_json_unberuehrt(daten_ordner, fake_client, jetzt):
+    vorher = (daten_ordner / "spieler.json").read_bytes()
+    suchlauf(daten_ordner, fake_client(), jetzt)
+    assert (daten_ordner / "spieler.json").read_bytes() == vorher
