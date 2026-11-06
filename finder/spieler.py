@@ -1,6 +1,6 @@
 """Spielernamen indizieren und gepruefte Entwuerfe ergaenzen."""
 
-from collections import Counter, defaultdict
+from collections import defaultdict
 from copy import deepcopy
 from dataclasses import dataclass
 
@@ -14,20 +14,13 @@ class SpielerIndex:
 
 
 def baue_index(daten: dict) -> SpielerIndex:
-    """Vollnamen, eigene Suchnamen und eindeutige Nachnamen sammeln."""
+    """Vollnamen und gepflegte Suchnamen sammeln."""
     spieler = {eintrag["id"]: eintrag for eintrag in daten["spieler"]}
-    vollnamen = {kennung: vereinheitliche(s["name"]) for kennung, s in spieler.items()}
-    nachnamen = Counter(name.split()[-1] for name in vollnamen.values() if name)
-    haeufig = {vereinheitliche(name) for name in daten.get("zu_haeufig", [])}
     namen = defaultdict(set)
     for kennung, eintrag in spieler.items():
-        vollname = vollnamen[kennung]
+        # Nur voller Name und gepflegte Suchnamen: ein Nachname allein traf im echten Lauf meist den Falschen.
         eigene = {vereinheitliche(name) for name in eintrag.get("suchnamen", [])}
-        eigene.add(vollname)
-        if vollname:
-            nachname = vollname.split()[-1]
-            if len(nachname) >= 4 and nachnamen[nachname] == 1 and nachname not in haeufig:
-                eigene.add(nachname)
+        eigene.add(vereinheitliche(eintrag["name"]))
         for name in eigene - {""}:
             namen[name].add(kennung)
     return SpielerIndex({name: tuple(sorted(ids)) for name, ids in namen.items()}, spieler)

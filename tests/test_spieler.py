@@ -15,9 +15,15 @@ def test_eigene_suchnamen(spieler_fabrik):
     assert index.namen["vinicius junior"] == ("vinicius-junior",)
 
 
-def test_eindeutiger_nachname(spieler_daten):
-    index = baue_index(spieler_daten)
+def test_nachname_allein_nur_als_suchname(spieler_fabrik):
+    # Echter Lauf: ~90 % der reinen Nachnamen-Treffer waren falsch (Bukayo Saka -> "Kosi Saka").
+    index = baue_index({"zu_haeufig": [], "spieler": [
+        spieler_fabrik("erling-haaland", "Erling Haaland", suchnamen=["haaland"]),
+        spieler_fabrik("kosi-saka", "Kosi Saka"),
+    ]})
     assert index.namen["haaland"] == ("erling-haaland",)
+    assert "saka" not in index.namen
+    assert index.namen["kosi saka"] == ("kosi-saka",)
 
 
 def test_doppelter_nachname_nicht(spieler_fabrik):

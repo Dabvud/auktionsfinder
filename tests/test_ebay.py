@@ -162,10 +162,9 @@ def test_zu_auktion_mit_gebot(fixture_json, jetzt):
     erk = Erkennung(spieler=["marco-reus"], vereine=["bvb"], typen=["auto"], verdaechtig=False, fussball=False)
     assert zu_auktion(summary, erk, jetzt) == {
         "item_id": "v1|100000000001|0", "titel": "Topps Marco Reus Auto",
-        "bild": "https://i.ebayimg.com/images/g/100000000001/s-l225.jpg",
-        "url": "https://www.ebay.de/itm/100000000001", "preis_cent": 1250,
-        "waehrung": "EUR", "gebote": 3, "versand_cent": 180,
-        "start": "2026-11-01T12:00:00Z", "ende": "2026-11-07T12:00:00Z",
+        "bild": "100000000001", "preis_cent": 1250,
+        "gebote": 3, "versand_cent": 180,
+        "ende": "2026-11-07T12:00:00Z",
         "zuerst_gesehen": jetzt, "zuletzt_gesehen": jetzt, "spieler": ["marco-reus"],
         "vereine": ["bvb"], "typen": ["auto"], "verdaechtig": False,
         "status": "laufend", "endpreis_cent": None,
@@ -177,7 +176,8 @@ def test_zu_auktion_mit_gebot(fixture_json, jetzt):
     assert auktion["preis_cent"] == 1050
     assert auktion["versand_cent"] == 619
     assert auktion["gebote"] == 2
-    assert auktion["ende"].replace(".000Z", "Z") == "2026-11-06T20:25:54Z"
+    assert auktion["ende"] == "2026-11-06T20:25:54.000Z"
+    assert auktion["bild"] == "9lkAAeSwxrdq28iU"
 
 
 def test_zu_auktion_ohne_gebot(fixture_json, jetzt):
@@ -186,6 +186,34 @@ def test_zu_auktion_ohne_gebot(fixture_json, jetzt):
     assert auktion["preis_cent"] == 99
     assert auktion["gebote"] == 0
     assert auktion["versand_cent"] == None
-    assert auktion["waehrung"] == "EUR"
     assert auktion["spieler"] == []
     assert auktion["endpreis_cent"] == None
+
+
+@pytest.mark.parametrize(("url", "erwartet"), [
+    ("https://i.ebayimg.com/images/g/AbC-12_~/s-l1600.webp", "AbC-12_~"),
+    ("https://i.ebayimg.com/images/g/AbC/s-l500.png", "AbC"),
+    ("https://example.com/images/g/AbC/s-l225.jpg", "https://example.com/images/g/AbC/s-l225.jpg"),
+    ("https://i.ebayimg.com/reus.jpg", "https://i.ebayimg.com/reus.jpg"),
+    ("https://i.ebayimg.com/images/g/AbC/s-l225.jpg?x=1", "https://i.ebayimg.com/images/g/AbC/s-l225.jpg?x=1"),
+    ("https://i.ebayimg.com/images/g/AbC/s-lx.jpg", "https://i.ebayimg.com/images/g/AbC/s-lx.jpg"),
+    (None, None),
+])
+def test_zu_auktion_bild(fixture_json, jetzt, url, erwartet):
+    summary = fixture_json("ebay_ohne_gebot.json")
+    summary["image"] = {"imageUrl": url}
+    erk = Erkennung(spieler=[], vereine=[], typen=[], verdaechtig=True, fussball=False)
+    auktion = zu_auktion(summary, erk, jetzt)
+    assert auktion["bild"] == erwartet
+    assert auktion["verdaechtig"] is True
+    assert auktion["zuerst_gesehen"] == auktion["zuletzt_gesehen"] == jetzt
+
+
+@pytest.mark.parametrize("bild", [None, {}])
+def test_zu_auktion_ohne_bild(fixture_json, jetzt, bild):
+    summary = fixture_json("ebay_ohne_gebot.json")
+    summary["image"] = bild
+    erk = Erkennung(spieler=[], vereine=[], typen=[], verdaechtig=False, fussball=False)
+    assert zu_auktion(summary, erk, jetzt)["bild"] is None
+    summary.pop("image")
+    assert zu_auktion(summary, erk, jetzt)["bild"] is None

@@ -158,13 +158,16 @@ def zu_auktion(summary: dict, erk: Erkennung, jetzt: str) -> dict:
     """Ein Browse-Angebot in das lokale Auktionsformat uebertragen."""
     preis = summary.get("currentBidPrice") or summary.get("price") or {}
     versand = next(iter(summary.get("shippingOptions") or []), {})
+    bild = (summary.get("image") or {}).get("imageUrl")
+    if bild:
+        treffer = re.fullmatch(r"https://i\.ebayimg\.com/images/g/([^/?#]+)/s-l[0-9]+\.[A-Za-z0-9]+", bild)
+        if treffer:
+            bild = treffer[1]
     return {
         "item_id": summary["itemId"], "titel": summary["title"],
-        "bild": (summary.get("image") or {}).get("imageUrl"),
-        "url": summary.get("itemWebUrl"), "preis_cent": _cent(preis),
-        "waehrung": preis.get("currency"), "gebote": summary.get("bidCount", 0),
+        "bild": bild, "preis_cent": _cent(preis), "gebote": summary.get("bidCount", 0),
         "versand_cent": _cent(versand.get("shippingCost")),
-        "start": summary.get("itemCreationDate"), "ende": summary.get("itemEndDate"),
+        "ende": summary.get("itemEndDate"),
         "zuerst_gesehen": jetzt, "zuletzt_gesehen": jetzt,
         "spieler": list(erk.spieler), "vereine": list(erk.vereine), "typen": list(erk.typen),
         "verdaechtig": erk.verdaechtig, "status": "laufend", "endpreis_cent": None,

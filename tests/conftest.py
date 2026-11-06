@@ -97,8 +97,8 @@ def spieler_fabrik():
 @pytest.fixture
 def spieler_daten(spieler_fabrik):
     return {"zu_haeufig": ["silva", "muller"], "spieler": [
-        spieler_fabrik(),
-        spieler_fabrik("erling-haaland", "Erling Haaland", vereine=[
+        spieler_fabrik(suchnamen=["reus"]),
+        spieler_fabrik("erling-haaland", "Erling Haaland", suchnamen=["haaland"], vereine=[
             {"verein": "bvb", "von": 2020, "bis": 2022},
             {"verein": "manchester-city", "von": 2022, "bis": None},
         ], liga="PL", gruppen=["fifa-kult"]),
@@ -110,9 +110,8 @@ def auktion_fabrik(jetzt):
     def baue(item_id="v1|100000000001|0", **felder):
         return {
             "item_id": item_id, "titel": "Marco Reus Auto", "bild": "https://i.ebayimg.com/reus.jpg",
-            "url": "https://www.ebay.de/itm/100000000001", "preis_cent": 1250,
-            "waehrung": "EUR", "gebote": 3, "versand_cent": 180,
-            "start": "2026-11-01T12:00:00Z", "ende": "2026-11-07T12:00:00Z",
+            "preis_cent": 1250, "gebote": 3, "versand_cent": 180,
+            "ende": "2026-11-07T12:00:00Z",
             "zuerst_gesehen": jetzt, "zuletzt_gesehen": jetzt,
             "spieler": ["marco-reus"], "vereine": ["bvb"], "typen": ["auto"],
             "verdaechtig": False, "status": "laufend", "endpreis_cent": None, **felder,
@@ -124,8 +123,10 @@ def auktion_fabrik(jetzt):
 @pytest.fixture
 def daten_ordner(tmp_path, spieler_daten):
     daten = tmp_path / "daten"
-    for name in ("spieler.json", "vereine.json", "kartentypen.json", "suchen.json", "laufend.json", "archiv/index.json"):
+    for name in ("spieler.json", "vereine.json", "kartentypen.json", "suchen.json"):
         schreibe(daten / name, lies(WURZEL / "daten" / name))
+    schreibe(daten / "laufend.json", {"auktionen": []})
+    schreibe(daten / "archiv/index.json", {"tage": []})
     schreibe(daten / "spieler.json", spieler_daten)
     return daten
 

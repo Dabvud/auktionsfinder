@@ -8,13 +8,13 @@ from pathlib import Path
 from .archiv import archiviere, einpflegen
 from .ebay import EbayClient, zu_auktion
 from .erkennung import erkenne
-from .jsondatei import lese_json, schreibe_json
+from .jsondatei import lese_json, schreibe_auktionen, schreibe_json
 from .spieler import baue_index
 from .suchplan import plane_suchen
 
 
 def _jetzt() -> str:
-    return datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
 def _status(jetzt: str) -> dict:
@@ -51,7 +51,7 @@ def suchlauf(daten: Path, client: EbayClient, jetzt: str) -> dict:
                     gefunden.append(zu_auktion(summary, erk, jetzt))
         aktiv, beendet, neu = einpflegen(laufend, gefunden, jetzt)
         archiviere(beendet, daten / "archiv")
-        schreibe_json(daten / "laufend.json", {"auktionen": aktiv})
+        schreibe_auktionen(daten / "laufend.json", aktiv)
         status.update(ok=True, gefunden=len({a["item_id"] for a in gefunden}), neu=neu, beendet=len(beendet))
     except Exception as fehler:
         status["fehler"] = _fehlertext(fehler)

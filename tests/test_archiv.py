@@ -1,4 +1,5 @@
 from copy import deepcopy
+import json
 
 import pytest
 
@@ -50,33 +51,46 @@ def test_beendet_nach_endzeit(auktion_fabrik, jetzt):
     assert neu == 0
 
 
-def test_archiv_monat(tmp_path, auktion_fabrik, json_lesen):
-    november = auktion_fabrik(ende="2026-11-30T23:00:00Z", status="beendet", endpreis_cent=1250)
-    oktober = auktion_fabrik("v1|100000000002|0", ende="2026-10-31T23:00:00Z", status="beendet", endpreis_cent=1250)
+def test_archiv_tag(tmp_path, auktion_fabrik, json_lesen):
+    november = auktion_fabrik(ende="2026-11-01T01:00:00+02:00", status="beendet", endpreis_cent=1250)
+    oktober = auktion_fabrik("v1|100000000002|0", ende="2026-10-31T00:30:00+02:00", status="beendet", endpreis_cent=1250)
+    spaeter = auktion_fabrik("v1|100000000003|0", ende="2026-10-31T23:30:00Z", status="beendet", endpreis_cent=1250)
     archiv = tmp_path / "archiv"
-    archiviere([november, oktober], archiv)
-    assert json_lesen(archiv / "2026-11.json") == {"auktionen": [november]}
-    assert json_lesen(archiv / "2026-10.json") == {"auktionen": [oktober]}
-    assert json_lesen(archiv / "index.json") == {"monate": ["2026-11", "2026-10"]}
+    archiviere([spaeter, november, oktober], archiv)
+    assert json_lesen(archiv / "2026-10-31.json") == {"auktionen": [november, spaeter]}
+    assert json_lesen(archiv / "2026-10-30.json") == {"auktionen": [oktober]}
+    assert json_lesen(archiv / "index.json") == {"tage": ["2026-10-31", "2026-10-30"]}
+    zeilen = [json.dumps(a, ensure_ascii=False, separators=(",", ":")) for a in [november, spaeter]]
+    assert (archiv / "2026-10-31.json").read_bytes() == (
+        '{"auktionen": [\n' + ",\n".join(zeilen) + "\n]}\n"
+    ).encode("utf-8")
 
 
 def test_archiv_ohne_duplikat(tmp_path, auktion_fabrik, json_lesen):
     auktion = auktion_fabrik(status="beendet", endpreis_cent=1250)
     archiviere([auktion, auktion], tmp_path)
     archiviere([auktion], tmp_path)
-    assert json_lesen(tmp_path / "2026-11.json") == {"auktionen": [auktion]}
-    assert json_lesen(tmp_path / "index.json") == {"monate": ["2026-11"]}
+    assert json_lesen(tmp_path / "2026-11-07.json") == {"auktionen": [auktion]}
+    assert json_lesen(tmp_path / "index.json") == {"tage": ["2026-11-07"]}
+
+
+def test_archiv_mit_bisherigem_leerem_index(tmp_path, auktion_fabrik, json_lesen, json_schreiben):
+    json_schreiben(tmp_path / "index.json", {"monate": []})
+    auktion = auktion_fabrik(status="beendet", endpreis_cent=1250)
+    archiviere([auktion], tmp_path)
+    assert json_lesen(tmp_path / "index.json") == {"tage": ["2026-11-07"]}
+    assert json_lesen(tmp_path / "2026-11-07.json") == {"auktionen": [auktion]}
 
 
 def test_archiv_behaelt_alte(tmp_path, auktion_fabrik, json_lesen, json_schreiben):
     alt = auktion_fabrik(status="beendet", endpreis_cent=1250)
     neu = auktion_fabrik("v1|100000000002|0", status="beendet", endpreis_cent=2000)
     oktober = auktion_fabrik("v1|100000000003|0", ende="2026-10-15T12:00:00Z", status="beendet", endpreis_cent=99)
-    json_schreiben(tmp_path / "2026-11.json", {"auktionen": [alt]})
-    json_schreiben(tmp_path / "2026-10.json", {"auktionen": [oktober]})
-    json_schreiben(tmp_path / "index.json", {"monate": ["2026-11", "2026-10"]})
-    oktober_bytes = (tmp_path / "2026-10.json").read_bytes()
+    json_schreiben(tmp_path / "2026-11-07.json", {"auktionen": [alt]})
+    json_schreiben(tmp_path / "2026-10-15.json", {"auktionen": [oktober]})
+    json_schreiben(tmp_path / "index.json", {"tage": ["2026-11-07", "2026-10-15"]})
+    oktober_bytes = (tmp_path / "2026-10-15.json").read_bytes()
     archiviere([neu], tmp_path)
-    assert sorted(json_lesen(tmp_path / "2026-11.json")["auktionen"], key=lambda a: a["item_id"]) == [alt, neu]
-    assert (tmp_path / "2026-10.json").read_bytes() == oktober_bytes
-    assert json_lesen(tmp_path / "index.json") == {"monate": ["2026-11", "2026-10"]}
+    assert sorted(json_lesen(tmp_path / "2026-11-07.json")["auktionen"], key=lambda a: a["item_id"]) == [alt, neu]
+    assert (tmp_path / "2026-10-15.json").read_bytes() == oktober_bytes
+    assert json_lesen(tmp_path / "index.json") == {"tage": ["2026-11-07", "2026-10-15"]}

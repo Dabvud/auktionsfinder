@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import json
 import sys
 
 import pytest
@@ -20,6 +21,10 @@ def test_lauf_schreibt_laufend_und_status(daten_ordner, fake_client, fixture_jso
         "v1|100000000002|0": ["erling-haaland"], "v1|100000000003|0": [],
     }
     assert all(a["status"] == "laufend" for a in auktionen)
+    zeilen = [json.dumps(a, ensure_ascii=False, separators=(",", ":")) for a in auktionen]
+    assert (daten_ordner / "laufend.json").read_bytes() == (
+        '{"auktionen": [\n' + ",\n".join(zeilen) + "\n]}\n"
+    ).encode("utf-8")
     assert status["start"] == jetzt
     assert status["ok"] == True
     assert status["fehler"] == None
@@ -40,10 +45,10 @@ def test_lauf_archiviert_beendete(daten_ordner, fake_client, auktion_fabrik, jso
     json_schreiben(daten_ordner / "laufend.json", {"auktionen": [alt]})
     status = suchlauf(daten_ordner, fake_client(), jetzt)
     assert json_lesen(daten_ordner / "laufend.json") == {"auktionen": []}
-    assert json_lesen(daten_ordner / "archiv/2026-10.json") == {
+    assert json_lesen(daten_ordner / "archiv/2026-10-31.json") == {
         "auktionen": [{**alt, "status": "beendet", "endpreis_cent": 2350}],
     }
-    assert json_lesen(daten_ordner / "archiv/index.json") == {"monate": ["2026-10"]}
+    assert json_lesen(daten_ordner / "archiv/index.json") == {"tage": ["2026-10-31"]}
     assert status["beendet"] == 1
     assert status["neu"] == 0
     assert status["ok"] == True
@@ -54,10 +59,10 @@ def test_fehler_laesst_daten_unveraendert(
 ):
     alt = auktion_fabrik(ende="2026-10-31T23:00:00Z")
     json_schreiben(daten_ordner / "laufend.json", {"auktionen": [alt]})
-    json_schreiben(daten_ordner / "archiv/2026-09.json", {"auktionen": [
+    json_schreiben(daten_ordner / "archiv/2026-09-30.json", {"auktionen": [
         auktion_fabrik("v1|100000000099|0", status="beendet", ende="2026-09-30T23:00:00Z", endpreis_cent=1250),
     ]})
-    json_schreiben(daten_ordner / "archiv/index.json", {"monate": ["2026-09"]})
+    json_schreiben(daten_ordner / "archiv/index.json", {"tage": ["2026-09-30"]})
     vorher = {pfad.relative_to(daten_ordner): pfad.read_bytes() for pfad in daten_ordner.rglob("*.json")}
 
     def erstelle_client(*args, **kwargs):
@@ -123,6 +128,24 @@ def test_b_mit_spieler_behalten(daten_ordner, fake_client, fixture_json, json_le
     assert auktionen[0]["spieler"] == ["marco-reus"]
     assert auktionen[0]["item_id"] == "v1|100000000001|0"
     assert status["neu"] == 1
+
+
+def test_main_kuerzt_zeitstempel(daten_ordner, fake_client, fixture_json, json_lesen, monkeypatch):
+    class FesteZeit(datetime):
+        @classmethod
+        def now(cls, tz):
+            return cls(2026, 11, 6, 9, 16, 1, 987654, tzinfo=tz)
+
+    monkeypatch.setattr(suchlauf_modul, "datetime", FesteZeit)
+    monkeypatch.setenv("EBAY_CLIENT_ID", "test-id")
+    monkeypatch.setenv("EBAY_CLIENT_SECRET", "test-secret")
+    monkeypatch.setattr(sys, "argv", ["finder.suchlauf", "--daten", str(daten_ordner)])
+    item = fixture_json("ebay_echt_beispiel.json")["itemSummaries"][1]
+    monkeypatch.setattr(suchlauf_modul, "EbayClient", lambda *args: fake_client(lambda q, aspekt: [item]))
+    assert suchlauf_modul.main() == 0
+    auktion = json_lesen(daten_ordner / "laufend.json")["auktionen"][0]
+    assert auktion["zuerst_gesehen"] == auktion["zuletzt_gesehen"] == "2026-11-06T09:16:01Z"
+    assert auktion["ende"] == item["itemEndDate"]
 
 
 @pytest.mark.parametrize(("titel", "erwartete_vereine"), [

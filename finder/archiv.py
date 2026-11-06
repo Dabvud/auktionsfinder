@@ -5,7 +5,7 @@ from copy import deepcopy
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .jsondatei import lese_json, schreibe_json
+from .jsondatei import lese_json, schreibe_auktionen, schreibe_json
 
 
 def _zeit(wert: str) -> datetime:
@@ -46,19 +46,19 @@ def einpflegen(laufend: list[dict], gefunden: list[dict], jetzt: str) -> tuple[l
 
 
 def archiviere(beendet: list[dict], archiv_dir: Path) -> None:
-    """Monatsdateien um eindeutige Auktionen ergaenzen, alte Monate erhalten."""
+    """UTC-Tagesdateien um eindeutige Auktionen ergaenzen, alte Tage erhalten."""
     archiv_dir = Path(archiv_dir)
-    monate = set(lese_json(archiv_dir / "index.json", {"monate": []})["monate"])
+    tage = set(lese_json(archiv_dir / "index.json", {"tage": []}).get("tage", []))
     gruppen = defaultdict(list)
     for auktion in beendet:
-        gruppen[_zeit(auktion["ende"]).strftime("%Y-%m")].append(auktion)
-    for monat, auktionen in gruppen.items():
-        pfad = archiv_dir / f"{monat}.json"
+        gruppen[_zeit(auktion["ende"]).strftime("%Y-%m-%d")].append(auktion)
+    for tag, auktionen in gruppen.items():
+        pfad = archiv_dir / f"{tag}.json"
         bestand = {a["item_id"]: a for a in lese_json(pfad, {"auktionen": []})["auktionen"]}
         for auktion in auktionen:
             kennung = auktion["item_id"]
             bestand[kennung] = _vereinige(bestand[kennung], auktion) if kennung in bestand else auktion
-        schreibe_json(pfad, {"auktionen": sorted(bestand.values(), key=lambda a: _zeit(a["ende"]))})
-        monate.add(monat)
+        schreibe_auktionen(pfad, sorted(bestand.values(), key=lambda a: _zeit(a["ende"])))
+        tage.add(tag)
     if gruppen:
-        schreibe_json(archiv_dir / "index.json", {"monate": sorted(monate, reverse=True)})
+        schreibe_json(archiv_dir / "index.json", {"tage": sorted(tage, reverse=True)})
