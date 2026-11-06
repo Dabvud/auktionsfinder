@@ -1,0 +1,1251 @@
+[
+ {
+  "name": "August Lenz",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1930,
+    "bis": 1949
+   }
+  ],
+  "warum": "Erster deutscher Nationalspieler des BVB und Symbolfigur der frühen Vereinsgeschichte.",
+  "sicher": true
+ },
+ {
+  "name": "Max Michallek",
+  "suchnamen": [
+   "maximilian michallek"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1947,
+    "bis": 1960
+   }
+  ],
+  "warum": "Abwehrchef der Meister von 1956 und 1957 und als Spinne eine frühe Vereinsikone.",
+  "sicher": true
+ },
+ {
+  "name": "Erich Schanko",
+  "suchnamen": [
+   "schanko"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1947,
+    "bis": 1957
+   }
+  ],
+  "warum": "Langjähriger Nationalspieler und Teil der Meisterkader von 1956 und 1957.",
+  "sicher": true
+ },
+ {
+  "name": "Alfred Preißler",
+  "suchnamen": [
+   "adi preissler",
+   "ady preissler"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1946,
+    "bis": 1949
+   },
+   {
+    "verein": "preussen-muenster",
+    "von": 1949,
+    "bis": 1951
+   },
+   {
+    "verein": "bvb",
+    "von": 1951,
+    "bis": 1959
+   }
+  ],
+  "warum": "Kapitän der Meisterelf von 1956/57 und einer der drei Alfredos.",
+  "sicher": true
+ },
+ {
+  "name": "Heinrich Kwiatkowski",
+  "suchnamen": [
+   "heinz kwiatkowski",
+   "heini kwiatkowski",
+   "kwiatkowski"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1952,
+    "bis": 1966
+   }
+  ],
+  "warum": "Meistertorwart von 1956/57, auch 1963 Meister und erster Weltmeister des BVB.",
+  "sicher": true
+ },
+ {
+  "name": "Herbert Sandmann",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1947,
+    "bis": 1949
+   },
+   {
+    "verein": "werder-bremen",
+    "von": 1949,
+    "bis": 1951
+   },
+   {
+    "verein": "bvb",
+    "von": 1951,
+    "bis": 1960
+   }
+  ],
+  "warum": "Stammverteidiger der identischen Meister-Endspielelf von 1956 und 1957.",
+  "sicher": true
+ },
+ {
+  "name": "Alfred Niepieklo",
+  "suchnamen": [
+   "niepieklo"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1951,
+    "bis": 1960
+   }
+  ],
+  "warum": "Torjäger der drei Alfredos und mehrfacher Finaltorschütze bei den Meisterschaften 1956/57.",
+  "sicher": true
+ },
+ {
+  "name": "Elwin Schlebrowski",
+  "suchnamen": [
+   "schlebrowski"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1951,
+    "bis": 1960
+   }
+  ],
+  "warum": "Feste Größe der Läuferreihe in den Meistermannschaften von 1956 und 1957.",
+  "sicher": true
+ },
+ {
+  "name": "Wilhelm Burgsmüller",
+  "suchnamen": [
+   "willi burgsmuller",
+   "willi burgsmueller",
+   "wilhelm burgsmueller"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1951,
+    "bis": 1964
+   }
+  ],
+  "warum": "Dreifacher Meister von 1956, 1957 und 1963 sowie Kapitän beim Titelgewinn 1963.",
+  "sicher": true
+ },
+ {
+  "name": "Helmut Kapitulski",
+  "suchnamen": [
+   "kapitulski"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1953,
+    "bis": 1957
+   },
+   {
+    "verein": "fk-pirmasens",
+    "von": 1957,
+    "bis": 1964
+   },
+   {
+    "verein": "1-fc-kaiserslautern",
+    "von": 1964,
+    "bis": 1968
+   }
+  ],
+  "warum": "Linksaußen der Meisterelf von 1956/57 und Torschütze im Finale 1957.",
+  "sicher": true
+ },
+ {
+  "name": "Alfred Kelbassa",
+  "suchnamen": [
+   "fred kelbassa",
+   "freddy kelbassa",
+   "kelbassa"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1954,
+    "bis": 1963
+   }
+  ],
+  "warum": "Mittelstürmer der drei Alfredos, Oberliga-Torjäger und dreifacher Deutscher Meister.",
+  "sicher": true
+ },
+ {
+  "name": "Wolfgang Peters",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1954,
+    "bis": 1963
+   }
+  ],
+  "warum": "Rechtsaußen der legendären Meister-Endspielelf von 1956 und 1957.",
+  "sicher": true
+ },
+ {
+  "name": "Helmut Bracht",
+  "suchnamen": [
+   "jockel bracht"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1955,
+    "bis": 1964
+   }
+  ],
+  "warum": "Stammspieler der Doppelmeister von 1956/57 und nochmals Meister 1963.",
+  "sicher": true
+ },
+ {
+  "name": "Alfred Schmidt",
+  "suchnamen": [
+   "aki schmidt",
+   "alfred aki schmidt"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1956,
+    "bis": 1968
+   }
+  ],
+  "warum": "Aki Schmidt prägte die Meister- und Pokalteams und führte den BVB 1966 als Kapitän zum Europapokalsieg.",
+  "sicher": true
+ },
+ {
+  "name": "Timo Konietzka",
+  "suchnamen": [
+   "friedhelm konietzka",
+   "konietzka"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1958,
+    "bis": 1965
+   },
+   {
+    "verein": "1860-muenchen",
+    "von": 1965,
+    "bis": 1967
+   },
+   {
+    "verein": "fc-winterthur",
+    "von": 1967,
+    "bis": 1971
+   }
+  ],
+  "warum": "Meister 1963, Pokalsieger 1965 und Schütze des ersten Tores der Bundesliga-Geschichte.",
+  "sicher": true
+ },
+ {
+  "name": "Jürgen Schütz",
+  "suchnamen": [
+   "juergen schuetz",
+   "charly schutz",
+   "charly schuetz",
+   "charlie schutz"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1959,
+    "bis": 1963
+   },
+   {
+    "verein": "as-rom",
+    "von": 1963,
+    "bis": 1967
+   },
+   {
+    "verein": "bvb",
+    "von": 1969,
+    "bis": 1972
+   }
+  ],
+  "warum": "Oberliga-Torschützenkönig, Meister 1963 und mit Konietzka das Sturmduo Max und Moritz.",
+  "sicher": true
+ },
+ {
+  "name": "Bernhard Wessel",
+  "suchnamen": [
+   "bernd wessel"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1959,
+    "bis": 1969
+   }
+  ],
+  "warum": "Torwart im Meisterfinale 1963 und wichtiger Kaderspieler bei den Pokalerfolgen 1965/66.",
+  "sicher": true
+ },
+ {
+  "name": "Gerhard Cyliax",
+  "suchnamen": [
+   "gerd cyliax",
+   "cyliax"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1959,
+    "bis": 1968
+   }
+  ],
+  "warum": "Meister 1963, Pokalsieger 1965 und Stammverteidiger im Europapokalfinale 1966.",
+  "sicher": true
+ },
+ {
+  "name": "Lothar Emmerich",
+  "suchnamen": [
+   "emma emmerich",
+   "emmerich"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1960,
+    "bis": 1969
+   }
+  ],
+  "warum": "Publikumsliebling, zweifacher Bundesliga-Torschützenkönig und Torjäger der Europapokalsieger von 1966.",
+  "sicher": true
+ },
+ {
+  "name": "Dieter Kurrat",
+  "suchnamen": [
+   "hoppy kurrat",
+   "hoppi kurrat",
+   "kurrat"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1960,
+    "bis": 1974
+   }
+  ],
+  "warum": "Hoppy Kurrat stand für Vereinstreue und gewann Meisterschaft, DFB-Pokal und Europapokal.",
+  "sicher": true
+ },
+ {
+  "name": "Wolfgang Paul",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1961,
+    "bis": 1970
+   }
+  ],
+  "warum": "Abwehrchef und entscheidender Rückhalt beim Europapokalsieg 1966.",
+  "sicher": true
+ },
+ {
+  "name": "Reinhold Wosab",
+  "suchnamen": [
+   "wosab"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1962,
+    "bis": 1971
+   }
+  ],
+  "warum": "Torgefährlicher Allrounder der Meister von 1963 und der Pokalteams von 1965/66.",
+  "sicher": true
+ },
+ {
+  "name": "Wilhelm Sturm",
+  "suchnamen": [
+   "willi sturm"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1961,
+    "bis": 1971
+   }
+  ],
+  "warum": "Stammspieler und zweikampfstarker Mittelfeldmann der Europapokalsieger von 1966.",
+  "sicher": true
+ },
+ {
+  "name": "Franz Brungs",
+  "suchnamen": [
+   "brungs"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1963,
+    "bis": 1965
+   },
+   {
+    "verein": "1-fc-nuernberg",
+    "von": 1965,
+    "bis": 1968
+   }
+  ],
+  "warum": "Torjäger der ersten Bundesliga-Jahre und Torschütze im DFB-Pokalfinale 1965.",
+  "sicher": true
+ },
+ {
+  "name": "Hans Tilkowski",
+  "suchnamen": [
+   "tilkowski"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1963,
+    "bis": 1967
+   }
+  ],
+  "warum": "Torwart der Pokalsieger von 1965 und Europapokalsieger von 1966.",
+  "sicher": true
+ },
+ {
+  "name": "Rudi Assauer",
+  "suchnamen": [
+   "rudolf assauer",
+   "assauer"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1964,
+    "bis": 1970
+   },
+   {
+    "verein": "werder-bremen",
+    "von": 1970,
+    "bis": 1976
+   }
+  ],
+  "warum": "Gewann als BVB-Spieler 1965 den DFB-Pokal und 1966 den Europapokal.",
+  "sicher": true
+ },
+ {
+  "name": "Reinhard Libuda",
+  "suchnamen": [
+   "stan libuda",
+   "libuda"
+  ],
+  "vereine": [
+   {
+    "verein": "schalke-04",
+    "von": 1961,
+    "bis": 1965
+   },
+   {
+    "verein": "bvb",
+    "von": 1965,
+    "bis": 1968
+   },
+   {
+    "verein": "schalke-04",
+    "von": 1968,
+    "bis": 1972
+   }
+  ],
+  "warum": "Erzielte im Europapokalfinale 1966 gegen Liverpool den legendären Siegtreffer.",
+  "sicher": true
+ },
+ {
+  "name": "Sigfried Held",
+  "suchnamen": [
+   "sigi held",
+   "siggi held",
+   "siegfried held"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1965,
+    "bis": 1971
+   },
+   {
+    "verein": "kickers-offenbach",
+    "von": 1971,
+    "bis": 1977
+   },
+   {
+    "verein": "bvb",
+    "von": 1977,
+    "bis": 1979
+   }
+  ],
+  "warum": "Europapokalsieger 1966 und mit Emmerich das gefürchtete Sturmgespann der schrecklichen Zwillinge.",
+  "sicher": true
+ },
+ {
+  "name": "Theodor Redder",
+  "suchnamen": [
+   "theo redder"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1962,
+    "bis": 1969
+   }
+  ],
+  "warum": "Verteidiger der Meister von 1963 und der siegreichen Finalelf im Europapokal 1966.",
+  "sicher": true
+ },
+ {
+  "name": "Horst Bertram",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1971,
+    "bis": 1983
+   }
+  ],
+  "warum": "Langjähriger Torwart und Rückhalt beim Bundesliga-Wiederaufstieg 1976.",
+  "sicher": true
+ },
+ {
+  "name": "Peter Geyer",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1975,
+    "bis": 1981
+   }
+  ],
+  "warum": "Wichtiger Offensivspieler des Aufstiegsteams 1976 und der anschließenden Bundesliga-Jahre.",
+  "sicher": true
+ },
+ {
+  "name": "Klaus Ackermann",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1974,
+    "bis": 1979
+   }
+  ],
+  "warum": "Kapitän und prägender Mittelfeldspieler beim Bundesliga-Wiederaufstieg 1976.",
+  "sicher": true
+ },
+ {
+  "name": "Lothar Huber",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1974,
+    "bis": 1987
+   }
+  ],
+  "warum": "Langjähriger Kapitän, Aufstiegsheld 1976 und einer der Dauerbrenner der BVB-Geschichte.",
+  "sicher": true
+ },
+ {
+  "name": "Mirko Votava",
+  "suchnamen": [
+   "votava"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1974,
+    "bis": 1982
+   },
+   {
+    "verein": "atletico-madrid",
+    "von": 1982,
+    "bis": 1985
+   },
+   {
+    "verein": "werder-bremen",
+    "von": 1985,
+    "bis": 1996
+   }
+  ],
+  "warum": "Stütze des Wiederaufstiegs 1976 und über Jahre ein verlässlicher Leistungsträger.",
+  "sicher": true
+ },
+ {
+  "name": "Frank Pagelsdorf",
+  "suchnamen": [
+   "pagelsdorf"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1984,
+    "bis": 1988
+   }
+  ],
+  "warum": "Defensivstütze der 1980er und wichtiger Wegbereiter des Klassenerhalts in der Relegation 1986.",
+  "sicher": true
+ },
+ {
+  "name": "Manfred Burgsmüller",
+  "suchnamen": [
+   "manni burgsmuller",
+   "manni burgsmueller",
+   "manfred burgsmueller"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1976,
+    "bis": 1983
+   },
+   {
+    "verein": "1-fc-nuernberg",
+    "von": 1983,
+    "bis": 1984
+   },
+   {
+    "verein": "werder-bremen",
+    "von": 1985,
+    "bis": 1990
+   }
+  ],
+  "warum": "Manni Burgsmüller war Publikumsliebling und einer der erfolgreichsten Bundesliga-Torjäger des BVB.",
+  "sicher": true
+ },
+ {
+  "name": "Erwin Kostedde",
+  "suchnamen": [
+   "kostedde"
+  ],
+  "vereine": [
+   {
+    "verein": "kickers-offenbach",
+    "von": 1971,
+    "bis": 1975
+   },
+   {
+    "verein": "bvb",
+    "von": 1976,
+    "bis": 1978
+   },
+   {
+    "verein": "werder-bremen",
+    "von": 1980,
+    "bis": 1982
+   }
+  ],
+  "warum": "Markanter Torjäger der Mannschaft unmittelbar nach dem Wiederaufstieg 1976.",
+  "sicher": true
+ },
+ {
+  "name": "Stefan Klos",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1990,
+    "bis": 1998
+   },
+   {
+    "verein": "glasgow-rangers",
+    "von": 1998,
+    "bis": 2007
+   }
+  ],
+  "warum": "Stammtorwart der Meister von 1995/96 sowie Champions-League- und Weltpokalsieger 1997.",
+  "sicher": true
+ },
+ {
+  "name": "Eike Immel",
+  "suchnamen": [
+   "immel"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1978,
+    "bis": 1986
+   },
+   {
+    "verein": "vfb-stuttgart",
+    "von": 1986,
+    "bis": 1995
+   },
+   {
+    "verein": "manchester-city",
+    "von": 1995,
+    "bis": 1997
+   }
+  ],
+  "warum": "Aus der BVB-Jugend hervorgegangener Nationaltorwart und prägender Rückhalt der 1980er.",
+  "sicher": true
+ },
+ {
+  "name": "Rolf Rüssmann",
+  "suchnamen": [
+   "rolf ruessmann"
+  ],
+  "vereine": [
+   {
+    "verein": "schalke-04",
+    "von": 1969,
+    "bis": 1973
+   },
+   {
+    "verein": "schalke-04",
+    "von": 1974,
+    "bis": 1980
+   },
+   {
+    "verein": "bvb",
+    "von": 1980,
+    "bis": 1985
+   }
+  ],
+  "warum": "Abwehrchef und Nationalspieler, der dem BVB in den frühen 1980ern Stabilität gab.",
+  "sicher": true
+ },
+ {
+  "name": "Rüdiger Abramczik",
+  "suchnamen": [
+   "ruediger abramczik",
+   "abramczik"
+  ],
+  "vereine": [
+   {
+    "verein": "schalke-04",
+    "von": 1973,
+    "bis": 1980
+   },
+   {
+    "verein": "bvb",
+    "von": 1980,
+    "bis": 1983
+   }
+  ],
+  "warum": "Als Flankengott bekannter Nationalspieler und wichtiger Vorlagengeber für Burgsmüller.",
+  "sicher": true
+ },
+ {
+  "name": "Michael Zorc",
+  "suchnamen": [
+   "susi zorc",
+   "zorc"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1981,
+    "bis": 1998
+   }
+  ],
+  "warum": "BVB-Rekordspieler, langjähriger Kapitän und Sieger von Pokal, Meisterschaft, Champions League und Weltpokal.",
+  "sicher": true
+ },
+ {
+  "name": "Marcel Răducanu",
+  "suchnamen": [
+   "raducanu"
+  ],
+  "vereine": [
+   {
+    "verein": "steaua-bukarest",
+    "von": 1972,
+    "bis": 1981
+   },
+   {
+    "verein": "bvb",
+    "von": 1982,
+    "bis": 1988
+   }
+  ],
+  "warum": "Rumänischer Spielmacher und Publikumsliebling mit außergewöhnlicher Balltechnik.",
+  "sicher": true
+ },
+ {
+  "name": "Michael Lusch",
+  "suchnamen": [
+   "lusch"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1982,
+    "bis": 1993
+   }
+  ],
+  "warum": "Langjähriger Stammspieler und Mitglied der Pokalsiegermannschaft von 1989.",
+  "sicher": true
+ },
+ {
+  "name": "Günter Kutowski",
+  "suchnamen": [
+   "guenter kutowski",
+   "kutowski"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1984,
+    "bis": 1996
+   }
+  ],
+  "warum": "Robuster Abwehrspieler, Pokalsieger 1989 und zweimaliger Meister der 1990er.",
+  "sicher": true
+ },
+ {
+  "name": "Thomas Helmer",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1986,
+    "bis": 1992
+   },
+   {
+    "verein": "fc-bayern",
+    "von": 1992,
+    "bis": 1999
+   }
+  ],
+  "warum": "Abwehrchef und Nationalspieler aus der Pokalsiegermannschaft von 1989.",
+  "sicher": true
+ },
+ {
+  "name": "Frank Mill",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "borussia-moenchengladbach",
+    "von": 1981,
+    "bis": 1986
+   },
+   {
+    "verein": "bvb",
+    "von": 1986,
+    "bis": 1994
+   }
+  ],
+  "warum": "Publikumsliebling, Nationalstürmer und wichtiger Angreifer der Pokalsieger von 1989.",
+  "sicher": true
+ },
+ {
+  "name": "Norbert Dickel",
+  "suchnamen": [
+   "nobby dickel",
+   "dickel"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1986,
+    "bis": 1990
+   }
+  ],
+  "warum": "Held von Berlin mit zwei Treffern im DFB-Pokalfinale 1989 und spätere BVB-Stadionstimme.",
+  "sicher": true
+ },
+ {
+  "name": "Michael Rummenigge",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "fc-bayern",
+    "von": 1982,
+    "bis": 1988
+   },
+   {
+    "verein": "bvb",
+    "von": 1988,
+    "bis": 1993
+   }
+  ],
+  "warum": "Spielmacher der Pokalsieger von 1989 und Führungsspieler auf dem Weg zurück in die Spitze.",
+  "sicher": true
+ },
+ {
+  "name": "Günter Breitzke",
+  "suchnamen": [
+   "guenter breitzke",
+   "breitzke"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1988,
+    "bis": 1992
+   }
+  ],
+  "warum": "Als Ente beliebter Offensivspieler und Torschütze im Pokalfinale 1989.",
+  "sicher": true
+ },
+ {
+  "name": "Flemming Povlsen",
+  "suchnamen": [
+   "povlsen"
+  ],
+  "vereine": [
+   {
+    "verein": "1-fc-koeln",
+    "von": 1987,
+    "bis": 1989
+   },
+   {
+    "verein": "psv-eindhoven",
+    "von": 1989,
+    "bis": 1990
+   },
+   {
+    "verein": "bvb",
+    "von": 1990,
+    "bis": 1995
+   }
+  ],
+  "warum": "Dänischer Publikumsliebling, Europameister 1992 und Deutscher Meister 1995.",
+  "sicher": true
+ },
+ {
+  "name": "Knut Reinhardt",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "bayer-leverkusen",
+    "von": 1985,
+    "bis": 1991
+   },
+   {
+    "verein": "bvb",
+    "von": 1991,
+    "bis": 1998
+   }
+  ],
+  "warum": "Stammspieler auf der linken Seite bei den Meisterschaften 1995/96 und den internationalen Titeln 1997.",
+  "sicher": true
+ },
+ {
+  "name": "Stéphane Chapuisat",
+  "suchnamen": [
+   "chapuisat",
+   "chappi chapuisat"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1991,
+    "bis": 1999
+   },
+   {
+    "verein": "grasshoppers",
+    "von": 1999,
+    "bis": 2002
+   },
+   {
+    "verein": "young-boys",
+    "von": 2002,
+    "bis": 2005
+   }
+  ],
+  "warum": "Chappi war Torjäger der Meister von 1995/96 und Champions-League-Sieger 1997.",
+  "sicher": true
+ },
+ {
+  "name": "Matthias Sammer",
+  "suchnamen": [
+   "sammer"
+  ],
+  "vereine": [
+   {
+    "verein": "vfb-stuttgart",
+    "von": 1990,
+    "bis": 1992
+   },
+   {
+    "verein": "inter-mailand",
+    "von": 1992,
+    "bis": 1993
+   },
+   {
+    "verein": "bvb",
+    "von": 1993,
+    "bis": 1998
+   }
+  ],
+  "warum": "Libero der Meister von 1995/96, Europas Fußballer des Jahres 1996 und Champions-League-Sieger 1997.",
+  "sicher": true
+ },
+ {
+  "name": "Karl-Heinz Riedle",
+  "suchnamen": [
+   "kalle riedle",
+   "riedle"
+  ],
+  "vereine": [
+   {
+    "verein": "werder-bremen",
+    "von": 1987,
+    "bis": 1990
+   },
+   {
+    "verein": "lazio-rom",
+    "von": 1990,
+    "bis": 1993
+   },
+   {
+    "verein": "bvb",
+    "von": 1993,
+    "bis": 1997
+   },
+   {
+    "verein": "liverpool",
+    "von": 1997,
+    "bis": 1999
+   }
+  ],
+  "warum": "Doppelter Torschütze im Champions-League-Finale 1997 und Meister 1995/96.",
+  "sicher": true
+ },
+ {
+  "name": "Steffen Freund",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "schalke-04",
+    "von": 1991,
+    "bis": 1993
+   },
+   {
+    "verein": "bvb",
+    "von": 1993,
+    "bis": 1999
+   },
+   {
+    "verein": "tottenham",
+    "von": 1999,
+    "bis": 2003
+   }
+  ],
+  "warum": "Kämpferischer Publikumsliebling der Meisterteams und Sieger von Champions League und Weltpokal 1997.",
+  "sicher": true
+ },
+ {
+  "name": "Júlio César da Silva",
+  "suchnamen": [
+   "julio cesar"
+  ],
+  "vereine": [
+   {
+    "verein": "juventus",
+    "von": 1990,
+    "bis": 1994
+   },
+   {
+    "verein": "bvb",
+    "von": 1994,
+    "bis": 1999
+   }
+  ],
+  "warum": "Brasilianischer Abwehrspieler der Meister von 1995/96 und Champions-League-Sieger 1997.",
+  "sicher": true
+ },
+ {
+  "name": "Paul Lambert",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "motherwell",
+    "von": 1993,
+    "bis": 1996
+   },
+   {
+    "verein": "bvb",
+    "von": 1996,
+    "bis": 1997
+   },
+   {
+    "verein": "celtic",
+    "von": 1997,
+    "bis": 2005
+   }
+  ],
+  "warum": "Schottischer Mittelfeldheld, der im Champions-League-Finale 1997 gegen Juventus überzeugte.",
+  "sicher": true
+ },
+ {
+  "name": "Jürgen Wegmann",
+  "suchnamen": [
+   "juergen wegmann",
+   "kobra wegmann"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1984,
+    "bis": 1986
+   },
+   {
+    "verein": "schalke-04",
+    "von": 1986,
+    "bis": 1987
+   },
+   {
+    "verein": "fc-bayern",
+    "von": 1987,
+    "bis": 1989
+   },
+   {
+    "verein": "bvb",
+    "von": 1989,
+    "bis": 1992
+   }
+  ],
+  "warum": "Die Kobra erzielte in der Relegation 1986 gegen Fortuna Köln das rettende Tor in letzter Minute.",
+  "sicher": true
+ },
+ {
+  "name": "Murdo MacLeod",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "celtic",
+    "von": 1978,
+    "bis": 1987
+   },
+   {
+    "verein": "bvb",
+    "von": 1987,
+    "bis": 1990
+   }
+  ],
+  "warum": "Schottischer Publikumsliebling und laufstarker Mittelfeldspieler der Pokalsieger von 1989.",
+  "sicher": true
+ },
+ {
+  "name": "Erdal Keser",
+  "suchnamen": [
+   "keser"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1980,
+    "bis": 1984
+   },
+   {
+    "verein": "galatasaray",
+    "von": 1984,
+    "bis": 1986
+   },
+   {
+    "verein": "bvb",
+    "von": 1986,
+    "bis": 1987
+   }
+  ],
+  "warum": "Türkischer Nationalspieler und beliebter Offensivspieler der frühen 1980er.",
+  "sicher": true
+ },
+ {
+  "name": "Martin Kree",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "vfl-bochum",
+    "von": 1983,
+    "bis": 1989
+   },
+   {
+    "verein": "bayer-leverkusen",
+    "von": 1989,
+    "bis": 1994
+   },
+   {
+    "verein": "bvb",
+    "von": 1994,
+    "bis": 1998
+   }
+  ],
+  "warum": "Vielseitiger Verteidiger der Meisterteams 1995/96 sowie Champions-League- und Weltpokalsieger 1997.",
+  "sicher": true
+ },
+ {
+  "name": "René Tretschok",
+  "suchnamen": [
+   "tretschok"
+  ],
+  "vereine": [
+   {
+    "verein": "bvb",
+    "von": 1992,
+    "bis": 1997
+   },
+   {
+    "verein": "1-fc-koeln",
+    "von": 1997,
+    "bis": 1998
+   },
+   {
+    "verein": "hertha-bsc",
+    "von": 1998,
+    "bis": 2004
+   }
+  ],
+  "warum": "Sein Siegtreffer gegen Manchester United im Halbfinal-Hinspiel 1997 ebnete den Weg zum Champions-League-Titel.",
+  "sicher": true
+ },
+ {
+  "name": "Paulo Sousa",
+  "suchnamen": [],
+  "vereine": [
+   {
+    "verein": "juventus",
+    "von": 1994,
+    "bis": 1996
+   },
+   {
+    "verein": "bvb",
+    "von": 1996,
+    "bis": 1998
+   },
+   {
+    "verein": "inter-mailand",
+    "von": 1998,
+    "bis": 2000
+   }
+  ],
+  "warum": "Spielgestalter der Champions-League-Sieger von 1997, ein Jahr nach seinem Titelgewinn mit Juventus.",
+  "sicher": true
+ }
+]

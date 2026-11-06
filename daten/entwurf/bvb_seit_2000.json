@@ -1,16 +1,5 @@
 [
  {
-  "name": "Inge Tijink",
-  "wikidata": "Q96384653",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": null,
-    "bis": 2020
-   }
-  ]
- },
- {
   "name": "Wolfgang de Beer",
   "wikidata": "Q128419",
   "vereine": [
@@ -19,18 +8,8 @@
     "von": 1986,
     "bis": 2001
    }
-  ]
- },
- {
-  "name": "Stefan Reuter",
-  "wikidata": "Q327285",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1992,
-    "bis": 2004
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Lars Ricken",
@@ -41,7 +20,8 @@
     "von": 1993,
     "bis": 2007
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Andreas Möller",
@@ -52,40 +32,8 @@
     "von": 1994,
     "bis": 2000
    }
-  ]
- },
- {
-  "name": "Ibrahim Tanko",
-  "wikidata": "Q533646",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1994,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Wladimir Wladimirowitsch But",
-  "wikidata": "Q941320",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1994,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Heiko Herrlich",
-  "wikidata": "Q677546",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1995,
-    "bis": 2004
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jürgen Kohler",
@@ -96,73 +44,8 @@
     "von": 1995,
     "bis": 2002
    }
-  ]
- },
- {
-  "name": "Jovan Kirovski",
-  "wikidata": "Q1382753",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1996,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Wolfgang Feiersinger",
-  "wikidata": "Q701244",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1996,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Bashiru Gambo",
-  "wikidata": "Q809977",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1997,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Alfred Nijhuis",
-  "wikidata": "Q1365861",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1998,
-    "bis": 2001
-   }
-  ]
- },
- {
-  "name": "Amos Sassi",
-  "wikidata": "Q4747946",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1998,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Christian Nerlinger",
-  "wikidata": "Q650214",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1998,
-    "bis": 2001
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Dedê",
@@ -173,7 +56,8 @@
     "von": 1998,
     "bis": 2011
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Karsten Baumann",
@@ -184,40 +68,8 @@
     "von": 1998,
     "bis": 2000
    }
-  ]
- },
- {
-  "name": "Sergej Barbarez",
-  "wikidata": "Q431455",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1998,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Shlomi Dahan",
-  "wikidata": "Q7499558",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1998,
-    "bis": 2000
-   }
-  ]
- },
- {
-  "name": "Christian Wörns",
-  "wikidata": "Q167241",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1999,
-    "bis": 2008
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Evanilson",
@@ -228,7 +80,8 @@
     "von": 1999,
     "bis": 2005
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Fredi Bobic",
@@ -239,7 +92,8 @@
     "von": 1999,
     "bis": 2002
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Giuseppe Reina",
@@ -250,7 +104,8 @@
     "von": 1999,
     "bis": 2004
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jens Lehmann",
@@ -261,7 +116,8 @@
     "von": 1999,
     "bis": 2003
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Miroslav Stević",
@@ -272,7 +128,8 @@
     "von": 1999,
     "bis": 2002
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Otto Addo",
@@ -283,29 +140,8 @@
     "von": 1999,
     "bis": 2005
    }
-  ]
- },
- {
-  "name": "Sead Kapetanović",
-  "wikidata": "Q505049",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1999,
-    "bis": 2001
-   }
-  ]
- },
- {
-  "name": "Victor Ikpeba",
-  "wikidata": "Q365175",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 1999,
-    "bis": 2001
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Christoph Metzelder",
@@ -316,7 +152,8 @@
     "von": 2000,
     "bis": 2007
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Emmanuel Krontiris",
@@ -327,73 +164,8 @@
     "von": 2000,
     "bis": 2004
    }
-  ]
- },
- {
-  "name": "Jörg Heinrich",
-  "wikidata": "Q390159",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2000,
-    "bis": 2003
-   }
-  ]
- },
- {
-  "name": "Michael Kügler",
-  "wikidata": "Q875228",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2000,
-    "bis": 2002
-   }
-  ]
- },
- {
-  "name": "Philipp Laux",
-  "wikidata": "Q186311",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2000,
-    "bis": 2002
-   }
-  ]
- },
- {
-  "name": "Sunday Oliseh",
-  "wikidata": "Q434750",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2000,
-    "bis": 2004
-   }
-  ]
- },
- {
-  "name": "Ahmed Madouni",
-  "wikidata": "Q401366",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2001,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Conor Casey",
-  "wikidata": "Q1126533",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2001,
-    "bis": 2004
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ewerthon",
@@ -404,7 +176,8 @@
     "von": 2001,
     "bis": 2005
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Florian Kringe",
@@ -415,29 +188,8 @@
     "von": 2001,
     "bis": 2012
    }
-  ]
- },
- {
-  "name": "Florian Thorwart",
-  "wikidata": "Q748143",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2001,
-    "bis": 2003
-   }
-  ]
- },
- {
-  "name": "Jan Derek Sørensen",
-  "wikidata": "Q201503",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2001,
-    "bis": 2003
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jan Koller",
@@ -448,7 +200,8 @@
     "von": 2001,
     "bis": 2006
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Juan Ramón Fernández",
@@ -459,7 +212,8 @@
     "von": 2001,
     "bis": 2005
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Michael Ratajczak",
@@ -470,7 +224,8 @@
     "von": 2001,
     "bis": 2003
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Márcio Amoroso",
@@ -481,18 +236,8 @@
     "von": 2001,
     "bis": 2004
    }
-  ]
- },
- {
-  "name": "Nana Eshun",
-  "wikidata": "Q6962287",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2001,
-    "bis": 2002
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Tomáš Rosický",
@@ -503,7 +248,8 @@
     "von": 2001,
     "bis": 2006
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "David Odonkor",
@@ -514,29 +260,8 @@
     "von": 2002,
     "bis": 2006
    }
-  ]
- },
- {
-  "name": "Guy Demel",
-  "wikidata": "Q354919",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2002,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Leandro de Deus Santos",
-  "wikidata": "Q1415744",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2002,
-    "bis": 2004
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Roman Weidenfeller",
@@ -547,18 +272,8 @@
     "von": 2002,
     "bis": 2018
    }
-  ]
- },
- {
-  "name": "Salvatore Gambino",
-  "wikidata": "Q316718",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2002,
-    "bis": 2006
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sebastian Kehl",
@@ -569,7 +284,8 @@
     "von": 2002,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Torsten Frings",
@@ -580,237 +296,8 @@
     "von": 2002,
     "bis": 2004
    }
-  ]
- },
- {
-  "name": "André Bergdølmo",
-  "wikidata": "Q517078",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2003,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Flávio Conceição",
-  "wikidata": "Q350536",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2003,
-    "bis": 2004
-   }
-  ]
- },
- {
-  "name": "Guillaume Warmuz",
-  "wikidata": "Q897801",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2003,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Malte Metzelder",
-  "wikidata": "Q631493",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2003,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Markus Brzenska",
-  "wikidata": "Q547585",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2003,
-    "bis": 2009
-   }
-  ]
- },
- {
-  "name": "Niclas Jensen",
-  "wikidata": "Q549559",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2003,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Mahir Sağlık",
-  "wikidata": "Q327433",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2004,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Marc-André Kruska",
-  "wikidata": "Q531401",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2004,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Marcus Steegmann",
-  "wikidata": "Q1894371",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2004,
-    "bis": 2006
-   }
-  ]
- },
- {
-  "name": "Mehmet Akgün",
-  "wikidata": "Q643196",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2004,
-    "bis": 2007
-   }
-  ]
- },
- {
-  "name": "Patrick Kohlmann",
-  "wikidata": "Q100296",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2004,
-    "bis": 2005
-   }
-  ]
- },
- {
-  "name": "Sahr Senesie",
-  "wikidata": "Q320751",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2004,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Bernd Meier",
-  "wikidata": "Q532637",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2007
-   }
-  ]
- },
- {
-  "name": "Cedric van der Gun",
-  "wikidata": "Q795185",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2006
-   }
-  ]
- },
- {
-  "name": "Delron Buckley",
-  "wikidata": "Q63866",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2006
-   },
-   {
-    "verein": "bvb",
-    "von": 2007,
-    "bis": 2009
-   }
-  ]
- },
- {
-  "name": "Dennis Gentenaar",
-  "wikidata": "Q956120",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2006
-   }
-  ]
- },
- {
-  "name": "Ebi Smolarek",
-  "wikidata": "Q245295",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2007
-   }
-  ]
- },
- {
-  "name": "Kosi Saka",
-  "wikidata": "Q284977",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2007
-   }
-  ]
- },
- {
-  "name": "Matthew Amoah",
-  "wikidata": "Q313725",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2007
-   }
-  ]
- },
- {
-  "name": "Nizamettin Çalışkan",
-  "wikidata": "Q317318",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2006
-   },
-   {
-    "verein": "bvb",
-    "von": 2006,
-    "bis": 2006
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Nuri Şahin",
@@ -831,40 +318,8 @@
     "von": 2014,
     "bis": 2018
    }
-  ]
- },
- {
-  "name": "Philipp Degen",
-  "wikidata": "Q116067",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Sebastian Tyrała",
-  "wikidata": "Q664590",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2010
-   }
-  ]
- },
- {
-  "name": "Uwe Hünemeier",
-  "wikidata": "Q474847",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2005,
-    "bis": 2010
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Alexander Frei",
@@ -875,29 +330,8 @@
     "von": 2006,
     "bis": 2009
    }
-  ]
- },
- {
-  "name": "Daniel Gordon",
-  "wikidata": "Q322692",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2006,
-    "bis": 2009
-   }
-  ]
- },
- {
-  "name": "Martin Amedick",
-  "wikidata": "Q699718",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2006,
-    "bis": 2008
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Nelson Valdez",
@@ -908,7 +342,8 @@
     "von": 2006,
     "bis": 2010
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Steven Pienaar",
@@ -919,7 +354,8 @@
     "von": 2006,
     "bis": 2008
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sören Pirson",
@@ -930,7 +366,8 @@
     "von": 2006,
     "bis": 2007
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Tinga",
@@ -941,51 +378,8 @@
     "von": 2006,
     "bis": 2010
    }
-  ]
- },
- {
-  "name": "Christian Eggert",
-  "wikidata": "Q1079387",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2007,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Christopher Nöthe",
-  "wikidata": "Q323045",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2007,
-    "bis": 2009
-   }
-  ]
- },
- {
-  "name": "Diego Klimowicz",
-  "wikidata": "Q47029",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2007,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Giovanni Federico",
-  "wikidata": "Q1526089",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2007,
-    "bis": 2009
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marc Ziegler",
@@ -996,7 +390,8 @@
     "von": 2007,
     "bis": 2010
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mladen Petrić",
@@ -1007,7 +402,8 @@
     "von": 2007,
     "bis": 2008
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Nico Hillenbrand",
@@ -1018,18 +414,8 @@
     "von": 2007,
     "bis": 2007
    }
-  ]
- },
- {
-  "name": "Patrick Njambe",
-  "wikidata": "Q2057852",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2007,
-    "bis": 2008
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Robert Kovač",
@@ -1040,51 +426,8 @@
     "von": 2007,
     "bis": 2008
    }
-  ]
- },
- {
-  "name": "Alexander Bade",
-  "wikidata": "Q316801",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Antonio Rukavina",
-  "wikidata": "Q321567",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2008
-   }
-  ]
- },
- {
-  "name": "Bajram Sadrijaj",
-  "wikidata": "Q326808",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2010
-   }
-  ]
- },
- {
-  "name": "Emmanuel Mbende",
-  "wikidata": "Q26405792",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2015
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Lee Young-pyo",
@@ -1095,29 +438,8 @@
     "von": 2008,
     "bis": 2009
    }
-  ]
- },
- {
-  "name": "Lukas Kruse",
-  "wikidata": "Q877621",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2009
-   }
-  ]
- },
- {
-  "name": "Marcel Höttecke",
-  "wikidata": "Q324211",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2010
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marcel Schmelzer",
@@ -1128,7 +450,8 @@
     "von": 2008,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mats Hummels",
@@ -1149,7 +472,8 @@
     "von": 2019,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mohamed Zidan",
@@ -1160,7 +484,8 @@
     "von": 2008,
     "bis": 2012
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Neven Subotić",
@@ -1171,7 +496,8 @@
     "von": 2008,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Patrick Owomoyela",
@@ -1182,7 +508,8 @@
     "von": 2008,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Tamás Hajnal",
@@ -1193,23 +520,8 @@
     "von": 2008,
     "bis": 2010
    }
-  ]
- },
- {
-  "name": "Yasin Öztekin",
-  "wikidata": "Q573330",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2008,
-    "bis": 2009
-   },
-   {
-    "verein": "bvb",
-    "von": 2010,
-    "bis": 2011
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Christopher Kullmann",
@@ -1220,29 +532,8 @@
     "von": 2009,
     "bis": 2011
    }
-  ]
- },
- {
-  "name": "Damien Le Tallec",
-  "wikidata": "Q702085",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2009,
-    "bis": 2012
-   }
-  ]
- },
- {
-  "name": "Dimitar Rangelow",
-  "wikidata": "Q179279",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2009,
-    "bis": 2012
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Julian Koch",
@@ -1253,7 +544,8 @@
     "von": 2009,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Kevin Großkreutz",
@@ -1264,7 +556,8 @@
     "von": 2009,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Kevin-Prince Boateng",
@@ -1275,7 +568,8 @@
     "von": 2009,
     "bis": 2009
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Lucas Barrios",
@@ -1286,18 +580,8 @@
     "von": 2009,
     "bis": 2012
    }
-  ]
- },
- {
-  "name": "Marco Stiepermann",
-  "wikidata": "Q326665",
-  "vereine": [
-   {
-    "verein": "bvb",
-    "von": 2009,
-    "bis": 2012
-   }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Markus Feulner",
@@ -1308,7 +592,8 @@
     "von": 2009,
     "bis": 2011
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sven Bender",
@@ -1319,7 +604,8 @@
     "von": 2009,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Antônio da Silva",
@@ -1330,7 +616,8 @@
     "von": 2010,
     "bis": 2012
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Daniel Ginczek",
@@ -1341,7 +628,8 @@
     "von": 2010,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Johannes Focher",
@@ -1352,7 +640,8 @@
     "von": 2010,
     "bis": 2012
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Lasse Sobiech",
@@ -1363,7 +652,8 @@
     "von": 2010,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Lukas Nottbeck",
@@ -1374,7 +664,8 @@
     "von": 2010,
     "bis": 2010
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mitchell Langerak",
@@ -1385,7 +676,8 @@
     "von": 2010,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Robert Lewandowski",
@@ -1396,7 +688,8 @@
     "von": 2010,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Shinji Kagawa",
@@ -1412,7 +705,8 @@
     "von": 2014,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Łukasz Piszczek",
@@ -1423,7 +717,8 @@
     "von": 2010,
     "bis": 2021
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Chris Löwe",
@@ -1434,7 +729,8 @@
     "von": 2011,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ivan Perišić",
@@ -1445,7 +741,8 @@
     "von": 2011,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marvin Bakalorz",
@@ -1456,7 +753,8 @@
     "von": 2011,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Moritz Leitner",
@@ -1467,7 +765,8 @@
     "von": 2011,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mustafa Amini",
@@ -1478,7 +777,8 @@
     "von": 2011,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "İlkay Gündoğan",
@@ -1489,7 +789,8 @@
     "von": 2011,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Bálint Bajner",
@@ -1500,7 +801,8 @@
     "von": 2012,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jonas Hofmann",
@@ -1511,7 +813,8 @@
     "von": 2012,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Julian Schieber",
@@ -1522,7 +825,8 @@
     "von": 2012,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Leonardo Bittencourt",
@@ -1533,7 +837,8 @@
     "von": 2012,
     "bis": 2013
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marco Reus",
@@ -1544,7 +849,8 @@
     "von": 2012,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Oliver Kirch",
@@ -1555,7 +861,8 @@
     "von": 2012,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Zlatan Alomerović",
@@ -1566,7 +873,8 @@
     "von": 2012,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Erik Durm",
@@ -1577,7 +885,8 @@
     "von": 2013,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Henrich Mchitarjan",
@@ -1588,7 +897,8 @@
     "von": 2013,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jannik Bandowski",
@@ -1599,7 +909,8 @@
     "von": 2013,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Koray Günter",
@@ -1610,7 +921,8 @@
     "von": 2013,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Manuel Friedrich",
@@ -1621,7 +933,8 @@
     "von": 2013,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marian Sarr",
@@ -1632,7 +945,8 @@
     "von": 2013,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marvin Ducksch",
@@ -1643,7 +957,8 @@
     "von": 2013,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Pierre-Emerick Aubameyang",
@@ -1654,7 +969,8 @@
     "von": 2013,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sokratis",
@@ -1665,7 +981,8 @@
     "von": 2013,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Willy Aubameyang",
@@ -1676,7 +993,8 @@
     "von": 2013,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Adrián Ramos",
@@ -1687,7 +1005,8 @@
     "von": 2014,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ciro Immobile",
@@ -1698,7 +1017,8 @@
     "von": 2014,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ji Dong-won",
@@ -1709,7 +1029,8 @@
     "von": 2014,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Joseph-Claude Gyau",
@@ -1720,7 +1041,8 @@
     "von": 2014,
     "bis": 2014
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Matthias Ginter",
@@ -1731,7 +1053,8 @@
     "von": 2014,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Miloš Jojić",
@@ -1742,7 +1065,8 @@
     "von": 2014,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mitsuru Maruoka",
@@ -1753,7 +1077,8 @@
     "von": 2014,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Adnan Januzaj",
@@ -1764,7 +1089,8 @@
     "von": 2015,
     "bis": 2016
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Gonzalo Castro",
@@ -1775,7 +1101,8 @@
     "von": 2015,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Hendrik Bonmann",
@@ -1786,7 +1113,8 @@
     "von": 2015,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jeremy Dudziak",
@@ -1797,7 +1125,8 @@
     "von": 2015,
     "bis": 2015
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Julian Weigl",
@@ -1808,7 +1137,8 @@
     "von": 2015,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Park Joo-ho",
@@ -1819,7 +1149,8 @@
     "von": 2015,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Pascal Stenzel",
@@ -1830,7 +1161,8 @@
     "von": 2015,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Roman Bürki",
@@ -1841,7 +1173,8 @@
     "von": 2015,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "André Schürrle",
@@ -1852,7 +1185,8 @@
     "von": 2016,
     "bis": 2020
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Christian Pulisic",
@@ -1868,7 +1202,8 @@
     "von": 2019,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Dženis Burnić",
@@ -1879,7 +1214,8 @@
     "von": 2016,
     "bis": 2020
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Emre Mor",
@@ -1890,7 +1226,8 @@
     "von": 2016,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Felix Passlack",
@@ -1901,7 +1238,8 @@
     "von": 2016,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marc Bartra",
@@ -1912,7 +1250,8 @@
     "von": 2016,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mikel Merino",
@@ -1923,7 +1262,8 @@
     "von": 2016,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ousmane Dembélé",
@@ -1934,7 +1274,8 @@
     "von": 2016,
     "bis": 2017
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Raphaël Guerreiro",
@@ -1945,7 +1286,8 @@
     "von": 2016,
     "bis": 2023
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sebastian Rode",
@@ -1956,7 +1298,8 @@
     "von": 2016,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Alexander Isak",
@@ -1967,7 +1310,8 @@
     "von": 2017,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Andrij Jarmolenko",
@@ -1978,7 +1322,8 @@
     "von": 2017,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Eike Bansen",
@@ -1989,7 +1334,8 @@
     "von": 2017,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jadon Sancho",
@@ -2005,7 +1351,8 @@
     "von": 2024,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jeremy Toljan",
@@ -2016,7 +1363,8 @@
     "von": 2017,
     "bis": 2021
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jürgen Damm",
@@ -2027,7 +1375,8 @@
     "von": 2017,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mahmoud Dahoud",
@@ -2038,7 +1387,8 @@
     "von": 2017,
     "bis": 2023
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Maximilian Philipp",
@@ -2049,7 +1399,8 @@
     "von": 2017,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Niklas Beste",
@@ -2060,7 +1411,8 @@
     "von": 2017,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sergio Gómez",
@@ -2071,7 +1423,8 @@
     "von": 2017,
     "bis": 2021
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ömer Toprak",
@@ -2082,7 +1435,8 @@
     "von": 2017,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Abdou Diallo",
@@ -2093,7 +1447,8 @@
     "von": 2018,
     "bis": 2019
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Achraf Hakimi",
@@ -2104,7 +1459,8 @@
     "von": 2018,
     "bis": 2020
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Axel Witsel",
@@ -2115,7 +1471,8 @@
     "von": 2018,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Manuel Akanji",
@@ -2126,7 +1483,8 @@
     "von": 2018,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marius Wolf",
@@ -2137,7 +1495,8 @@
     "von": 2018,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marwin Hitz",
@@ -2148,7 +1507,8 @@
     "von": 2018,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Michy Batshuayi",
@@ -2159,7 +1519,8 @@
     "von": 2018,
     "bis": 2018
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Paco Alcácer",
@@ -2170,7 +1531,8 @@
     "von": 2018,
     "bis": 2020
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Thomas Delaney",
@@ -2181,7 +1543,8 @@
     "von": 2018,
     "bis": 2021
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Gio Reyna",
@@ -2192,7 +1555,8 @@
     "von": 2019,
     "bis": 2025
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Julian Brandt",
@@ -2203,7 +1567,8 @@
     "von": 2019,
     "bis": 2026
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Leonardo Balerdi",
@@ -2214,7 +1579,8 @@
     "von": 2019,
     "bis": 2021
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Mateu Morey",
@@ -2225,7 +1591,8 @@
     "von": 2019,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Nico Schulz",
@@ -2236,7 +1603,8 @@
     "von": 2019,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Thorgan Hazard",
@@ -2247,7 +1615,8 @@
     "von": 2019,
     "bis": 2023
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ansgar Knauff",
@@ -2258,7 +1627,8 @@
     "von": 2020,
     "bis": 2023
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Emre Can",
@@ -2274,7 +1644,8 @@
     "von": 2020,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Erling Haaland",
@@ -2285,7 +1656,8 @@
     "von": 2020,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jude Bellingham",
@@ -2296,7 +1668,8 @@
     "von": 2020,
     "bis": 2023
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Reinier",
@@ -2307,7 +1680,8 @@
     "von": 2020,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Thomas Meunier",
@@ -2318,7 +1692,8 @@
     "von": 2020,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Youssoufa Moukoko",
@@ -2329,7 +1704,8 @@
     "von": 2020,
     "bis": 2025
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Donyell Malen",
@@ -2340,7 +1716,8 @@
     "von": 2021,
     "bis": 2025
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Gregor Kobel",
@@ -2351,7 +1728,8 @@
     "von": 2021,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Lennard Maloney",
@@ -2362,7 +1740,8 @@
     "von": 2021,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Steffen Tigges",
@@ -2373,7 +1752,8 @@
     "von": 2021,
     "bis": 2022
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Anthony Modeste",
@@ -2384,7 +1764,8 @@
     "von": 2022,
     "bis": 2023
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Cole Campbell",
@@ -2395,7 +1776,8 @@
     "von": 2022,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Jamie Gittens",
@@ -2406,7 +1788,8 @@
     "von": 2022,
     "bis": 2025
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Karim Adeyemi",
@@ -2417,7 +1800,8 @@
     "von": 2022,
     "bis": 2026
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Nico Schlotterbeck",
@@ -2428,7 +1812,8 @@
     "von": 2022,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Niklas Süle",
@@ -2439,7 +1824,8 @@
     "von": 2022,
     "bis": 2026
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Salih Özcan",
@@ -2450,7 +1836,8 @@
     "von": 2022,
     "bis": 2026
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Sébastien Haller",
@@ -2461,7 +1848,8 @@
     "von": 2022,
     "bis": 2025
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Julian Ryerson",
@@ -2472,7 +1860,8 @@
     "von": 2023,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Marcel Sabitzer",
@@ -2483,7 +1872,8 @@
     "von": 2023,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Niclas Füllkrug",
@@ -2494,7 +1884,8 @@
     "von": 2023,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ian Maatsen",
@@ -2505,7 +1896,8 @@
     "von": 2024,
     "bis": 2024
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Maximilian Beier",
@@ -2516,7 +1908,8 @@
     "von": 2024,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Pascal Groß",
@@ -2527,7 +1920,8 @@
     "von": 2024,
     "bis": 2026
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Serhou Guirassy",
@@ -2538,7 +1932,8 @@
     "von": 2024,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Carney Chukwuemeka",
@@ -2549,7 +1944,8 @@
     "von": 2025,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Daniel Svensson",
@@ -2560,7 +1956,8 @@
     "von": 2025,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Patrick Drewes",
@@ -2571,7 +1968,8 @@
     "von": 2025,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Ethan Nwaneri",
@@ -2582,7 +1980,8 @@
     "von": 2026,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Giannis Konstantelias",
@@ -2593,7 +1992,8 @@
     "von": 2026,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  },
  {
   "name": "Joey Veerman",
@@ -2604,6 +2004,7 @@
     "von": 2026,
     "bis": null
    }
-  ]
+  ],
+  "sicher": true
  }
 ]
