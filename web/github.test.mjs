@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { Buffer } from 'node:buffer';
-import { GitHub, KonfliktFehler } from './github.js';
+import { GitHub, KonfliktFehler, repoAusAdresse } from './github.js';
 
 const basis = 'https://api.github.com/repos/Dabvud/auktionsfinder';
 const pfad = 'daten/suchen.json';
@@ -200,4 +200,11 @@ test('Standard-fetch wird ohne fremdes this aufgerufen (Browser: Illegal invocat
   } finally {
     globalThis.fetch = original;
   }
+});
+
+test('repoAusAdresse: jede Kopie spricht ihr eigenes Repo an', () => {
+  assert.deepEqual(repoAusAdresse('dabvud.github.io', '/auktionsfinder/'), { owner: 'dabvud', repo: 'auktionsfinder' });
+  assert.deepEqual(repoAusAdresse('freund.github.io', '/meine-karten/index.html'), { owner: 'freund', repo: 'meine-karten' });
+  assert.deepEqual(repoAusAdresse('freund.github.io', '/'), { owner: 'freund', repo: 'freund.github.io' });
+  assert.equal(repoAusAdresse('127.0.0.1', '/index.html'), null);
 });

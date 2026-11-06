@@ -15,7 +15,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  pruefen:
+    # Kopie der Vorlage ohne eigene Schlüssel: Lauf überspringen statt fehlschlagen.
+    runs-on: ubuntu-latest
+    outputs:
+      bereit: ${{ steps.schluessel.outputs.bereit }}
+    steps:
+      - id: schluessel
+        env:
+          SCHLUESSEL: ${{ secrets.EBAY_CLIENT_ID }}
+        run: |
+          if [ -n "$SCHLUESSEL" ]; then echo "bereit=ja" >> "$GITHUB_OUTPUT"
+          else echo "::notice::Kein eBay-Schlüssel eingetragen (Secrets EBAY_CLIENT_ID/EBAY_CLIENT_SECRET), Suchlauf übersprungen. Anleitung: README."; fi
+
   suche:
+    needs: pruefen
+    if: needs.pruefen.outputs.bereit == 'ja'
     runs-on: ubuntu-latest
     timeout-minutes: 60
     environment:

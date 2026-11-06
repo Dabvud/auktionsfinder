@@ -13,7 +13,22 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  pruefen:
+    # Kopie der Vorlage ohne eigene Schlüssel: Lauf überspringen statt fehlschlagen.
+    runs-on: ubuntu-latest
+    outputs:
+      bereit: ${{ steps.schluessel.outputs.bereit }}
+    steps:
+      - id: schluessel
+        env:
+          SCHLUESSEL: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: |
+          if [ -n "$SCHLUESSEL" ]; then echo "bereit=ja" >> "$GITHUB_OUTPUT"
+          else echo "::notice::Kein football-data-Schlüssel eingetragen (Secret FOOTBALL_DATA_KEY), Kader-Import übersprungen. Anleitung: README."; fi
+
   kader:
+    needs: pruefen
+    if: needs.pruefen.outputs.bereit == 'ja'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -37,6 +52,7 @@ jobs:
           git commit -q -m "Kader $(date -u +%Y-%m)"
           for versuch in 1 2 3; do
             git pull --rebase -q && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
             sleep 5
           done
           exit 1

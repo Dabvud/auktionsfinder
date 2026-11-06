@@ -1,8 +1,9 @@
 import { STANDARD, filtere, findeSpieler } from './filter.js';
-import { GitHub } from './github.js';
+import { GitHub, repoAusAdresse } from './github.js';
 
-const OWNER = 'Dabvud';
-const REPO = 'auktionsfinder';
+// Jede Kopie der Vorlage arbeitet mit ihrem eigenen Repo; lokal (Test) mit der Vorlage.
+const { owner: OWNER, repo: REPO } = repoAusAdresse(location.hostname, location.pathname)
+  || { owner: 'Dabvud', repo: 'auktionsfinder' };
 const SCHLUESSEL_TOKEN = 'auktionsfinder.token';
 const SCHLUESSEL_FILTER = 'auktionsfinder.filter';
 const SEITE = 60;

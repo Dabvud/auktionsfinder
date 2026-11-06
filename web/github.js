@@ -106,3 +106,12 @@ export class GitHub {
     return { status: lauf.status, conclusion: lauf.conclusion, erstellt: lauf.created_at };
   }
 }
+
+/** Besitzer und Repo aus der Pages-Adresse (<besitzer>.github.io/<repo>/); außerhalb von GitHub Pages null. */
+export function repoAusAdresse(host, pfad) {
+  const treffer = host.match(/^([^.]+)\.github\.io$/i);
+  if (!treffer) return null;
+  const erster = pfad.split('/').filter(Boolean)[0];
+  const repo = erster && !erster.includes('.') ? erster : host;
+  return { owner: treffer[1], repo };
+}
