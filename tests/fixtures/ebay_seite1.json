@@ -1,0 +1,71 @@
+{
+ "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=auto&limit=2&category_ids=261328&filter=buyingOptions%3A%7BAUCTION%7D%2CdeliveryCountry%3ADE&offset=0",
+ "total": 3,
+ "next": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=auto&limit=2&category_ids=261328&filter=buyingOptions%3A%7BAUCTION%7D%2CdeliveryCountry%3ADE&offset=2",
+ "limit": 2,
+ "offset": 0,
+ "itemSummaries": [
+  {
+   "itemId": "v1|100000000001|0",
+   "title": "Topps Marco Reus Auto",
+   "leafCategoryIds": [
+    "261328"
+   ],
+   "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/100000000001/s-l225.jpg"
+   },
+   "buyingOptions": [
+    "AUCTION"
+   ],
+   "currentBidPrice": {
+    "value": "12.50",
+    "currency": "EUR"
+   },
+   "bidCount": 3,
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "1.80",
+      "currency": "EUR"
+     }
+    }
+   ],
+   "itemWebUrl": "https://www.ebay.de/itm/100000000001",
+   "itemCreationDate": "2026-11-01T12:00:00Z",
+   "itemEndDate": "2026-11-07T12:00:00Z",
+   "listingMarketplaceId": "EBAY_DE"
+  },
+  {
+   "itemId": "v1|100000000002|0",
+   "title": "Topps Erling Haaland Patch /99",
+   "leafCategoryIds": [
+    "261328"
+   ],
+   "image": {
+    "imageUrl": "https://i.ebayimg.com/images/g/100000000002/s-l225.jpg"
+   },
+   "buyingOptions": [
+    "AUCTION"
+   ],
+   "currentBidPrice": {
+    "value": "20.00",
+    "currency": "EUR"
+   },
+   "bidCount": 3,
+   "shippingOptions": [
+    {
+     "shippingCostType": "FIXED",
+     "shippingCost": {
+      "value": "1.80",
+      "currency": "EUR"
+     }
+    }
+   ],
+   "itemWebUrl": "https://www.ebay.de/itm/100000000002",
+   "itemCreationDate": "2026-11-01T12:00:00Z",
+   "itemEndDate": "2026-11-08T12:00:00Z",
+   "listingMarketplaceId": "EBAY_DE"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "itemId": "v1|100000000004|0",
+ "title": "Topps Marco Reus Base",
+ "leafCategoryIds": [
+  "261328"
+ ],
+ "image": {
+  "imageUrl": "https://i.ebayimg.com/images/g/100000000004/s-l225.jpg"
+ },
+ "buyingOptions": [
+  "AUCTION"
+ ],
+ "bidCount": 0,
+ "itemWebUrl": "https://www.ebay.de/itm/100000000004",
+ "itemCreationDate": "2026-11-01T12:00:00Z",
+ "itemEndDate": "2026-11-07T12:00:00Z",
+ "listingMarketplaceId": "EBAY_DE",
+ "price": {
+  "value": "0.99",
+  "currency": "EUR"
+ }
+}
