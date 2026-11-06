@@ -12,7 +12,7 @@ const LIGEN = {
   BL1: 'Bundesliga', PL: 'Premier League', PD: 'LaLiga', SA: 'Serie A',
   FL1: 'Ligue 1', DED: 'Eredivisie', PPL: 'Primeira Liga',
 };
-const GRUPPEN = { 'bvb-seit-2000': 'BVB seit 2000', 'bvb-legende': 'BVB-Legenden', 'fifa-kult': 'FIFA-Kult' };
+const GRUPPEN = { favorit: 'Favoriten', 'bvb-seit-2000': 'BVB seit 2000', 'bvb-legende': 'BVB-Legenden', 'fifa-kult': 'FIFA-Kult' };
 
 const $ = id => document.getElementById(id);
 const geld = new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' });
@@ -25,6 +25,7 @@ const zustand = {
   vereine: {},
   kartentypen: { typen: {} },
   suchen: [],
+  favoriten: [],
   laufend: [],
   archiv: [],
   tage: [],
@@ -59,13 +60,14 @@ async function json(pfad, standard) {
 }
 
 async function ladeAlles() {
-  const [status, laufend, spieler, vereine, kartentypen, suchen, index] = await Promise.all([
+  const [status, laufend, spieler, vereine, kartentypen, suchen, favoriten, index] = await Promise.all([
     json('daten/status.json', null),
     json('daten/laufend.json', { auktionen: [] }),
     json('daten/spieler.json', { spieler: [] }),
     json('daten/vereine.json', {}),
     json('daten/kartentypen.json', { typen: {} }),
     json('daten/suchen.json', { suchen: [] }),
+    json('daten/favoriten.json', { namen: [] }),
     json('daten/archiv/index.json', { tage: [] }),
   ]);
   zustand.laufend = laufend.auktionen || [];
@@ -74,10 +76,13 @@ async function ladeAlles() {
   zustand.vereine = vereine;
   zustand.kartentypen = kartentypen;
   zustand.suchen = suchen.suchen || [];
+  zustand.favoriten = favoriten.namen || [];
+  markiereFavoriten();
   zustand.tage = index.tage || [];
   zeigeStatus(status);
   baueAuswahlen();
   baueSuchen();
+  baueFavoriten();
   setzeFilterfelder();
   if (zustand.ansicht === 'archiv') await ladeArchiv();
   zeichne();
@@ -297,6 +302,112 @@ async function loescheSuche(suche) {
   }
 }
 
+/* ---------- Favoriten ---------- */
+function markiereFavoriten() {
+  const namen = new Set(zustand.favoriten.map(name => name.toLowerCase()));
+  for (const s of Object.values(zustand.spieler)) {
+    s.gruppen = (s.gruppen || []).filter(gruppe => gruppe !== 'favorit');
+    if (namen.has(s.name.toLowerCase())) s.gruppen.push('favorit');
+  }
+}
+
+function baueFavoriten() {
+  const mitSchluessel = Boolean(lies(SCHLUESSEL_TOKEN));
+  const hinweis = $('favorit-hinweis');
+  const zugangstext = 'Zum Bearbeiten Zugangsschlüssel in den Einstellungen eintragen.';
+  $('favorit-form').hidden = !mitSchluessel;
+  if (!mitSchluessel) hinweis.textContent = zugangstext;
+  else if (hinweis.textContent === zugangstext) hinweis.textContent = '';
+
+  const leiste = $('favoriten-leiste');
+  if (!zustand.favoriten.length) {
+    leiste.replaceChildren(element('p', 'suchen-leer', 'Noch keine Favoriten. Namen eingeben und hinzufügen.'));
+    return;
+  }
+  leiste.replaceChildren(...zustand.favoriten.map(name => {
+    const id = zustand.spielerNachName.get(name.toLowerCase());
+    const chip = element('span', 'suche-chip');
+    const knopf = element('button', '', name);
+    knopf.type = 'button';
+    if (!id) knopf.append(element('small', '', 'neu'));
+    knopf.addEventListener('click', () => {
+      if (!id) {
+        hinweis.textContent = 'Wird beim nächsten Suchlauf angelegt.';
+        return;
+      }
+      zustand.filter.spieler = id;
+      zustand.aktiveSuche = null;
+      zustand.angezeigt = SEITE;
+      setzeFilterfelder();
+      $('f-spieler').value = name;
+      liesFilterfelder();
+      baueSuchen();
+      zeichne();
+    });
+    chip.append(knopf);
+    if (mitSchluessel) {
+      const weg = element('button', 'entfernen', '×');
+      weg.type = 'button';
+      weg.setAttribute('aria-label', `Favorit „${name}“ entfernen`);
+      weg.addEventListener('click', () => entferneFavorit(name));
+      chip.append(weg);
+    }
+    return chip;
+  }));
+}
+
+async function aendereFavoriten(aenderung, nachricht) {
+  let geaendert;
+  await zustand.gh.aendereJson('daten/favoriten.json', daten => (geaendert = aenderung(daten)), nachricht);
+  zustand.favoriten = geaendert.namen;
+}
+
+async function speichereFavorit() {
+  if (!lies(SCHLUESSEL_TOKEN)) return;
+  let name = $('favorit-name').value.trim().replace(/\s+/g, ' ');
+  if (!name) return;
+  if (zustand.favoriten.some(n => n.toLowerCase() === name.toLowerCase())) {
+    $('favorit-hinweis').textContent = 'Steht schon in den Favoriten.';
+    return;
+  }
+  const id = zustand.spielerNachName.get(name.toLowerCase());
+  if (id) name = zustand.spieler[id].name;
+  try {
+    await aendereFavoriten(d => ({
+      ...d, namen: [...(d.namen || []).filter(n => n.toLowerCase() !== name.toLowerCase()), name],
+    }), `Favorit „${name}“ hinzufügen`);
+    $('favorit-name').value = '';
+    $('favorit-hinweis').textContent = id ? `${name} ist jetzt Favorit.`
+      : `${name} ist neu und wird beim nächsten Suchlauf angelegt und gesucht.`;
+    markiereFavoriten();
+    baueFavoriten();
+    zeichne();
+  } catch (fehler) {
+    const text = `Favorit nicht gespeichert: ${fehler.message}`;
+    $('favorit-hinweis').textContent = text;
+    $('lauf-text').textContent = text;
+    $('lauf-text').classList.add('fehler');
+  }
+}
+
+async function entferneFavorit(name) {
+  if (!lies(SCHLUESSEL_TOKEN)) return;
+  try {
+    await aendereFavoriten(d => ({
+      ...d, namen: (d.namen || []).filter(n => n.toLowerCase() !== name.toLowerCase()),
+    }), `Favorit „${name}“ entfernen`);
+    $('favorit-hinweis').textContent = `${name} wurde aus den Favoriten entfernt.`;
+    markiereFavoriten();
+    baueFavoriten();
+    zeichne();
+  } catch (fehler) {
+    const text = `Favorit nicht entfernt: ${fehler.message}`;
+    $('favorit-hinweis').textContent = text;
+    $('lauf-text').textContent = text;
+    $('lauf-text').classList.add('fehler');
+  }
+}
+
 /* ---------- Liste ---------- */
 function bildUrl(bild) {
   return bild.startsWith('http') ? bild : `https://i.ebayimg.com/images/g/${encodeURIComponent(bild)}/s-l225.jpg`;
@@ -407,6 +518,8 @@ async function speichereToken() {
   if (!token) { $('token-hinweis').textContent = 'Bitte einen Schlüssel einfügen.'; return; }
   schreib(SCHLUESSEL_TOKEN, token);
   neuerClient();
+  baueSuchen();
+  baueFavoriten();
   $('token-hinweis').textContent = 'Prüfe Schlüssel …';
   try {
     await zustand.gh.letzterLauf();
@@ -430,8 +543,13 @@ function verdrahte() {
     $('token-hinweis').textContent = 'Schlüssel entfernt.';
     aktualisiereKnoepfe();
     baueSuchen();
+    baueFavoriten();
   });
   $('jetzt-suchen').addEventListener('click', jetztSuchen);
+  $('favorit-form').addEventListener('submit', e => {
+    e.preventDefault();
+    speichereFavorit();
+  });
 
   for (const id of ['f-typ', 'f-liga', 'f-verein', 'f-gruppe', 'f-zeit', 'f-verdaechtig', 'f-ohne']) {
     $(id).addEventListener('change', () => {

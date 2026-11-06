@@ -80,6 +80,19 @@ main { max-width: 1200px; margin: 0 auto; padding: 12px 16px 48px; }
 .speichern-zeile { display: flex; gap: 8px; margin-top: 4px; flex-wrap: wrap; }
 .speichern-zeile input { flex: 1 1 180px; }
 
+/* Favoriten */
+.favoriten { margin-top: 14px; }
+.favoriten h2 { margin: 0 0 4px; font-size: 14px; font-weight: 600; color: var(--tinte-leise); }
+.favoriten .suchen-leiste { flex-wrap: wrap; overflow-x: visible; }
+.favoriten .suche-chip { min-width: 0; max-width: 100%; }
+.favoriten .suche-chip button { min-width: 0; overflow-wrap: anywhere; }
+.favoriten .suche-chip .entfernen { flex: none; }
+.favoriten small { margin-left: 6px; font-weight: 400; color: var(--tinte-leise); }
+#favorit-form { display: flex; gap: 8px; margin-top: 10px; }
+#favorit-name { flex: 1; min-width: 0; }
+#favorit-form button { flex: none; }
+#favorit-hinweis { margin-bottom: 0; overflow-wrap: anywhere; }
+
 /* Filter */
 .filter {
   margin-top: 14px; background: var(--flaeche); border: 1px solid var(--linie); border-radius: 14px;

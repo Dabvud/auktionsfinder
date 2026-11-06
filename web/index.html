@@ -38,6 +38,16 @@
     </form>
   </section>
 
+  <section class="favoriten" aria-label="Favoriten">
+    <h2>Favoriten</h2>
+    <div class="suchen-leiste" id="favoriten-leiste"></div>
+    <form id="favorit-form" hidden>
+      <input id="favorit-name" type="text" list="spieler-liste" autocomplete="off" maxlength="60" placeholder="Spieler hinzufügen" aria-label="Spieler hinzufügen">
+      <button type="submit" class="knopf-haupt">Hinzufügen</button>
+    </form>
+    <p id="favorit-hinweis" class="hinweis" aria-live="polite"></p>
+  </section>
+
   <details class="filter" id="filter-box" open>
     <summary><span>Filter</span><span id="filter-zahl" class="filter-zahl"></span></summary>
     <div class="filter-raster">
