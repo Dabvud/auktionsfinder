@@ -17,5 +17,8107 @@
   "lee",
   "nunez"
  ],
- "spieler": []
+ "spieler": [
+  {
+   "id": "wolfgang-de-beer",
+   "name": "Wolfgang de Beer",
+   "suchnamen": [
+    "teddy de beer"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1986,
+     "bis": 2001
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lars-ricken",
+   "name": "Lars Ricken",
+   "suchnamen": [
+    "ricken"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1993,
+     "bis": 2007
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "andreas-moller",
+   "name": "Andreas Möller",
+   "suchnamen": [
+    "andreas moeller"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1994,
+     "bis": 2000
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jurgen-kohler",
+   "name": "Jürgen Kohler",
+   "suchnamen": [
+    "juergen kohler"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1995,
+     "bis": 2002
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "dede",
+   "name": "Dedê",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1998,
+     "bis": 2011
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "karsten-baumann",
+   "name": "Karsten Baumann",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1998,
+     "bis": 2000
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "evanilson",
+   "name": "Evanilson",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1999,
+     "bis": 2005
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "fredi-bobic",
+   "name": "Fredi Bobic",
+   "suchnamen": [
+    "bobic"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1999,
+     "bis": 2002
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "giuseppe-reina",
+   "name": "Giuseppe Reina",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1999,
+     "bis": 2004
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jens-lehmann",
+   "name": "Jens Lehmann",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1999,
+     "bis": 2003
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "miroslav-stevic",
+   "name": "Miroslav Stević",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1999,
+     "bis": 2002
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "otto-addo",
+   "name": "Otto Addo",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1999,
+     "bis": 2005
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "christoph-metzelder",
+   "name": "Christoph Metzelder",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2000,
+     "bis": 2007
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "emmanuel-krontiris",
+   "name": "Emmanuel Krontiris",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2000,
+     "bis": 2004
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ewerthon",
+   "name": "Ewerthon",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2005
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "florian-kringe",
+   "name": "Florian Kringe",
+   "suchnamen": [
+    "kringe"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jan-koller",
+   "name": "Jan Koller",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2006
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "juan-ramon-fernandez",
+   "name": "Juan Ramón Fernández",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2005
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "michael-ratajczak",
+   "name": "Michael Ratajczak",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2003
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marcio-amoroso",
+   "name": "Márcio Amoroso",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2004
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "tomas-rosicky",
+   "name": "Tomáš Rosický",
+   "suchnamen": [
+    "rosicky"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2001,
+     "bis": 2006
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "david-odonkor",
+   "name": "David Odonkor",
+   "suchnamen": [
+    "odonkor"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2002,
+     "bis": 2006
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "roman-weidenfeller",
+   "name": "Roman Weidenfeller",
+   "suchnamen": [
+    "weidenfeller"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2002,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sebastian-kehl",
+   "name": "Sebastian Kehl",
+   "suchnamen": [
+    "kehl"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2002,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "torsten-frings",
+   "name": "Torsten Frings",
+   "suchnamen": [
+    "frings"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2002,
+     "bis": 2004
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nuri-sahin",
+   "name": "Nuri Şahin",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2005,
+     "bis": 2011
+    },
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2014
+    },
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alexander-frei",
+   "name": "Alexander Frei",
+   "suchnamen": [
+    "alex frei"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2006,
+     "bis": 2009
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nelson-valdez",
+   "name": "Nelson Valdez",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2006,
+     "bis": 2010
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "steven-pienaar",
+   "name": "Steven Pienaar",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2006,
+     "bis": 2008
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "soren-pirson",
+   "name": "Sören Pirson",
+   "suchnamen": [
+    "soeren pirson",
+    "pirson"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2006,
+     "bis": 2007
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "tinga",
+   "name": "Tinga",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2006,
+     "bis": 2010
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marc-ziegler",
+   "name": "Marc Ziegler",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2007,
+     "bis": 2010
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mladen-petric",
+   "name": "Mladen Petrić",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2007,
+     "bis": 2008
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nico-hillenbrand",
+   "name": "Nico Hillenbrand",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2007,
+     "bis": 2007
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "robert-kovac",
+   "name": "Robert Kovač",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2007,
+     "bis": 2008
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lee-young-pyo",
+   "name": "Lee Young-pyo",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2009
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marcel-schmelzer",
+   "name": "Marcel Schmelzer",
+   "suchnamen": [
+    "schmelzer"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mats-hummels",
+   "name": "Mats Hummels",
+   "suchnamen": [
+    "hummels"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2009
+    },
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2016
+    },
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mohamed-zidan",
+   "name": "Mohamed Zidan",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "neven-subotic",
+   "name": "Neven Subotić",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "patrick-owomoyela",
+   "name": "Patrick Owomoyela",
+   "suchnamen": [
+    "owomoyela"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "tamas-hajnal",
+   "name": "Tamás Hajnal",
+   "suchnamen": [
+    "hajnal"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2010
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "christopher-kullmann",
+   "name": "Christopher Kullmann",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2011
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julian-koch",
+   "name": "Julian Koch",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kevin-grosskreutz",
+   "name": "Kevin Großkreutz",
+   "suchnamen": [
+    "grosskreutz"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kevin-prince-boateng",
+   "name": "Kevin-Prince Boateng",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2009
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lucas-barrios",
+   "name": "Lucas Barrios",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "markus-feulner",
+   "name": "Markus Feulner",
+   "suchnamen": [
+    "feulner"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2011
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sven-bender",
+   "name": "Sven Bender",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2009,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "antonio-da-silva",
+   "name": "Antônio da Silva",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "daniel-ginczek",
+   "name": "Daniel Ginczek",
+   "suchnamen": [
+    "ginczek"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "johannes-focher",
+   "name": "Johannes Focher",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lasse-sobiech",
+   "name": "Lasse Sobiech",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lukas-nottbeck",
+   "name": "Lukas Nottbeck",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2010
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mitchell-langerak",
+   "name": "Mitchell Langerak",
+   "suchnamen": [
+    "langerak"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "robert-lewandowski",
+   "name": "Robert Lewandowski",
+   "suchnamen": [
+    "lewandowski"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "shinji-kagawa",
+   "name": "Shinji Kagawa",
+   "suchnamen": [
+    "kagawa"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ukasz-piszczek",
+   "name": "Łukasz Piszczek",
+   "suchnamen": [
+    "lukasz piszczek",
+    "piszczek"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2010,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "chris-lowe",
+   "name": "Chris Löwe",
+   "suchnamen": [
+    "chris loewe"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2011,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ivan-perisic",
+   "name": "Ivan Perišić",
+   "suchnamen": [
+    "perisic"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2011,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marvin-bakalorz",
+   "name": "Marvin Bakalorz",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2011,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "moritz-leitner",
+   "name": "Moritz Leitner",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2011,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mustafa-amini",
+   "name": "Mustafa Amini",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2011,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ilkay-gundogan",
+   "name": "İlkay Gündoğan",
+   "suchnamen": [
+    "gundogan",
+    "guendogan",
+    "ilkay guendogan"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2011,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "balint-bajner",
+   "name": "Bálint Bajner",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jonas-hofmann",
+   "name": "Jonas Hofmann",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julian-schieber",
+   "name": "Julian Schieber",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "leonardo-bittencourt",
+   "name": "Leonardo Bittencourt",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marco-reus",
+   "name": "Marco Reus",
+   "suchnamen": [
+    "reus"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "oliver-kirch",
+   "name": "Oliver Kirch",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "zlatan-alomerovic",
+   "name": "Zlatan Alomerović",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2012,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "erik-durm",
+   "name": "Erik Durm",
+   "suchnamen": [
+    "durm"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "henrich-mchitarjan",
+   "name": "Henrich Mchitarjan",
+   "suchnamen": [
+    "mchitarjan",
+    "mkhitaryan",
+    "henrikh mkhitaryan"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jannik-bandowski",
+   "name": "Jannik Bandowski",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "koray-gunter",
+   "name": "Koray Günter",
+   "suchnamen": [
+    "koray guenter"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "manuel-friedrich",
+   "name": "Manuel Friedrich",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marian-sarr",
+   "name": "Marian Sarr",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marvin-ducksch",
+   "name": "Marvin Ducksch",
+   "suchnamen": [
+    "ducksch"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "pierre-emerick-aubameyang",
+   "name": "Pierre-Emerick Aubameyang",
+   "suchnamen": [
+    "aubameyang",
+    "auba"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2018
+    },
+    {
+     "verein": "as-saint-etienne",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "arsenal",
+     "von": 2018,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000",
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sokratis",
+   "name": "Sokratis",
+   "suchnamen": [
+    "papastathopoulos",
+    "sokratis papastathopoulos"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "willy-aubameyang",
+   "name": "Willy Aubameyang",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2013,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "adrian-ramos",
+   "name": "Adrián Ramos",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2017
+    },
+    {
+     "verein": "hertha-bsc",
+     "von": 2009,
+     "bis": 2014
+    },
+    {
+     "verein": "granada",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000",
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ciro-immobile",
+   "name": "Ciro Immobile",
+   "suchnamen": [
+    "immobile"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ji-dong-won",
+   "name": "Ji Dong-won",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "joseph-claude-gyau",
+   "name": "Joseph-Claude Gyau",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "matthias-ginter",
+   "name": "Matthias Ginter",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "milos-jojic",
+   "name": "Miloš Jojić",
+   "suchnamen": [
+    "jojic"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mitsuru-maruoka",
+   "name": "Mitsuru Maruoka",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2014,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "adnan-januzaj",
+   "name": "Adnan Januzaj",
+   "suchnamen": [
+    "januzaj"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2013,
+     "bis": 2017
+    },
+    {
+     "verein": "real-sociedad",
+     "von": 2017,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000",
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gonzalo-castro",
+   "name": "Gonzalo Castro",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "hendrik-bonmann",
+   "name": "Hendrik Bonmann",
+   "suchnamen": [
+    "bonmann"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jeremy-dudziak",
+   "name": "Jeremy Dudziak",
+   "suchnamen": [
+    "dudziak"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julian-weigl",
+   "name": "Julian Weigl",
+   "suchnamen": [
+    "weigl"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "park-joo-ho",
+   "name": "Park Joo-ho",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "pascal-stenzel",
+   "name": "Pascal Stenzel",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "roman-burki",
+   "name": "Roman Bürki",
+   "suchnamen": [
+    "roman buerki"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2015,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "andre-schurrle",
+   "name": "André Schürrle",
+   "suchnamen": [
+    "andre schuerrle",
+    "schurrle",
+    "schuerrle"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2020
+    },
+    {
+     "verein": "bayer-leverkusen",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "chelsea",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2015,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000",
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "christian-pulisic",
+   "name": "Christian Pulisic",
+   "suchnamen": [
+    "pulisic"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2019
+    },
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "dzenis-burnic",
+   "name": "Dženis Burnić",
+   "suchnamen": [
+    "burnic"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "emre-mor",
+   "name": "Emre Mor",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "felix-passlack",
+   "name": "Felix Passlack",
+   "suchnamen": [
+    "passlack"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marc-bartra",
+   "name": "Marc Bartra",
+   "suchnamen": [
+    "bartra"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mikel-merino",
+   "name": "Mikel Merino",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ousmane-dembele",
+   "name": "Ousmane Dembélé",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2017
+    },
+    {
+     "verein": "stade-rennes",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "fc-barcelona",
+     "von": 2017,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000",
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "raphael-guerreiro",
+   "name": "Raphaël Guerreiro",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sebastian-rode",
+   "name": "Sebastian Rode",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alexander-isak",
+   "name": "Alexander Isak",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "andrij-jarmolenko",
+   "name": "Andrij Jarmolenko",
+   "suchnamen": [
+    "jarmolenko",
+    "yarmolenko",
+    "andriy yarmolenko",
+    "andrey yarmolenko"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "eike-bansen",
+   "name": "Eike Bansen",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jadon-sancho",
+   "name": "Jadon Sancho",
+   "suchnamen": [
+    "sancho"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2021
+    },
+    {
+     "verein": "bvb",
+     "von": 2024,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jeremy-toljan",
+   "name": "Jeremy Toljan",
+   "suchnamen": [
+    "toljan"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jurgen-damm",
+   "name": "Jürgen Damm",
+   "suchnamen": [
+    "juergen damm"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mahmoud-dahoud",
+   "name": "Mahmoud Dahoud",
+   "suchnamen": [
+    "dahoud"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "maximilian-philipp",
+   "name": "Maximilian Philipp",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "niklas-beste",
+   "name": "Niklas Beste",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sergio-gomez",
+   "name": "Sergio Gómez",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "omer-toprak",
+   "name": "Ömer Toprak",
+   "suchnamen": [
+    "oemer toprak"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "abdou-diallo",
+   "name": "Abdou Diallo",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "achraf-hakimi",
+   "name": "Achraf Hakimi",
+   "suchnamen": [
+    "hakimi"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "axel-witsel",
+   "name": "Axel Witsel",
+   "suchnamen": [
+    "witsel"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "manuel-akanji",
+   "name": "Manuel Akanji",
+   "suchnamen": [
+    "akanji"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marius-wolf",
+   "name": "Marius Wolf",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marwin-hitz",
+   "name": "Marwin Hitz",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "michy-batshuayi",
+   "name": "Michy Batshuayi",
+   "suchnamen": [
+    "batshuayi"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "paco-alcacer",
+   "name": "Paco Alcácer",
+   "suchnamen": [
+    "alcacer"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "thomas-delaney",
+   "name": "Thomas Delaney",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gio-reyna",
+   "name": "Gio Reyna",
+   "suchnamen": [
+    "giovanni reyna"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julian-brandt",
+   "name": "Julian Brandt",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2026
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "leonardo-balerdi",
+   "name": "Leonardo Balerdi",
+   "suchnamen": [
+    "balerdi"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mateu-morey",
+   "name": "Mateu Morey",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nico-schulz",
+   "name": "Nico Schulz",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "thorgan-hazard",
+   "name": "Thorgan Hazard",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2019,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ansgar-knauff",
+   "name": "Ansgar Knauff",
+   "suchnamen": [
+    "knauff"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "emre-can",
+   "name": "Emre Can",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2020
+    },
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "erling-haaland",
+   "name": "Erling Haaland",
+   "suchnamen": [
+    "haaland",
+    "erling braut haaland"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jude-bellingham",
+   "name": "Jude Bellingham",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "reinier",
+   "name": "Reinier",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "thomas-meunier",
+   "name": "Thomas Meunier",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "youssoufa-moukoko",
+   "name": "Youssoufa Moukoko",
+   "suchnamen": [
+    "moukoko"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2020,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "donyell-malen",
+   "name": "Donyell Malen",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2021,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gregor-kobel",
+   "name": "Gregor Kobel",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2021,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lennard-maloney",
+   "name": "Lennard Maloney",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2021,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "steffen-tigges",
+   "name": "Steffen Tigges",
+   "suchnamen": [
+    "tigges"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2021,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "anthony-modeste",
+   "name": "Anthony Modeste",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "cole-campbell",
+   "name": "Cole Campbell",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jamie-gittens",
+   "name": "Jamie Gittens",
+   "suchnamen": [
+    "bynoe gittens",
+    "jamie bynoe gittens"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "karim-adeyemi",
+   "name": "Karim Adeyemi",
+   "suchnamen": [
+    "adeyemi"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": 2026
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nico-schlotterbeck",
+   "name": "Nico Schlotterbeck",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "niklas-sule",
+   "name": "Niklas Süle",
+   "suchnamen": [
+    "sule",
+    "suele",
+    "niklas suele"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": 2026
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "salih-ozcan",
+   "name": "Salih Özcan",
+   "suchnamen": [
+    "salih oezcan"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": 2026
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sebastien-haller",
+   "name": "Sébastien Haller",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2022,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julian-ryerson",
+   "name": "Julian Ryerson",
+   "suchnamen": [
+    "ryerson"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2023,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marcel-sabitzer",
+   "name": "Marcel Sabitzer",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2023,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "niclas-fullkrug",
+   "name": "Niclas Füllkrug",
+   "suchnamen": [
+    "fullkrug",
+    "fuellkrug",
+    "niclas fuellkrug"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2023,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ian-maatsen",
+   "name": "Ian Maatsen",
+   "suchnamen": [
+    "maatsen"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2024,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "maximilian-beier",
+   "name": "Maximilian Beier",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2024,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "pascal-gross",
+   "name": "Pascal Groß",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2024,
+     "bis": 2026
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "serhou-guirassy",
+   "name": "Serhou Guirassy",
+   "suchnamen": [
+    "guirassy"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2024,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "carney-chukwuemeka",
+   "name": "Carney Chukwuemeka",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2025,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "daniel-svensson",
+   "name": "Daniel Svensson",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2025,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "patrick-drewes",
+   "name": "Patrick Drewes",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2025,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ethan-nwaneri",
+   "name": "Ethan Nwaneri",
+   "suchnamen": [
+    "nwaneri"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2026,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "giannis-konstantelias",
+   "name": "Giannis Konstantelias",
+   "suchnamen": [
+    "konstantelias"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2026,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "joey-veerman",
+   "name": "Joey Veerman",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2026,
+     "bis": null
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-seit-2000"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "august-lenz",
+   "name": "August Lenz",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1930,
+     "bis": 1949
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "max-michallek",
+   "name": "Max Michallek",
+   "suchnamen": [
+    "maximilian michallek",
+    "michallek"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1947,
+     "bis": 1960
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "erich-schanko",
+   "name": "Erich Schanko",
+   "suchnamen": [
+    "schanko"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1947,
+     "bis": 1957
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alfred-preissler",
+   "name": "Alfred Preißler",
+   "suchnamen": [
+    "adi preissler",
+    "ady preissler",
+    "addi preissler"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1946,
+     "bis": 1949
+    },
+    {
+     "verein": "preussen-muenster",
+     "von": 1949,
+     "bis": 1951
+    },
+    {
+     "verein": "bvb",
+     "von": 1951,
+     "bis": 1959
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "heinrich-kwiatkowski",
+   "name": "Heinrich Kwiatkowski",
+   "suchnamen": [
+    "heinz kwiatkowski",
+    "heini kwiatkowski",
+    "kwiatkowski"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1952,
+     "bis": 1966
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "herbert-sandmann",
+   "name": "Herbert Sandmann",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1947,
+     "bis": 1949
+    },
+    {
+     "verein": "werder-bremen",
+     "von": 1949,
+     "bis": 1951
+    },
+    {
+     "verein": "bvb",
+     "von": 1951,
+     "bis": 1960
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alfred-niepieklo",
+   "name": "Alfred Niepieklo",
+   "suchnamen": [
+    "niepieklo"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1951,
+     "bis": 1960
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "elwin-schlebrowski",
+   "name": "Elwin Schlebrowski",
+   "suchnamen": [
+    "schlebrowski"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1951,
+     "bis": 1960
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "wilhelm-burgsmuller",
+   "name": "Wilhelm Burgsmüller",
+   "suchnamen": [
+    "willi burgsmuller",
+    "willi burgsmueller",
+    "wilhelm burgsmueller"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1951,
+     "bis": 1964
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "helmut-kapitulski",
+   "name": "Helmut Kapitulski",
+   "suchnamen": [
+    "kapitulski"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1953,
+     "bis": 1957
+    },
+    {
+     "verein": "fk-pirmasens",
+     "von": 1957,
+     "bis": 1964
+    },
+    {
+     "verein": "1-fc-kaiserslautern",
+     "von": 1964,
+     "bis": 1968
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alfred-kelbassa",
+   "name": "Alfred Kelbassa",
+   "suchnamen": [
+    "fred kelbassa",
+    "freddy kelbassa",
+    "kelbassa"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1954,
+     "bis": 1963
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "wolfgang-peters",
+   "name": "Wolfgang Peters",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1954,
+     "bis": 1963
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "helmut-bracht",
+   "name": "Helmut Bracht",
+   "suchnamen": [
+    "jockel bracht"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1955,
+     "bis": 1964
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alfred-schmidt",
+   "name": "Alfred Schmidt",
+   "suchnamen": [
+    "aki schmidt",
+    "alfred aki schmidt"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1956,
+     "bis": 1968
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "timo-konietzka",
+   "name": "Timo Konietzka",
+   "suchnamen": [
+    "friedhelm konietzka",
+    "konietzka"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1958,
+     "bis": 1965
+    },
+    {
+     "verein": "1860-muenchen",
+     "von": 1965,
+     "bis": 1967
+    },
+    {
+     "verein": "fc-winterthur",
+     "von": 1967,
+     "bis": 1971
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jurgen-schutz",
+   "name": "Jürgen Schütz",
+   "suchnamen": [
+    "juergen schuetz",
+    "charly schutz",
+    "charly schuetz",
+    "charlie schutz"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1959,
+     "bis": 1963
+    },
+    {
+     "verein": "as-rom",
+     "von": 1963,
+     "bis": 1967
+    },
+    {
+     "verein": "bvb",
+     "von": 1969,
+     "bis": 1972
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "bernhard-wessel",
+   "name": "Bernhard Wessel",
+   "suchnamen": [
+    "bernd wessel"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1959,
+     "bis": 1969
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gerhard-cyliax",
+   "name": "Gerhard Cyliax",
+   "suchnamen": [
+    "gerd cyliax",
+    "cyliax"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1959,
+     "bis": 1968
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lothar-emmerich",
+   "name": "Lothar Emmerich",
+   "suchnamen": [
+    "emma emmerich",
+    "emmerich"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1960,
+     "bis": 1969
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "dieter-kurrat",
+   "name": "Dieter Kurrat",
+   "suchnamen": [
+    "hoppy kurrat",
+    "hoppi kurrat",
+    "kurrat"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1960,
+     "bis": 1974
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "wolfgang-paul",
+   "name": "Wolfgang Paul",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1961,
+     "bis": 1970
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "reinhold-wosab",
+   "name": "Reinhold Wosab",
+   "suchnamen": [
+    "wosab"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1962,
+     "bis": 1971
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "wilhelm-sturm",
+   "name": "Wilhelm Sturm",
+   "suchnamen": [
+    "willi sturm"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1961,
+     "bis": 1971
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "franz-brungs",
+   "name": "Franz Brungs",
+   "suchnamen": [
+    "brungs"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1963,
+     "bis": 1965
+    },
+    {
+     "verein": "1-fc-nuernberg",
+     "von": 1965,
+     "bis": 1968
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "hans-tilkowski",
+   "name": "Hans Tilkowski",
+   "suchnamen": [
+    "tilkowski"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1963,
+     "bis": 1967
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "rudi-assauer",
+   "name": "Rudi Assauer",
+   "suchnamen": [
+    "rudolf assauer",
+    "assauer"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1964,
+     "bis": 1970
+    },
+    {
+     "verein": "werder-bremen",
+     "von": 1970,
+     "bis": 1976
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "reinhard-libuda",
+   "name": "Reinhard Libuda",
+   "suchnamen": [
+    "stan libuda",
+    "libuda"
+   ],
+   "vereine": [
+    {
+     "verein": "schalke-04",
+     "von": 1961,
+     "bis": 1965
+    },
+    {
+     "verein": "bvb",
+     "von": 1965,
+     "bis": 1968
+    },
+    {
+     "verein": "schalke-04",
+     "von": 1968,
+     "bis": 1972
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "sigfried-held",
+   "name": "Sigfried Held",
+   "suchnamen": [
+    "sigi held",
+    "siggi held",
+    "siegfried held"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1965,
+     "bis": 1971
+    },
+    {
+     "verein": "kickers-offenbach",
+     "von": 1971,
+     "bis": 1977
+    },
+    {
+     "verein": "bvb",
+     "von": 1977,
+     "bis": 1979
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "theodor-redder",
+   "name": "Theodor Redder",
+   "suchnamen": [
+    "theo redder"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1962,
+     "bis": 1969
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "horst-bertram",
+   "name": "Horst Bertram",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1971,
+     "bis": 1983
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "peter-geyer",
+   "name": "Peter Geyer",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1975,
+     "bis": 1981
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "klaus-ackermann",
+   "name": "Klaus Ackermann",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1974,
+     "bis": 1979
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lothar-huber",
+   "name": "Lothar Huber",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1974,
+     "bis": 1987
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mirko-votava",
+   "name": "Mirko Votava",
+   "suchnamen": [
+    "votava"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1974,
+     "bis": 1982
+    },
+    {
+     "verein": "atletico-madrid",
+     "von": 1982,
+     "bis": 1985
+    },
+    {
+     "verein": "werder-bremen",
+     "von": 1985,
+     "bis": 1996
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "frank-pagelsdorf",
+   "name": "Frank Pagelsdorf",
+   "suchnamen": [
+    "pagelsdorf"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1984,
+     "bis": 1988
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "manfred-burgsmuller",
+   "name": "Manfred Burgsmüller",
+   "suchnamen": [
+    "manni burgsmuller",
+    "manni burgsmueller",
+    "manfred burgsmueller"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1976,
+     "bis": 1983
+    },
+    {
+     "verein": "1-fc-nuernberg",
+     "von": 1983,
+     "bis": 1984
+    },
+    {
+     "verein": "werder-bremen",
+     "von": 1985,
+     "bis": 1990
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "erwin-kostedde",
+   "name": "Erwin Kostedde",
+   "suchnamen": [
+    "kostedde"
+   ],
+   "vereine": [
+    {
+     "verein": "kickers-offenbach",
+     "von": 1971,
+     "bis": 1975
+    },
+    {
+     "verein": "bvb",
+     "von": 1976,
+     "bis": 1978
+    },
+    {
+     "verein": "werder-bremen",
+     "von": 1980,
+     "bis": 1982
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "stefan-klos",
+   "name": "Stefan Klos",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1990,
+     "bis": 1998
+    },
+    {
+     "verein": "glasgow-rangers",
+     "von": 1998,
+     "bis": 2007
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "eike-immel",
+   "name": "Eike Immel",
+   "suchnamen": [
+    "immel"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1978,
+     "bis": 1986
+    },
+    {
+     "verein": "vfb-stuttgart",
+     "von": 1986,
+     "bis": 1995
+    },
+    {
+     "verein": "manchester-city",
+     "von": 1995,
+     "bis": 1997
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "rolf-russmann",
+   "name": "Rolf Rüssmann",
+   "suchnamen": [
+    "rolf ruessmann",
+    "russmann",
+    "ruessmann"
+   ],
+   "vereine": [
+    {
+     "verein": "schalke-04",
+     "von": 1969,
+     "bis": 1973
+    },
+    {
+     "verein": "schalke-04",
+     "von": 1974,
+     "bis": 1980
+    },
+    {
+     "verein": "bvb",
+     "von": 1980,
+     "bis": 1985
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "rudiger-abramczik",
+   "name": "Rüdiger Abramczik",
+   "suchnamen": [
+    "ruediger abramczik",
+    "abramczik"
+   ],
+   "vereine": [
+    {
+     "verein": "schalke-04",
+     "von": 1973,
+     "bis": 1980
+    },
+    {
+     "verein": "bvb",
+     "von": 1980,
+     "bis": 1983
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "michael-zorc",
+   "name": "Michael Zorc",
+   "suchnamen": [
+    "susi zorc",
+    "zorc"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1981,
+     "bis": 1998
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marcel-raducanu",
+   "name": "Marcel Răducanu",
+   "suchnamen": [
+    "raducanu"
+   ],
+   "vereine": [
+    {
+     "verein": "steaua-bukarest",
+     "von": 1972,
+     "bis": 1981
+    },
+    {
+     "verein": "bvb",
+     "von": 1982,
+     "bis": 1988
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "michael-lusch",
+   "name": "Michael Lusch",
+   "suchnamen": [
+    "lusch"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1982,
+     "bis": 1993
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gunter-kutowski",
+   "name": "Günter Kutowski",
+   "suchnamen": [
+    "guenter kutowski",
+    "kutowski"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1984,
+     "bis": 1996
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "thomas-helmer",
+   "name": "Thomas Helmer",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1986,
+     "bis": 1992
+    },
+    {
+     "verein": "fc-bayern",
+     "von": 1992,
+     "bis": 1999
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "frank-mill",
+   "name": "Frank Mill",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "borussia-moenchengladbach",
+     "von": 1981,
+     "bis": 1986
+    },
+    {
+     "verein": "bvb",
+     "von": 1986,
+     "bis": 1994
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "norbert-dickel",
+   "name": "Norbert Dickel",
+   "suchnamen": [
+    "nobby dickel",
+    "dickel"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1986,
+     "bis": 1990
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "michael-rummenigge",
+   "name": "Michael Rummenigge",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "fc-bayern",
+     "von": 1982,
+     "bis": 1988
+    },
+    {
+     "verein": "bvb",
+     "von": 1988,
+     "bis": 1993
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gunter-breitzke",
+   "name": "Günter Breitzke",
+   "suchnamen": [
+    "guenter breitzke",
+    "breitzke"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1988,
+     "bis": 1992
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "flemming-povlsen",
+   "name": "Flemming Povlsen",
+   "suchnamen": [
+    "povlsen"
+   ],
+   "vereine": [
+    {
+     "verein": "1-fc-koeln",
+     "von": 1987,
+     "bis": 1989
+    },
+    {
+     "verein": "psv-eindhoven",
+     "von": 1989,
+     "bis": 1990
+    },
+    {
+     "verein": "bvb",
+     "von": 1990,
+     "bis": 1995
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "knut-reinhardt",
+   "name": "Knut Reinhardt",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bayer-leverkusen",
+     "von": 1985,
+     "bis": 1991
+    },
+    {
+     "verein": "bvb",
+     "von": 1991,
+     "bis": 1998
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "stephane-chapuisat",
+   "name": "Stéphane Chapuisat",
+   "suchnamen": [
+    "chapuisat",
+    "chappi chapuisat"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1991,
+     "bis": 1999
+    },
+    {
+     "verein": "grasshoppers",
+     "von": 1999,
+     "bis": 2002
+    },
+    {
+     "verein": "young-boys",
+     "von": 2002,
+     "bis": 2005
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "matthias-sammer",
+   "name": "Matthias Sammer",
+   "suchnamen": [
+    "sammer"
+   ],
+   "vereine": [
+    {
+     "verein": "vfb-stuttgart",
+     "von": 1990,
+     "bis": 1992
+    },
+    {
+     "verein": "inter-mailand",
+     "von": 1992,
+     "bis": 1993
+    },
+    {
+     "verein": "bvb",
+     "von": 1993,
+     "bis": 1998
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "karl-heinz-riedle",
+   "name": "Karl-Heinz Riedle",
+   "suchnamen": [
+    "kalle riedle",
+    "riedle"
+   ],
+   "vereine": [
+    {
+     "verein": "werder-bremen",
+     "von": 1987,
+     "bis": 1990
+    },
+    {
+     "verein": "lazio-rom",
+     "von": 1990,
+     "bis": 1993
+    },
+    {
+     "verein": "bvb",
+     "von": 1993,
+     "bis": 1997
+    },
+    {
+     "verein": "liverpool",
+     "von": 1997,
+     "bis": 1999
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "steffen-freund",
+   "name": "Steffen Freund",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "schalke-04",
+     "von": 1991,
+     "bis": 1993
+    },
+    {
+     "verein": "bvb",
+     "von": 1993,
+     "bis": 1999
+    },
+    {
+     "verein": "tottenham",
+     "von": 1999,
+     "bis": 2003
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julio-cesar-da-silva",
+   "name": "Júlio César da Silva",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "juventus",
+     "von": 1990,
+     "bis": 1994
+    },
+    {
+     "verein": "bvb",
+     "von": 1994,
+     "bis": 1999
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "paul-lambert",
+   "name": "Paul Lambert",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "motherwell",
+     "von": 1993,
+     "bis": 1996
+    },
+    {
+     "verein": "bvb",
+     "von": 1996,
+     "bis": 1997
+    },
+    {
+     "verein": "celtic",
+     "von": 1997,
+     "bis": 2005
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jurgen-wegmann",
+   "name": "Jürgen Wegmann",
+   "suchnamen": [
+    "juergen wegmann",
+    "kobra wegmann"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1984,
+     "bis": 1986
+    },
+    {
+     "verein": "schalke-04",
+     "von": 1986,
+     "bis": 1987
+    },
+    {
+     "verein": "fc-bayern",
+     "von": 1987,
+     "bis": 1989
+    },
+    {
+     "verein": "bvb",
+     "von": 1989,
+     "bis": 1992
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "murdo-macleod",
+   "name": "Murdo MacLeod",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "celtic",
+     "von": 1978,
+     "bis": 1987
+    },
+    {
+     "verein": "bvb",
+     "von": 1987,
+     "bis": 1990
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "erdal-keser",
+   "name": "Erdal Keser",
+   "suchnamen": [
+    "keser"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1980,
+     "bis": 1984
+    },
+    {
+     "verein": "galatasaray",
+     "von": 1984,
+     "bis": 1986
+    },
+    {
+     "verein": "bvb",
+     "von": 1986,
+     "bis": 1987
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "martin-kree",
+   "name": "Martin Kree",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "vfl-bochum",
+     "von": 1983,
+     "bis": 1989
+    },
+    {
+     "verein": "bayer-leverkusen",
+     "von": 1989,
+     "bis": 1994
+    },
+    {
+     "verein": "bvb",
+     "von": 1994,
+     "bis": 1998
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "rene-tretschok",
+   "name": "René Tretschok",
+   "suchnamen": [
+    "tretschok"
+   ],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 1992,
+     "bis": 1997
+    },
+    {
+     "verein": "1-fc-koeln",
+     "von": 1997,
+     "bis": 1998
+    },
+    {
+     "verein": "hertha-bsc",
+     "von": 1998,
+     "bis": 2004
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "paulo-sousa",
+   "name": "Paulo Sousa",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "juventus",
+     "von": 1994,
+     "bis": 1996
+    },
+    {
+     "verein": "bvb",
+     "von": 1996,
+     "bis": 1998
+    },
+    {
+     "verein": "inter-mailand",
+     "von": 1998,
+     "bis": 2000
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "bvb-legende"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "victor-ibarbo",
+   "name": "Víctor Ibarbo",
+   "suchnamen": [
+    "ibarbo"
+   ],
+   "vereine": [
+    {
+     "verein": "cagliari",
+     "von": 2011,
+     "bis": 2015
+    },
+    {
+     "verein": "as-rom",
+     "von": 2015,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "adebayo-akinfenwa",
+   "name": "Adebayo Akinfenwa",
+   "suchnamen": [
+    "akinfenwa",
+    "the beast akinfenwa"
+   ],
+   "vereine": [
+    {
+     "verein": "northampton",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "afc-wimbledon",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "wycombe",
+     "von": 2016,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "adama-traore",
+   "name": "Adama Traoré",
+   "suchnamen": [
+    "adama traore diarra"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-barcelona",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "middlesbrough",
+     "von": 2016,
+     "bis": 2018
+    },
+    {
+     "verein": "wolverhampton",
+     "von": 2018,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "yannick-bolasie",
+   "name": "Yannick Bolasie",
+   "suchnamen": [
+    "bolasie"
+   ],
+   "vereine": [
+    {
+     "verein": "crystal-palace",
+     "von": 2012,
+     "bis": 2016
+    },
+    {
+     "verein": "everton",
+     "von": 2016,
+     "bis": 2021
+    },
+    {
+     "verein": "sporting",
+     "von": 2019,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "seydou-doumbia",
+   "name": "Seydou Doumbia",
+   "suchnamen": [
+    "doumbia"
+   ],
+   "vereine": [
+    {
+     "verein": "young-boys",
+     "von": 2008,
+     "bis": 2010
+    },
+    {
+     "verein": "zska-moskau",
+     "von": 2010,
+     "bis": 2015
+    },
+    {
+     "verein": "as-rom",
+     "von": 2015,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "wissam-ben-yedder",
+   "name": "Wissam Ben Yedder",
+   "suchnamen": [
+    "ben yedder",
+    "benyedder"
+   ],
+   "vereine": [
+    {
+     "verein": "toulouse",
+     "von": 2010,
+     "bis": 2016
+    },
+    {
+     "verein": "fc-sevilla",
+     "von": 2016,
+     "bis": 2019
+    },
+    {
+     "verein": "as-monaco",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "paul-pogba",
+   "name": "Paul Pogba",
+   "suchnamen": [
+    "pogba"
+   ],
+   "vereine": [
+    {
+     "verein": "juventus",
+     "von": 2012,
+     "bis": 2016
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2016,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gervais-yao-kouassi",
+   "name": "Gervais Yao Kouassi",
+   "suchnamen": [
+    "gervinho"
+   ],
+   "vereine": [
+    {
+     "verein": "osc-lille",
+     "von": 2009,
+     "bis": 2011
+    },
+    {
+     "verein": "arsenal",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "as-rom",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "obafemi-martins",
+   "name": "Obafemi Martins",
+   "suchnamen": [
+    "oba martins"
+   ],
+   "vereine": [
+    {
+     "verein": "inter-mailand",
+     "von": 2001,
+     "bis": 2006
+    },
+    {
+     "verein": "newcastle",
+     "von": 2006,
+     "bis": 2009
+    },
+    {
+     "verein": "rubin-kasan",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "seattle-sounders",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jefferson-farfan",
+   "name": "Jefferson Farfán",
+   "suchnamen": [
+    "farfan"
+   ],
+   "vereine": [
+    {
+     "verein": "psv-eindhoven",
+     "von": 2004,
+     "bis": 2008
+    },
+    {
+     "verein": "schalke-04",
+     "von": 2008,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "emmanuel-emenike",
+   "name": "Emmanuel Emenike",
+   "suchnamen": [
+    "emenike"
+   ],
+   "vereine": [
+    {
+     "verein": "spartak-moskau",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "fenerbahce",
+     "von": 2013,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "givanildo-vieira-de-sousa",
+   "name": "Givanildo Vieira de Sousa",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "fc-porto",
+     "von": 2008,
+     "bis": 2012
+    },
+    {
+     "verein": "zenit",
+     "von": 2012,
+     "bis": 2016
+    },
+    {
+     "verein": "shanghai-sipg",
+     "von": 2016,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kingsley-coman",
+   "name": "Kingsley Coman",
+   "suchnamen": [
+    "coman"
+   ],
+   "vereine": [
+    {
+     "verein": "psg",
+     "von": 2013,
+     "bis": 2014
+    },
+    {
+     "verein": "juventus",
+     "von": 2014,
+     "bis": 2017
+    },
+    {
+     "verein": "fc-bayern",
+     "von": 2015,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alexis-sanchez",
+   "name": "Alexis Sánchez",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "udinese",
+     "von": 2006,
+     "bis": 2011
+    },
+    {
+     "verein": "fc-barcelona",
+     "von": 2011,
+     "bis": 2014
+    },
+    {
+     "verein": "arsenal",
+     "von": 2014,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "freddy-adu",
+   "name": "Freddy Adu",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "dc-united",
+     "von": 2004,
+     "bis": 2006
+    },
+    {
+     "verein": "benfica",
+     "von": 2007,
+     "bis": 2011
+    },
+    {
+     "verein": "philadelphia-union",
+     "von": 2011,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "bojan-krkic",
+   "name": "Bojan Krkić",
+   "suchnamen": [
+    "bojan",
+    "krkic"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-barcelona",
+     "von": 2007,
+     "bis": 2011
+    },
+    {
+     "verein": "as-rom",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "stoke-city",
+     "von": 2014,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "martin-degaard",
+   "name": "Martin Ødegaard",
+   "suchnamen": [
+    "odegaard",
+    "odegard"
+   ],
+   "vereine": [
+    {
+     "verein": "stromsgodset",
+     "von": 2014,
+     "bis": 2015
+    },
+    {
+     "verein": "real-madrid",
+     "von": 2015,
+     "bis": 2021
+    },
+    {
+     "verein": "real-sociedad",
+     "von": 2019,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mauro-zarate",
+   "name": "Mauro Zárate",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "lazio-rom",
+     "von": 2008,
+     "bis": 2013
+    },
+    {
+     "verein": "west-ham",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "ac-florenz",
+     "von": 2016,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "welliton-soares-de-morais",
+   "name": "Welliton Soares de Morais",
+   "suchnamen": [
+    "welliton"
+   ],
+   "vereine": [
+    {
+     "verein": "spartak-moskau",
+     "von": 2007,
+     "bis": 2014
+    },
+    {
+     "verein": "kayserispor",
+     "von": 2016,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alexander-esswein",
+   "name": "Alexander Esswein",
+   "suchnamen": [
+    "esswein"
+   ],
+   "vereine": [
+    {
+     "verein": "1-fc-nuernberg",
+     "von": 2011,
+     "bis": 2014
+    },
+    {
+     "verein": "fc-augsburg",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "hertha-bsc",
+     "von": 2016,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nilmar-honorato-da-silva",
+   "name": "Nilmar Honorato da Silva",
+   "suchnamen": [
+    "nilmar"
+   ],
+   "vereine": [
+    {
+     "verein": "olympique-lyon",
+     "von": 2004,
+     "bis": 2006
+    },
+    {
+     "verein": "villarreal",
+     "von": 2009,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alexandre-pato",
+   "name": "Alexandre Pato",
+   "suchnamen": [
+    "pato"
+   ],
+   "vereine": [
+    {
+     "verein": "ac-mailand",
+     "von": 2007,
+     "bis": 2013
+    },
+    {
+     "verein": "corinthians",
+     "von": 2013,
+     "bis": 2016
+    },
+    {
+     "verein": "villarreal",
+     "von": 2016,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gabriel-agbonlahor",
+   "name": "Gabriel Agbonlahor",
+   "suchnamen": [
+    "agbonlahor",
+    "gabby agbonlahor"
+   ],
+   "vereine": [
+    {
+     "verein": "aston-villa",
+     "von": 2005,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "darren-bent",
+   "name": "Darren Bent",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "tottenham",
+     "von": 2007,
+     "bis": 2009
+    },
+    {
+     "verein": "sunderland",
+     "von": 2009,
+     "bis": 2011
+    },
+    {
+     "verein": "aston-villa",
+     "von": 2011,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "emmanuel-mayuka",
+   "name": "Emmanuel Mayuka",
+   "suchnamen": [
+    "mayuka"
+   ],
+   "vereine": [
+    {
+     "verein": "young-boys",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "southampton",
+     "von": 2012,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "christian-benteke",
+   "name": "Christian Benteke",
+   "suchnamen": [
+    "benteke"
+   ],
+   "vereine": [
+    {
+     "verein": "aston-villa",
+     "von": 2012,
+     "bis": 2015
+    },
+    {
+     "verein": "liverpool",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "crystal-palace",
+     "von": 2016,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "loic-remy",
+   "name": "Loïc Rémy",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "olympique-marseille",
+     "von": 2010,
+     "bis": 2013
+    },
+    {
+     "verein": "qpr",
+     "von": 2013,
+     "bis": 2014
+    },
+    {
+     "verein": "newcastle",
+     "von": 2013,
+     "bis": 2014
+    },
+    {
+     "verein": "chelsea",
+     "von": 2014,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "daniel-sturridge",
+   "name": "Daniel Sturridge",
+   "suchnamen": [
+    "sturridge"
+   ],
+   "vereine": [
+    {
+     "verein": "chelsea",
+     "von": 2009,
+     "bis": 2013
+    },
+    {
+     "verein": "liverpool",
+     "von": 2013,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ahmed-musa",
+   "name": "Ahmed Musa",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "zska-moskau",
+     "von": 2012,
+     "bis": 2016
+    },
+    {
+     "verein": "leicester-city",
+     "von": 2016,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "djibril-cisse",
+   "name": "Djibril Cissé",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "liverpool",
+     "von": 2004,
+     "bis": 2007
+    },
+    {
+     "verein": "panathinaikos",
+     "von": 2009,
+     "bis": 2011
+    },
+    {
+     "verein": "qpr",
+     "von": 2012,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gabriel-jesus",
+   "name": "Gabriel Jesus",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "palmeiras",
+     "von": 2015,
+     "bis": 2017
+    },
+    {
+     "verein": "manchester-city",
+     "von": 2017,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "anthony-martial",
+   "name": "Anthony Martial",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "as-monaco",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2015,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marcus-rashford",
+   "name": "Marcus Rashford",
+   "suchnamen": [
+    "rashford"
+   ],
+   "vereine": [
+    {
+     "verein": "manchester-united",
+     "von": 2016,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jamie-vardy",
+   "name": "Jamie Vardy",
+   "suchnamen": [
+    "vardy"
+   ],
+   "vereine": [
+    {
+     "verein": "fleetwood-town",
+     "von": 2011,
+     "bis": 2012
+    },
+    {
+     "verein": "leicester-city",
+     "von": 2012,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "luis-muriel",
+   "name": "Luis Muriel",
+   "suchnamen": [
+    "muriel"
+   ],
+   "vereine": [
+    {
+     "verein": "udinese",
+     "von": 2010,
+     "bis": 2015
+    },
+    {
+     "verein": "sampdoria",
+     "von": 2015,
+     "bis": 2017
+    },
+    {
+     "verein": "atalanta",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marco-sau",
+   "name": "Marco Sau",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "cagliari",
+     "von": 2007,
+     "bis": 2019
+    },
+    {
+     "verein": "benevento",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "victor-anichebe",
+   "name": "Victor Anichebe",
+   "suchnamen": [
+    "anichebe"
+   ],
+   "vereine": [
+    {
+     "verein": "everton",
+     "von": 2006,
+     "bis": 2013
+    },
+    {
+     "verein": "west-bromwich",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "john-carew",
+   "name": "John Carew",
+   "suchnamen": [
+    "carew"
+   ],
+   "vereine": [
+    {
+     "verein": "valencia",
+     "von": 2000,
+     "bis": 2004
+    },
+    {
+     "verein": "olympique-lyon",
+     "von": 2005,
+     "bis": 2007
+    },
+    {
+     "verein": "aston-villa",
+     "von": 2007,
+     "bis": 2011
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mario-balotelli",
+   "name": "Mario Balotelli",
+   "suchnamen": [
+    "balotelli",
+    "super mario balotelli"
+   ],
+   "vereine": [
+    {
+     "verein": "inter-mailand",
+     "von": 2007,
+     "bis": 2010
+    },
+    {
+     "verein": "manchester-city",
+     "von": 2010,
+     "bis": 2013
+    },
+    {
+     "verein": "ac-mailand",
+     "von": 2013,
+     "bis": 2014
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "taye-taiwo",
+   "name": "Taye Taiwo",
+   "suchnamen": [
+    "taiwo"
+   ],
+   "vereine": [
+    {
+     "verein": "olympique-marseille",
+     "von": 2005,
+     "bis": 2011
+    },
+    {
+     "verein": "ac-mailand",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "qpr",
+     "von": 2012,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "david-luiz",
+   "name": "David Luiz",
+   "suchnamen": [
+    "david luiz moreira marinho"
+   ],
+   "vereine": [
+    {
+     "verein": "benfica",
+     "von": 2007,
+     "bis": 2011
+    },
+    {
+     "verein": "chelsea",
+     "von": 2011,
+     "bis": 2014
+    },
+    {
+     "verein": "psg",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "chelsea",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "felipe-santana",
+   "name": "Felipe Santana",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bvb",
+     "von": 2008,
+     "bis": 2013
+    },
+    {
+     "verein": "schalke-04",
+     "von": 2013,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "anderson-vital-da-silva",
+   "name": "Anderson Vital da Silva",
+   "suchnamen": [
+    "dede"
+   ],
+   "vereine": [
+    {
+     "verein": "vasco-da-gama",
+     "von": 2009,
+     "bis": 2013
+    },
+    {
+     "verein": "cruzeiro",
+     "von": 2013,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ignazio-abate",
+   "name": "Ignazio Abate",
+   "suchnamen": [
+    "abate"
+   ],
+   "vereine": [
+    {
+     "verein": "ac-mailand",
+     "von": 2009,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marvell-wynne",
+   "name": "Marvell Wynne",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "toronto-fc",
+     "von": 2007,
+     "bis": 2010
+    },
+    {
+     "verein": "colorado-rapids",
+     "von": 2010,
+     "bis": 2014
+    },
+    {
+     "verein": "san-jose-earthquakes",
+     "von": 2015,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "chris-smalling",
+   "name": "Chris Smalling",
+   "suchnamen": [
+    "smalling"
+   ],
+   "vereine": [
+    {
+     "verein": "manchester-united",
+     "von": 2010,
+     "bis": 2020
+    },
+    {
+     "verein": "as-rom",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "eric-bailly",
+   "name": "Eric Bailly",
+   "suchnamen": [
+    "bailly"
+   ],
+   "vereine": [
+    {
+     "verein": "villarreal",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2016,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kostas-manolas",
+   "name": "Kostas Manolas",
+   "suchnamen": [
+    "konstantinos manolas",
+    "manolas"
+   ],
+   "vereine": [
+    {
+     "verein": "olympiakos",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "as-rom",
+     "von": 2014,
+     "bis": 2019
+    },
+    {
+     "verein": "ssc-neapel",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "angelo-ogbonna",
+   "name": "Angelo Ogbonna",
+   "suchnamen": [
+    "ogbonna"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-turin",
+     "von": 2006,
+     "bis": 2013
+    },
+    {
+     "verein": "juventus",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "west-ham",
+     "von": 2015,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kyle-walker",
+   "name": "Kyle Walker",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "tottenham",
+     "von": 2009,
+     "bis": 2017
+    },
+    {
+     "verein": "manchester-city",
+     "von": 2017,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kevin-mbabu",
+   "name": "Kevin Mbabu",
+   "suchnamen": [
+    "mbabu"
+   ],
+   "vereine": [
+    {
+     "verein": "newcastle",
+     "von": 2013,
+     "bis": 2017
+    },
+    {
+     "verein": "young-boys",
+     "von": 2016,
+     "bis": 2019
+    },
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "renato-sanches",
+   "name": "Renato Sanches",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "benfica",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "fc-bayern",
+     "von": 2016,
+     "bis": 2019
+    },
+    {
+     "verein": "osc-lille",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ramires-santos-do-nascimento",
+   "name": "Ramires Santos do Nascimento",
+   "suchnamen": [
+    "ramires"
+   ],
+   "vereine": [
+    {
+     "verein": "benfica",
+     "von": 2009,
+     "bis": 2010
+    },
+    {
+     "verein": "chelsea",
+     "von": 2010,
+     "bis": 2016
+    },
+    {
+     "verein": "jiangsu-suning",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "moussa-sissoko",
+   "name": "Moussa Sissoko",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "toulouse",
+     "von": 2007,
+     "bis": 2013
+    },
+    {
+     "verein": "newcastle",
+     "von": 2013,
+     "bis": 2016
+    },
+    {
+     "verein": "tottenham",
+     "von": 2016,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "tiemoue-bakayoko",
+   "name": "Tiémoué Bakayoko",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "as-monaco",
+     "von": 2014,
+     "bis": 2017
+    },
+    {
+     "verein": "chelsea",
+     "von": 2017,
+     "bis": 2023
+    },
+    {
+     "verein": "ac-mailand",
+     "von": 2018,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "radja-nainggolan",
+   "name": "Radja Nainggolan",
+   "suchnamen": [
+    "nainggolan"
+   ],
+   "vereine": [
+    {
+     "verein": "cagliari",
+     "von": 2010,
+     "bis": 2014
+    },
+    {
+     "verein": "as-rom",
+     "von": 2014,
+     "bis": 2018
+    },
+    {
+     "verein": "inter-mailand",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "arturo-vidal",
+   "name": "Arturo Vidal",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "bayer-leverkusen",
+     "von": 2007,
+     "bis": 2011
+    },
+    {
+     "verein": "juventus",
+     "von": 2011,
+     "bis": 2015
+    },
+    {
+     "verein": "fc-bayern",
+     "von": 2015,
+     "bis": 2018
+    },
+    {
+     "verein": "fc-barcelona",
+     "von": 2018,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "n-golo-kante",
+   "name": "N'Golo Kanté",
+   "suchnamen": [
+    "ngolo kante",
+    "n golo kante"
+   ],
+   "vereine": [
+    {
+     "verein": "sm-caen",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "leicester-city",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "chelsea",
+     "von": 2016,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "claudio-marchisio",
+   "name": "Claudio Marchisio",
+   "suchnamen": [
+    "marchisio"
+   ],
+   "vereine": [
+    {
+     "verein": "juventus",
+     "von": 2005,
+     "bis": 2018
+    },
+    {
+     "verein": "zenit",
+     "von": 2018,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "fredy-guarin",
+   "name": "Fredy Guarín",
+   "suchnamen": [
+    "freddy guarin",
+    "guarin"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-porto",
+     "von": 2008,
+     "bis": 2012
+    },
+    {
+     "verein": "inter-mailand",
+     "von": 2012,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "luiz-gustavo",
+   "name": "Luiz Gustavo",
+   "suchnamen": [
+    "luiz gustavo dias"
+   ],
+   "vereine": [
+    {
+     "verein": "tsg-hoffenheim",
+     "von": 2007,
+     "bis": 2011
+    },
+    {
+     "verein": "fc-bayern",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2013,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "aiden-mcgeady",
+   "name": "Aiden McGeady",
+   "suchnamen": [
+    "mcgeady"
+   ],
+   "vereine": [
+    {
+     "verein": "celtic",
+     "von": 2004,
+     "bis": 2010
+    },
+    {
+     "verein": "spartak-moskau",
+     "von": 2010,
+     "bis": 2014
+    },
+    {
+     "verein": "everton",
+     "von": 2014,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "hatem-ben-arfa",
+   "name": "Hatem Ben Arfa",
+   "suchnamen": [
+    "ben arfa",
+    "benarfa"
+   ],
+   "vereine": [
+    {
+     "verein": "newcastle",
+     "von": 2010,
+     "bis": 2015
+    },
+    {
+     "verein": "ogc-nizza",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "psg",
+     "von": 2016,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "adel-taarabt",
+   "name": "Adel Taarabt",
+   "suchnamen": [
+    "taarabt"
+   ],
+   "vereine": [
+    {
+     "verein": "qpr",
+     "von": 2009,
+     "bis": 2015
+    },
+    {
+     "verein": "benfica",
+     "von": 2015,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ricardo-quaresma",
+   "name": "Ricardo Quaresma",
+   "suchnamen": [
+    "quaresma"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-porto",
+     "von": 2004,
+     "bis": 2008
+    },
+    {
+     "verein": "besiktas",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "fc-porto",
+     "von": 2014,
+     "bis": 2015
+    },
+    {
+     "verein": "besiktas",
+     "von": 2015,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "luis-carlos-almeida-da-cunha",
+   "name": "Luís Carlos Almeida da Cunha",
+   "suchnamen": [
+    "nani"
+   ],
+   "vereine": [
+    {
+     "verein": "manchester-united",
+     "von": 2007,
+     "bis": 2015
+    },
+    {
+     "verein": "fenerbahce",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "sporting",
+     "von": 2018,
+     "bis": 2019
+    },
+    {
+     "verein": "orlando-city",
+     "von": 2019,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "andres-d-alessandro",
+   "name": "Andrés D'Alessandro",
+   "suchnamen": [
+    "andres dalessandro",
+    "d alessandro"
+   ],
+   "vereine": [
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2003,
+     "bis": 2007
+    },
+    {
+     "verein": "real-saragossa",
+     "von": 2006,
+     "bis": 2007
+    },
+    {
+     "verein": "internacional",
+     "von": 2008,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kelvin-mateus-de-oliveira",
+   "name": "Kelvin Mateus de Oliveira",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "fc-porto",
+     "von": 2011,
+     "bis": 2020
+    },
+    {
+     "verein": "rio-ave",
+     "von": 2011,
+     "bis": 2012
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "stephan-el-shaarawy",
+   "name": "Stephan El Shaarawy",
+   "suchnamen": [
+    "el shaarawy",
+    "elshaarawy"
+   ],
+   "vereine": [
+    {
+     "verein": "ac-mailand",
+     "von": 2011,
+     "bis": 2016
+    },
+    {
+     "verein": "as-rom",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "theo-walcott",
+   "name": "Theo Walcott",
+   "suchnamen": [
+    "walcott"
+   ],
+   "vereine": [
+    {
+     "verein": "arsenal",
+     "von": 2006,
+     "bis": 2018
+    },
+    {
+     "verein": "everton",
+     "von": 2018,
+     "bis": 2021
+    },
+    {
+     "verein": "southampton",
+     "von": 2020,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jonathan-biabiany",
+   "name": "Jonathan Biabiany",
+   "suchnamen": [
+    "biabiany"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-parma",
+     "von": 2011,
+     "bis": 2015
+    },
+    {
+     "verein": "inter-mailand",
+     "von": 2015,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "javier-hernandez",
+   "name": "Javier Hernández",
+   "suchnamen": [
+    "chicharito",
+    "javier hernandez balcazar"
+   ],
+   "vereine": [
+    {
+     "verein": "manchester-united",
+     "von": 2010,
+     "bis": 2015
+    },
+    {
+     "verein": "bayer-leverkusen",
+     "von": 2015,
+     "bis": 2017
+    },
+    {
+     "verein": "west-ham",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lacina-traore",
+   "name": "Lacina Traoré",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "kuban-krasnodar",
+     "von": 2011,
+     "bis": 2012
+    },
+    {
+     "verein": "anschi-machatschkala",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "as-monaco",
+     "von": 2014,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alexandre-lacazette",
+   "name": "Alexandre Lacazette",
+   "suchnamen": [
+    "lacazette"
+   ],
+   "vereine": [
+    {
+     "verein": "olympique-lyon",
+     "von": 2010,
+     "bis": 2017
+    },
+    {
+     "verein": "arsenal",
+     "von": 2017,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "romain-alessandrini",
+   "name": "Romain Alessandrini",
+   "suchnamen": [
+    "alessandrini"
+   ],
+   "vereine": [
+    {
+     "verein": "stade-rennes",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "olympique-marseille",
+     "von": 2014,
+     "bis": 2017
+    },
+    {
+     "verein": "la-galaxy",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ryan-kent",
+   "name": "Ryan Kent",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "liverpool",
+     "von": 2015,
+     "bis": 2019
+    },
+    {
+     "verein": "glasgow-rangers",
+     "von": 2018,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "youcef-atal",
+   "name": "Youcef Atal",
+   "suchnamen": [
+    "atal"
+   ],
+   "vereine": [
+    {
+     "verein": "ogc-nizza",
+     "von": 2018,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "allan-saint-maximin",
+   "name": "Allan Saint-Maximin",
+   "suchnamen": [
+    "saint-maximin",
+    "saint maximin"
+   ],
+   "vereine": [
+    {
+     "verein": "ogc-nizza",
+     "von": 2017,
+     "bis": 2019
+    },
+    {
+     "verein": "newcastle",
+     "von": 2019,
+     "bis": 2023
+    },
+    {
+     "verein": "al-ahli",
+     "von": 2023,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jack-butland",
+   "name": "Jack Butland",
+   "suchnamen": [
+    "butland"
+   ],
+   "vereine": [
+    {
+     "verein": "stoke-city",
+     "von": 2013,
+     "bis": 2020
+    },
+    {
+     "verein": "crystal-palace",
+     "von": 2020,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "asmir-begovic",
+   "name": "Asmir Begović",
+   "suchnamen": [
+    "begovic"
+   ],
+   "vereine": [
+    {
+     "verein": "stoke-city",
+     "von": 2010,
+     "bis": 2015
+    },
+    {
+     "verein": "chelsea",
+     "von": 2015,
+     "bis": 2017
+    },
+    {
+     "verein": "bournemouth",
+     "von": 2017,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ralf-fahrmann",
+   "name": "Ralf Fährmann",
+   "suchnamen": [
+    "ralf faehrmann",
+    "fahrmann",
+    "faehrmann"
+   ],
+   "vereine": [
+    {
+     "verein": "eintracht-frankfurt",
+     "von": 2009,
+     "bis": 2011
+    },
+    {
+     "verein": "schalke-04",
+     "von": 2011,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nick-pope",
+   "name": "Nick Pope",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "charlton-athletic",
+     "von": 2011,
+     "bis": 2016
+    },
+    {
+     "verein": "burnley",
+     "von": 2016,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alban-lafont",
+   "name": "Alban Lafont",
+   "suchnamen": [
+    "lafont"
+   ],
+   "vereine": [
+    {
+     "verein": "toulouse",
+     "von": 2015,
+     "bis": 2018
+    },
+    {
+     "verein": "ac-florenz",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "gianluigi-donnarumma",
+   "name": "Gianluigi Donnarumma",
+   "suchnamen": [
+    "donnarumma",
+    "gigio donnarumma"
+   ],
+   "vereine": [
+    {
+     "verein": "ac-mailand",
+     "von": 2015,
+     "bis": 2021
+    },
+    {
+     "verein": "psg",
+     "von": 2021,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "zakaria-bakkali",
+   "name": "Zakaria Bakkali",
+   "suchnamen": [
+    "bakkali"
+   ],
+   "vereine": [
+    {
+     "verein": "psv-eindhoven",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "valencia",
+     "von": 2015,
+     "bis": 2018
+    },
+    {
+     "verein": "anderlecht",
+     "von": 2018,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "hachim-mastour",
+   "name": "Hachim Mastour",
+   "suchnamen": [
+    "mastour"
+   ],
+   "vereine": [
+    {
+     "verein": "ac-mailand",
+     "von": 2014,
+     "bis": 2018
+    },
+    {
+     "verein": "pec-zwolle",
+     "von": 2016,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alen-halilovic",
+   "name": "Alen Halilović",
+   "suchnamen": [
+    "halilovic"
+   ],
+   "vereine": [
+    {
+     "verein": "dinamo-zagreb",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "fc-barcelona",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "hamburger-sv",
+     "von": 2016,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "armindo-tue-na-bangna",
+   "name": "Armindo Tué Na Bangna",
+   "suchnamen": [
+    "bruma",
+    "armindo bruma"
+   ],
+   "vereine": [
+    {
+     "verein": "sporting",
+     "von": 2013,
+     "bis": 2013
+    },
+    {
+     "verein": "galatasaray",
+     "von": 2013,
+     "bis": 2017
+    },
+    {
+     "verein": "rb-leipzig",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "juan-manuel-iturbe",
+   "name": "Juan Manuel Iturbe",
+   "suchnamen": [
+    "iturbe"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-porto",
+     "von": 2011,
+     "bis": 2014
+    },
+    {
+     "verein": "hellas-verona",
+     "von": 2013,
+     "bis": 2014
+    },
+    {
+     "verein": "as-rom",
+     "von": 2014,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "richairo-zivkovic",
+   "name": "Richairo Živković",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "fc-groningen",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "ajax-amsterdam",
+     "von": 2014,
+     "bis": 2017
+    },
+    {
+     "verein": "kv-oostende",
+     "von": 2017,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "adryan-oliveira-tavares",
+   "name": "Adryan Oliveira Tavares",
+   "suchnamen": [
+    "adryan"
+   ],
+   "vereine": [
+    {
+     "verein": "flamengo",
+     "von": 2011,
+     "bis": 2017
+    },
+    {
+     "verein": "leeds-united",
+     "von": 2014,
+     "bis": 2015
+    },
+    {
+     "verein": "fc-nantes",
+     "von": 2015,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "lucas-piazon",
+   "name": "Lucas Piazon",
+   "suchnamen": [
+    "piazon"
+   ],
+   "vereine": [
+    {
+     "verein": "chelsea",
+     "von": 2011,
+     "bis": 2021
+    },
+    {
+     "verein": "eintracht-frankfurt",
+     "von": 2014,
+     "bis": 2015
+    },
+    {
+     "verein": "fulham",
+     "von": 2016,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "paulo-henrique-ganso",
+   "name": "Paulo Henrique Ganso",
+   "suchnamen": [
+    "ganso"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-santos",
+     "von": 2008,
+     "bis": 2012
+    },
+    {
+     "verein": "sao-paulo",
+     "von": 2012,
+     "bis": 2016
+    },
+    {
+     "verein": "fc-sevilla",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ravel-morrison",
+   "name": "Ravel Morrison",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "manchester-united",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "west-ham",
+     "von": 2012,
+     "bis": 2015
+    },
+    {
+     "verein": "lazio-rom",
+     "von": 2015,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "max-meyer",
+   "name": "Max Meyer",
+   "suchnamen": [
+    "maximilian meyer"
+   ],
+   "vereine": [
+    {
+     "verein": "schalke-04",
+     "von": 2013,
+     "bis": 2018
+    },
+    {
+     "verein": "crystal-palace",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "memphis-depay",
+   "name": "Memphis Depay",
+   "suchnamen": [
+    "depay"
+   ],
+   "vereine": [
+    {
+     "verein": "psv-eindhoven",
+     "von": 2011,
+     "bis": 2015
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2015,
+     "bis": 2017
+    },
+    {
+     "verein": "olympique-lyon",
+     "von": 2017,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "m-baye-niang",
+   "name": "M'Baye Niang",
+   "suchnamen": [
+    "mbaye niang",
+    "m baye niang"
+   ],
+   "vereine": [
+    {
+     "verein": "sm-caen",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "ac-mailand",
+     "von": 2012,
+     "bis": 2018
+    },
+    {
+     "verein": "stade-rennes",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "breel-embolo",
+   "name": "Breel Embolo",
+   "suchnamen": [
+    "embolo",
+    "breel donald embolo"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-basel",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "schalke-04",
+     "von": 2016,
+     "bis": 2019
+    },
+    {
+     "verein": "borussia-moenchengladbach",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "riechedly-bazoer",
+   "name": "Riechedly Bazoer",
+   "suchnamen": [
+    "bazoer"
+   ],
+   "vereine": [
+    {
+     "verein": "ajax-amsterdam",
+     "von": 2013,
+     "bis": 2017
+    },
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2017,
+     "bis": 2019
+    },
+    {
+     "verein": "vitesse",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "youri-tielemans",
+   "name": "Youri Tielemans",
+   "suchnamen": [
+    "tielemans"
+   ],
+   "vereine": [
+    {
+     "verein": "anderlecht",
+     "von": 2013,
+     "bis": 2017
+    },
+    {
+     "verein": "as-monaco",
+     "von": 2017,
+     "bis": 2019
+    },
+    {
+     "verein": "leicester-city",
+     "von": 2019,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "tonny-vilhena",
+   "name": "Tonny Vilhena",
+   "suchnamen": [
+    "vilhena"
+   ],
+   "vereine": [
+    {
+     "verein": "feyenoord",
+     "von": 2011,
+     "bis": 2019
+    },
+    {
+     "verein": "fk-krasnodar",
+     "von": 2019,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "vaclav-kadlec",
+   "name": "Václav Kadlec",
+   "suchnamen": [
+    "kadlec"
+   ],
+   "vereine": [
+    {
+     "verein": "sparta-prag",
+     "von": 2008,
+     "bis": 2013
+    },
+    {
+     "verein": "eintracht-frankfurt",
+     "von": 2013,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "yassine-benzia",
+   "name": "Yassine Benzia",
+   "suchnamen": [
+    "benzia"
+   ],
+   "vereine": [
+    {
+     "verein": "olympique-lyon",
+     "von": 2011,
+     "bis": 2015
+    },
+    {
+     "verein": "osc-lille",
+     "von": 2015,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ricardo-kishna",
+   "name": "Ricardo Kishna",
+   "suchnamen": [
+    "kishna"
+   ],
+   "vereine": [
+    {
+     "verein": "ajax-amsterdam",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "lazio-rom",
+     "von": 2015,
+     "bis": 2020
+    },
+    {
+     "verein": "ado-den-haag",
+     "von": 2020,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "luciano-vietto",
+   "name": "Luciano Vietto",
+   "suchnamen": [
+    "vietto"
+   ],
+   "vereine": [
+    {
+     "verein": "racing-club",
+     "von": 2011,
+     "bis": 2014
+    },
+    {
+     "verein": "villarreal",
+     "von": 2014,
+     "bis": 2015
+    },
+    {
+     "verein": "atletico-madrid",
+     "von": 2015,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "charly-musonda",
+   "name": "Charly Musonda",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "chelsea",
+     "von": 2015,
+     "bis": 2022
+    },
+    {
+     "verein": "real-betis",
+     "von": 2016,
+     "bis": 2016
+    },
+    {
+     "verein": "celtic",
+     "von": 2018,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ronaldo-aparecido-rodrigues",
+   "name": "Ronaldo Aparecido Rodrigues",
+   "suchnamen": [
+    "naldo"
+   ],
+   "vereine": [
+    {
+     "verein": "werder-bremen",
+     "von": 2005,
+     "bis": 2012
+    },
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2012,
+     "bis": 2016
+    },
+    {
+     "verein": "schalke-04",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "ike-opara",
+   "name": "Ike Opara",
+   "suchnamen": [
+    "opara"
+   ],
+   "vereine": [
+    {
+     "verein": "san-jose-earthquakes",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "sporting-kansas-city",
+     "von": 2013,
+     "bis": 2018
+    },
+    {
+     "verein": "minnesota-united",
+     "von": 2019,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "presnel-kimpembe",
+   "name": "Presnel Kimpembe",
+   "suchnamen": [
+    "kimpembe"
+   ],
+   "vereine": [
+    {
+     "verein": "psg",
+     "von": 2014,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "yassine-chikhaoui",
+   "name": "Yassine Chikhaoui",
+   "suchnamen": [
+    "chikhaoui"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-zuerich",
+     "von": 2007,
+     "bis": 2015
+    },
+    {
+     "verein": "al-gharafa",
+     "von": 2015,
+     "bis": 2018
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "che-adams",
+   "name": "Che Adams",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "sheffield-united",
+     "von": 2014,
+     "bis": 2016
+    },
+    {
+     "verein": "birmingham-city",
+     "von": 2016,
+     "bis": 2019
+    },
+    {
+     "verein": "southampton",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "eljero-elia",
+   "name": "Eljero Elia",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "fc-twente",
+     "von": 2007,
+     "bis": 2009
+    },
+    {
+     "verein": "hamburger-sv",
+     "von": 2009,
+     "bis": 2011
+    },
+    {
+     "verein": "werder-bremen",
+     "von": 2012,
+     "bis": 2015
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "kevin-gameiro",
+   "name": "Kévin Gameiro",
+   "suchnamen": [
+    "gameiro"
+   ],
+   "vereine": [
+    {
+     "verein": "psg",
+     "von": 2011,
+     "bis": 2013
+    },
+    {
+     "verein": "fc-sevilla",
+     "von": 2013,
+     "bis": 2016
+    },
+    {
+     "verein": "atletico-madrid",
+     "von": 2016,
+     "bis": 2018
+    },
+    {
+     "verein": "valencia",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "alex-teixeira",
+   "name": "Alex Teixeira",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "schachtar-donezk",
+     "von": 2010,
+     "bis": 2016
+    },
+    {
+     "verein": "jiangsu-suning",
+     "von": 2016,
+     "bis": 2021
+    },
+    {
+     "verein": "besiktas",
+     "von": 2021,
+     "bis": 2022
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "taison-barcellos-freda",
+   "name": "Taison Barcellos Freda",
+   "suchnamen": [
+    "taison"
+   ],
+   "vereine": [
+    {
+     "verein": "metalist-charkiw",
+     "von": 2010,
+     "bis": 2013
+    },
+    {
+     "verein": "schachtar-donezk",
+     "von": 2013,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "bernard-anicio-caldeira-duarte",
+   "name": "Bernard Anício Caldeira Duarte",
+   "suchnamen": [
+    "bernard duarte"
+   ],
+   "vereine": [
+    {
+     "verein": "atletico-mineiro",
+     "von": 2010,
+     "bis": 2013
+    },
+    {
+     "verein": "schachtar-donezk",
+     "von": 2013,
+     "bis": 2018
+    },
+    {
+     "verein": "everton",
+     "von": 2018,
+     "bis": 2021
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "marouane-fellaini",
+   "name": "Marouane Fellaini",
+   "suchnamen": [
+    "fellaini"
+   ],
+   "vereine": [
+    {
+     "verein": "everton",
+     "von": 2008,
+     "bis": 2013
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2013,
+     "bis": 2019
+    },
+    {
+     "verein": "shandong-luneng",
+     "von": 2019,
+     "bis": 2024
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "antonio-valencia",
+   "name": "Antonio Valencia",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "wigan-athletic",
+     "von": 2006,
+     "bis": 2009
+    },
+    {
+     "verein": "manchester-united",
+     "von": 2009,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "micah-richards",
+   "name": "Micah Richards",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "manchester-city",
+     "von": 2005,
+     "bis": 2015
+    },
+    {
+     "verein": "aston-villa",
+     "von": 2015,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "geovanni-deiberson-mauricio-gomez",
+   "name": "Geovanni Deiberson Maurício Gómez",
+   "suchnamen": [
+    "geovanni"
+   ],
+   "vereine": [
+    {
+     "verein": "benfica",
+     "von": 2003,
+     "bis": 2006
+    },
+    {
+     "verein": "manchester-city",
+     "von": 2007,
+     "bis": 2008
+    },
+    {
+     "verein": "hull-city",
+     "von": 2008,
+     "bis": 2010
+    },
+    {
+     "verein": "san-jose-earthquakes",
+     "von": 2010,
+     "bis": 2010
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "carlos-eduardo-marques",
+   "name": "Carlos Eduardo Marques",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "tsg-hoffenheim",
+     "von": 2007,
+     "bis": 2010
+    },
+    {
+     "verein": "rubin-kasan",
+     "von": 2010,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "anderson-talisca",
+   "name": "Anderson Talisca",
+   "suchnamen": [
+    "talisca"
+   ],
+   "vereine": [
+    {
+     "verein": "benfica",
+     "von": 2014,
+     "bis": 2018
+    },
+    {
+     "verein": "besiktas",
+     "von": 2016,
+     "bis": 2018
+    },
+    {
+     "verein": "guangzhou-evergrande",
+     "von": 2018,
+     "bis": 2021
+    },
+    {
+     "verein": "al-nassr",
+     "von": 2021,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "son-heung-min",
+   "name": "Son Heung-min",
+   "suchnamen": [
+    "heung min son",
+    "heung-min son",
+    "sonaldo"
+   ],
+   "vereine": [
+    {
+     "verein": "hamburger-sv",
+     "von": 2010,
+     "bis": 2013
+    },
+    {
+     "verein": "bayer-leverkusen",
+     "von": 2013,
+     "bis": 2015
+    },
+    {
+     "verein": "tottenham",
+     "von": 2015,
+     "bis": 2025
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "timo-werner",
+   "name": "Timo Werner",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "vfb-stuttgart",
+     "von": 2013,
+     "bis": 2016
+    },
+    {
+     "verein": "rb-leipzig",
+     "von": 2016,
+     "bis": 2020
+    },
+    {
+     "verein": "chelsea",
+     "von": 2020,
+     "bis": 2022
+    },
+    {
+     "verein": "rb-leipzig",
+     "von": 2022,
+     "bis": 2026
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "peniel-mlapa",
+   "name": "Peniel Mlapa",
+   "suchnamen": [
+    "mlapa"
+   ],
+   "vereine": [
+    {
+     "verein": "tsg-hoffenheim",
+     "von": 2010,
+     "bis": 2012
+    },
+    {
+     "verein": "borussia-moenchengladbach",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "vfl-bochum",
+     "von": 2015,
+     "bis": 2017
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "fabrizio-miccoli",
+   "name": "Fabrizio Miccoli",
+   "suchnamen": [
+    "miccoli"
+   ],
+   "vereine": [
+    {
+     "verein": "juventus",
+     "von": 2002,
+     "bis": 2007
+    },
+    {
+     "verein": "benfica",
+     "von": 2005,
+     "bis": 2007
+    },
+    {
+     "verein": "fc-palermo",
+     "von": 2007,
+     "bis": 2013
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "antonio-di-natale",
+   "name": "Antonio Di Natale",
+   "suchnamen": [
+    "di natale",
+    "dinatale"
+   ],
+   "vereine": [
+    {
+     "verein": "fc-empoli",
+     "von": 1996,
+     "bis": 2004
+    },
+    {
+     "verein": "udinese",
+     "von": 2004,
+     "bis": 2016
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "nedum-onuoha",
+   "name": "Nedum Onuoha",
+   "suchnamen": [
+    "onuoha"
+   ],
+   "vereine": [
+    {
+     "verein": "manchester-city",
+     "von": 2004,
+     "bis": 2012
+    },
+    {
+     "verein": "qpr",
+     "von": 2012,
+     "bis": 2018
+    },
+    {
+     "verein": "real-salt-lake",
+     "von": 2018,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "julian-draxler",
+   "name": "Julian Draxler",
+   "suchnamen": [
+    "draxler"
+   ],
+   "vereine": [
+    {
+     "verein": "schalke-04",
+     "von": 2011,
+     "bis": 2015
+    },
+    {
+     "verein": "vfl-wolfsburg",
+     "von": 2015,
+     "bis": 2017
+    },
+    {
+     "verein": "psg",
+     "von": 2017,
+     "bis": 2023
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "jackson-martinez",
+   "name": "Jackson Martínez",
+   "suchnamen": [],
+   "vereine": [
+    {
+     "verein": "fc-porto",
+     "von": 2012,
+     "bis": 2015
+    },
+    {
+     "verein": "atletico-madrid",
+     "von": 2015,
+     "bis": 2016
+    },
+    {
+     "verein": "guangzhou-evergrande",
+     "von": 2016,
+     "bis": 2019
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  },
+  {
+   "id": "mame-biram-diouf",
+   "name": "Mame Biram Diouf",
+   "suchnamen": [
+    "mame diouf"
+   ],
+   "vereine": [
+    {
+     "verein": "manchester-united",
+     "von": 2009,
+     "bis": 2012
+    },
+    {
+     "verein": "hannover-96",
+     "von": 2012,
+     "bis": 2014
+    },
+    {
+     "verein": "stoke-city",
+     "von": 2014,
+     "bis": 2020
+    }
+   ],
+   "liga": null,
+   "gruppen": [
+    "fifa-kult"
+   ],
+   "quelle": "manuell"
+  }
+ ]
 }
