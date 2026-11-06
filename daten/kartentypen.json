@@ -1,0 +1,82 @@
+{
+ "typen": {
+  "auto": {
+   "name": "Auto",
+   "suchen": [
+    "(auto, autograph, signed, signature, signiert, autogramm)"
+   ],
+   "titel": [
+    "auto",
+    "autograph",
+    "signed",
+    "signature",
+    "signiert",
+    "autogramm"
+   ],
+   "typ_aus_suche": true
+  },
+  "relic": {
+   "name": "Relic / Patch",
+   "suchen": [
+    "(relic, patch, jersey, memorabilia, game worn, worn, trikot)"
+   ],
+   "titel": [
+    "relic",
+    "patch",
+    "jersey",
+    "memorabilia",
+    "game worn",
+    "trikot"
+   ],
+   "typ_aus_suche": true
+  },
+  "nummeriert": {
+   "name": "Nummeriert",
+   "suchen": [
+    "numbered",
+    "nummeriert"
+   ],
+   "titel": [
+    "numbered",
+    "nummeriert"
+   ],
+   "typ_aus_suche": false
+  },
+  "rookie": {
+   "name": "Rookie",
+   "suchen": [
+    "(rookie, rc)"
+   ],
+   "titel": [
+    "rookie",
+    "rc"
+   ],
+   "typ_aus_suche": true
+  }
+ },
+ "verdaechtig": [
+  "facsimile",
+  "reprint",
+  "custom",
+  "printed signature",
+  "pre print",
+  "preprint",
+  "replica"
+ ],
+ "fussball": [
+  "bundesliga",
+  "uefa",
+  "champions league",
+  "premier league",
+  "laliga",
+  "la liga",
+  "serie a",
+  "ligue 1",
+  "eredivisie",
+  "primeira liga",
+  "dfb",
+  "match attax",
+  "fussball",
+  "soccer"
+ ]
+}
