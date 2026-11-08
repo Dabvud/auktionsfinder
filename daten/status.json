@@ -1,11 +1,11 @@
 {
- "start": "2026-11-08T06:39:29Z",
- "ende": "2026-11-08T06:49:30Z",
+ "start": "2026-11-08T18:26:15Z",
+ "ende": "2026-11-08T18:36:00Z",
  "ok": true,
  "fehler": null,
- "gefunden": 21065,
- "neu": 1321,
- "beendet": 1501,
- "abfragen": 550,
+ "gefunden": 20987,
+ "neu": 2694,
+ "beendet": 2759,
+ "abfragen": 541,
  "warnungen": []
 }
