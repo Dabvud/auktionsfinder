@@ -1,11 +1,11 @@
 {
- "start": "2026-11-09T07:00:00Z",
- "ende": "2026-11-09T07:00:01Z",
- "ok": false,
- "fehler": "eBay HTTP 429",
- "gefunden": 0,
- "neu": 0,
- "beendet": 0,
- "abfragen": 2,
+ "start": "2026-11-09T18:40:22Z",
+ "ende": "2026-11-09T18:49:44Z",
+ "ok": true,
+ "fehler": null,
+ "gefunden": 20470,
+ "neu": 4803,
+ "beendet": 5315,
+ "abfragen": 527,
  "warnungen": []
 }
