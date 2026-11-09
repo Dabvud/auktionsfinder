@@ -9,7 +9,7 @@ export const STANDARD = {
   ende_in_h: 168,
   verdaechtige: false,
   nicht_zugeordnet: false,
-  nur_de: false,
+  standort: null,
   text: '',
   max_auflage: null,
   gebote: null,
@@ -27,6 +27,7 @@ export function auflage(titel) {
   return zahlen.length ? Math.min(...zahlen) : null;
 }
 
+const EU = new Set('AT BE BG CY CZ DE DK EE ES FI FR GR HR HU IE IT LT LU LV MT NL PL PT RO SE SI SK'.split(' '));
 const gesamt = (auktion, mitVersand) => auktion.preis_cent + (mitVersand ? auktion.versand_cent || 0 : 0);
 const SORTIERUNG = {
   ende: (a, b) => Date.parse(a.ende) - Date.parse(b.ende),
@@ -51,7 +52,8 @@ export function filtere(auktionen, filter, jetzt, spielerNachId, vereine, neuSei
     if (auswahl.nicht_zugeordnet && auktion.spieler.length !== 0) return false;
     if (!auswahl.verdaechtige && auktion.verdaechtig) return false;
 
-    if (auswahl.nur_de && auktion.land !== 'DE') return false;
+    if (auswahl.standort === 'DE' && auktion.land !== 'DE') return false;
+    if (auswahl.standort === 'EU' && !EU.has(auktion.land)) return false;
     if (auswahl.gebote === 'ohne' && auktion.gebote > 0) return false;
     if (auswahl.gebote === 'mit' && !(auktion.gebote > 0)) return false;
     if (stichtag !== null && !(Date.parse(auktion.zuerst_gesehen) > stichtag)) return false;

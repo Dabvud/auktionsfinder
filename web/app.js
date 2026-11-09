@@ -253,7 +253,7 @@ function setzeFilterfelder() {
   $('f-auflage').value = f.max_auflage === null ? '' : String(f.max_auflage);
   $('f-gebote').value = f.gebote || '';
   $('f-sortierung').value = f.sortierung || 'ende';
-  $('f-de').checked = f.nur_de;
+  $('f-standort').value = f.standort || '';
   $('f-versand').checked = f.preis_mit_versand;
   $('f-neu').checked = f.nur_neue;
 }
@@ -276,7 +276,7 @@ function liesFilterfelder() {
     max_auflage: $('f-auflage').value === '' ? null : Number($('f-auflage').value),
     gebote: $('f-gebote').value || null,
     sortierung: $('f-sortierung').value || 'ende',
-    nur_de: $('f-de').checked,
+    standort: $('f-standort').value || null,
     preis_mit_versand: $('f-versand').checked,
     nur_neue: $('f-neu').checked,
   };
@@ -286,7 +286,7 @@ function liesFilterfelder() {
 function zaehleFilter() {
   const f = zustand.filter;
   const n = [f.typ !== 'alle', f.liga, f.verein, f.gruppe, f.spieler, f.max_preis_cent !== null,
-    f.verdaechtige, f.nicht_zugeordnet, f.text, f.max_auflage !== null, f.gebote, f.nur_de, f.nur_neue,
+    f.verdaechtige, f.nicht_zugeordnet, f.text, f.max_auflage !== null, f.gebote, f.standort, f.nur_neue,
   ].filter(Boolean).length;
   $('filter-zahl').textContent = n ? `${n} aktiv` : '';
 }
@@ -633,7 +633,7 @@ function verdrahte() {
   });
 
   for (const id of ['f-typ', 'f-liga', 'f-verein', 'f-gruppe', 'f-zeit', 'f-verdaechtig', 'f-ohne',
-    'f-auflage', 'f-gebote', 'f-sortierung', 'f-de', 'f-versand', 'f-neu']) {
+    'f-auflage', 'f-gebote', 'f-sortierung', 'f-standort', 'f-versand', 'f-neu']) {
     $(id).addEventListener('change', () => {
       liesFilterfelder();
       if (id === 'f-liga') baueVereine();

@@ -177,7 +177,8 @@ test('neue Filter: Deutschland, Titelsuche, Auflage, Gebote, Preis mit Versand',
     auktion('uk', { land: 'GB', titel: 'Topps Chrome Reus Auto /99', gebote: 2, preis_cent: 500, versand_cent: 900 }),
     auktion('alt', { titel: 'Panini Prizm Réus Gold 1/1', gebote: 5, preis_cent: 3000, versand_cent: 0 }),
   ];
-  assert.deepEqual(ids(liste, { nur_de: true }), ['de']);
+  assert.deepEqual(ids(liste, { standort: 'DE' }), ['de']);
+  assert.deepEqual(ids([...liste, auktion('at', { land: 'AT' })], { standort: 'EU' }), ['de', 'at']);
   assert.deepEqual(ids(liste, { text: 'merlin' }), ['de']);
   assert.deepEqual(ids(liste, { text: 'reus  GOLD' }), ['alt']);
   assert.deepEqual(ids(liste, { max_auflage: 25 }).sort(), ['alt', 'de']);
