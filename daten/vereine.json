@@ -8,5 +8,1172 @@
    "dortmund"
   ],
   "football_data_id": 4
+ },
+ "1-fc-koln": {
+  "name": "1. FC Köln",
+  "liga": "BL1",
+  "stichwoerter": [
+   "1 fc koln"
+  ],
+  "football_data_id": 1
+ },
+ "tsg-1899-hoffenheim": {
+  "name": "TSG 1899 Hoffenheim",
+  "liga": "BL1",
+  "stichwoerter": [
+   "hoffenheim",
+   "tsg 1899 hoffenheim"
+  ],
+  "football_data_id": 2
+ },
+ "bayer-04-leverkusen": {
+  "name": "Bayer 04 Leverkusen",
+  "liga": "BL1",
+  "stichwoerter": [
+   "leverkusen",
+   "bayer 04 leverkusen"
+  ],
+  "football_data_id": 3
+ },
+ "fc-bayern-munchen": {
+  "name": "FC Bayern München",
+  "liga": "BL1",
+  "stichwoerter": [
+   "bayern",
+   "fc bayern munchen"
+  ],
+  "football_data_id": 5
+ },
+ "fc-schalke-04": {
+  "name": "FC Schalke 04",
+  "liga": "BL1",
+  "stichwoerter": [
+   "schalke",
+   "fc schalke 04"
+  ],
+  "football_data_id": 6
+ },
+ "hamburger-sv": {
+  "name": "Hamburger SV",
+  "liga": "BL1",
+  "stichwoerter": [
+   "hsv",
+   "hamburger sv"
+  ],
+  "football_data_id": 7
+ },
+ "vfb-stuttgart": {
+  "name": "VfB Stuttgart",
+  "liga": "BL1",
+  "stichwoerter": [
+   "stuttgart",
+   "vfb stuttgart"
+  ],
+  "football_data_id": 10
+ },
+ "sv-werder-bremen": {
+  "name": "SV Werder Bremen",
+  "liga": "BL1",
+  "stichwoerter": [
+   "bremen",
+   "sv werder bremen"
+  ],
+  "football_data_id": 12
+ },
+ "1-fsv-mainz-05": {
+  "name": "1. FSV Mainz 05",
+  "liga": "BL1",
+  "stichwoerter": [
+   "mainz",
+   "1 fsv mainz 05"
+  ],
+  "football_data_id": 15
+ },
+ "fc-augsburg": {
+  "name": "FC Augsburg",
+  "liga": "BL1",
+  "stichwoerter": [
+   "augsburg",
+   "fc augsburg"
+  ],
+  "football_data_id": 16
+ },
+ "sc-freiburg": {
+  "name": "SC Freiburg",
+  "liga": "BL1",
+  "stichwoerter": [
+   "freiburg",
+   "sc freiburg"
+  ],
+  "football_data_id": 17
+ },
+ "borussia-monchengladbach": {
+  "name": "Borussia Mönchengladbach",
+  "liga": "BL1",
+  "stichwoerter": [
+   "m gladbach",
+   "borussia monchengladbach"
+  ],
+  "football_data_id": 18
+ },
+ "eintracht-frankfurt": {
+  "name": "Eintracht Frankfurt",
+  "liga": "BL1",
+  "stichwoerter": [
+   "frankfurt",
+   "eintracht frankfurt"
+  ],
+  "football_data_id": 19
+ },
+ "1-fc-union-berlin": {
+  "name": "1. FC Union Berlin",
+  "liga": "BL1",
+  "stichwoerter": [
+   "union berlin",
+   "1 fc union berlin"
+  ],
+  "football_data_id": 28
+ },
+ "sc-paderborn-07": {
+  "name": "SC Paderborn 07",
+  "liga": "BL1",
+  "stichwoerter": [
+   "sc paderborn",
+   "sc paderborn 07"
+  ],
+  "football_data_id": 29
+ },
+ "sv-07-elversberg": {
+  "name": "SV 07 Elversberg",
+  "liga": "BL1",
+  "stichwoerter": [
+   "elversberg",
+   "sv 07 elversberg"
+  ],
+  "football_data_id": 719
+ },
+ "rb-leipzig": {
+  "name": "RB Leipzig",
+  "liga": "BL1",
+  "stichwoerter": [
+   "rb leipzig"
+  ],
+  "football_data_id": 721
+ },
+ "arsenal-fc": {
+  "name": "Arsenal FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "arsenal",
+   "arsenal fc"
+  ],
+  "football_data_id": 57
+ },
+ "aston-villa-fc": {
+  "name": "Aston Villa FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "aston villa",
+   "aston villa fc"
+  ],
+  "football_data_id": 58
+ },
+ "chelsea-fc": {
+  "name": "Chelsea FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "chelsea",
+   "chelsea fc"
+  ],
+  "football_data_id": 61
+ },
+ "everton-fc": {
+  "name": "Everton FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "everton",
+   "everton fc"
+  ],
+  "football_data_id": 62
+ },
+ "fulham-fc": {
+  "name": "Fulham FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "fulham",
+   "fulham fc"
+  ],
+  "football_data_id": 63
+ },
+ "liverpool-fc": {
+  "name": "Liverpool FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "liverpool",
+   "liverpool fc"
+  ],
+  "football_data_id": 64
+ },
+ "manchester-city-fc": {
+  "name": "Manchester City FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "man city",
+   "manchester city fc"
+  ],
+  "football_data_id": 65
+ },
+ "manchester-united-fc": {
+  "name": "Manchester United FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "man united",
+   "manchester united fc"
+  ],
+  "football_data_id": 66
+ },
+ "newcastle-united-fc": {
+  "name": "Newcastle United FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "newcastle",
+   "newcastle united fc"
+  ],
+  "football_data_id": 67
+ },
+ "sunderland-afc": {
+  "name": "Sunderland AFC",
+  "liga": "PL",
+  "stichwoerter": [
+   "sunderland",
+   "sunderland afc"
+  ],
+  "football_data_id": 71
+ },
+ "tottenham-hotspur-fc": {
+  "name": "Tottenham Hotspur FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "tottenham",
+   "tottenham hotspur fc"
+  ],
+  "football_data_id": 73
+ },
+ "hull-city-afc": {
+  "name": "Hull City AFC",
+  "liga": "PL",
+  "stichwoerter": [
+   "hull city",
+   "hull city afc"
+  ],
+  "football_data_id": 322
+ },
+ "leeds-united-fc": {
+  "name": "Leeds United FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "leeds united",
+   "leeds united fc"
+  ],
+  "football_data_id": 341
+ },
+ "ipswich-town-fc": {
+  "name": "Ipswich Town FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "ipswich town",
+   "ipswich town fc"
+  ],
+  "football_data_id": 349
+ },
+ "nottingham-forest-fc": {
+  "name": "Nottingham Forest FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "nottingham",
+   "nottingham forest fc"
+  ],
+  "football_data_id": 351
+ },
+ "crystal-palace-fc": {
+  "name": "Crystal Palace FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "crystal palace",
+   "crystal palace fc"
+  ],
+  "football_data_id": 354
+ },
+ "brighton-hove-albion-fc": {
+  "name": "Brighton & Hove Albion FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "brighton hove",
+   "brighton hove albion fc"
+  ],
+  "football_data_id": 397
+ },
+ "brentford-fc": {
+  "name": "Brentford FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "brentford",
+   "brentford fc"
+  ],
+  "football_data_id": 402
+ },
+ "afc-bournemouth": {
+  "name": "AFC Bournemouth",
+  "liga": "PL",
+  "stichwoerter": [
+   "bournemouth",
+   "afc bournemouth"
+  ],
+  "football_data_id": 1044
+ },
+ "coventry-city-fc": {
+  "name": "Coventry City FC",
+  "liga": "PL",
+  "stichwoerter": [
+   "coventry city",
+   "coventry city fc"
+  ],
+  "football_data_id": 1076
+ },
+ "athletic-club": {
+  "name": "Athletic Club",
+  "liga": "PD",
+  "stichwoerter": [
+   "athletic",
+   "athletic club"
+  ],
+  "football_data_id": 77
+ },
+ "club-atletico-de-madrid": {
+  "name": "Club Atlético de Madrid",
+  "liga": "PD",
+  "stichwoerter": [
+   "atleti",
+   "club atletico de madrid"
+  ],
+  "football_data_id": 78
+ },
+ "ca-osasuna": {
+  "name": "CA Osasuna",
+  "liga": "PD",
+  "stichwoerter": [
+   "osasuna",
+   "ca osasuna"
+  ],
+  "football_data_id": 79
+ },
+ "rcd-espanyol-de-barcelona": {
+  "name": "RCD Espanyol de Barcelona",
+  "liga": "PD",
+  "stichwoerter": [
+   "espanyol",
+   "rcd espanyol de barcelona"
+  ],
+  "football_data_id": 80
+ },
+ "fc-barcelona": {
+  "name": "FC Barcelona",
+  "liga": "PD",
+  "stichwoerter": [
+   "barca",
+   "fc barcelona"
+  ],
+  "football_data_id": 81
+ },
+ "getafe-cf": {
+  "name": "Getafe CF",
+  "liga": "PD",
+  "stichwoerter": [
+   "getafe",
+   "getafe cf"
+  ],
+  "football_data_id": 82
+ },
+ "malaga-cf": {
+  "name": "Málaga CF",
+  "liga": "PD",
+  "stichwoerter": [
+   "malaga",
+   "malaga cf"
+  ],
+  "football_data_id": 84
+ },
+ "real-madrid-cf": {
+  "name": "Real Madrid CF",
+  "liga": "PD",
+  "stichwoerter": [
+   "real madrid",
+   "real madrid cf"
+  ],
+  "football_data_id": 86
+ },
+ "rayo-vallecano-de-madrid": {
+  "name": "Rayo Vallecano de Madrid",
+  "liga": "PD",
+  "stichwoerter": [
+   "rayo vallecano",
+   "rayo vallecano de madrid"
+  ],
+  "football_data_id": 87
+ },
+ "levante-ud": {
+  "name": "Levante UD",
+  "liga": "PD",
+  "stichwoerter": [
+   "levante",
+   "levante ud"
+  ],
+  "football_data_id": 88
+ },
+ "real-betis-balompie": {
+  "name": "Real Betis Balompié",
+  "liga": "PD",
+  "stichwoerter": [
+   "real betis",
+   "real betis balompie"
+  ],
+  "football_data_id": 90
+ },
+ "real-sociedad-de-futbol": {
+  "name": "Real Sociedad de Fútbol",
+  "liga": "PD",
+  "stichwoerter": [
+   "real sociedad",
+   "real sociedad de futbol"
+  ],
+  "football_data_id": 92
+ },
+ "villarreal-cf": {
+  "name": "Villarreal CF",
+  "liga": "PD",
+  "stichwoerter": [
+   "villarreal",
+   "villarreal cf"
+  ],
+  "football_data_id": 94
+ },
+ "valencia-cf": {
+  "name": "Valencia CF",
+  "liga": "PD",
+  "stichwoerter": [
+   "valencia",
+   "valencia cf"
+  ],
+  "football_data_id": 95
+ },
+ "deportivo-alaves": {
+  "name": "Deportivo Alavés",
+  "liga": "PD",
+  "stichwoerter": [
+   "alaves",
+   "deportivo alaves"
+  ],
+  "football_data_id": 263
+ },
+ "elche-cf": {
+  "name": "Elche CF",
+  "liga": "PD",
+  "stichwoerter": [
+   "elche",
+   "elche cf"
+  ],
+  "football_data_id": 285
+ },
+ "rc-celta-de-vigo": {
+  "name": "RC Celta de Vigo",
+  "liga": "PD",
+  "stichwoerter": [
+   "celta",
+   "rc celta de vigo"
+  ],
+  "football_data_id": 558
+ },
+ "sevilla-fc": {
+  "name": "Sevilla FC",
+  "liga": "PD",
+  "stichwoerter": [
+   "sevilla fc"
+  ],
+  "football_data_id": 559
+ },
+ "rc-deportivo-la-coruna": {
+  "name": "RC Deportivo La Coruña",
+  "liga": "PD",
+  "stichwoerter": [
+   "deportivo",
+   "rc deportivo la coruna"
+  ],
+  "football_data_id": 560
+ },
+ "real-racing-club-de-santander": {
+  "name": "Real Racing Club de Santander",
+  "liga": "PD",
+  "stichwoerter": [
+   "santander",
+   "real racing club de santander"
+  ],
+  "football_data_id": 5335
+ },
+ "ac-milan": {
+  "name": "AC Milan",
+  "liga": "SA",
+  "stichwoerter": [
+   "milan",
+   "ac milan"
+  ],
+  "football_data_id": 98
+ },
+ "acf-fiorentina": {
+  "name": "ACF Fiorentina",
+  "liga": "SA",
+  "stichwoerter": [
+   "fiorentina",
+   "acf fiorentina"
+  ],
+  "football_data_id": 99
+ },
+ "as-roma": {
+  "name": "AS Roma",
+  "liga": "SA",
+  "stichwoerter": [
+   "roma",
+   "as roma"
+  ],
+  "football_data_id": 100
+ },
+ "atalanta-bc": {
+  "name": "Atalanta BC",
+  "liga": "SA",
+  "stichwoerter": [
+   "atalanta",
+   "atalanta bc"
+  ],
+  "football_data_id": 102
+ },
+ "bologna-fc-1909": {
+  "name": "Bologna FC 1909",
+  "liga": "SA",
+  "stichwoerter": [
+   "bologna",
+   "bologna fc 1909"
+  ],
+  "football_data_id": 103
+ },
+ "cagliari-calcio": {
+  "name": "Cagliari Calcio",
+  "liga": "SA",
+  "stichwoerter": [
+   "cagliari",
+   "cagliari calcio"
+  ],
+  "football_data_id": 104
+ },
+ "genoa-cfc": {
+  "name": "Genoa CFC",
+  "liga": "SA",
+  "stichwoerter": [
+   "genoa",
+   "genoa cfc"
+  ],
+  "football_data_id": 107
+ },
+ "fc-internazionale-milano": {
+  "name": "FC Internazionale Milano",
+  "liga": "SA",
+  "stichwoerter": [
+   "inter",
+   "fc internazionale milano"
+  ],
+  "football_data_id": 108
+ },
+ "juventus-fc": {
+  "name": "Juventus FC",
+  "liga": "SA",
+  "stichwoerter": [
+   "juventus",
+   "juventus fc"
+  ],
+  "football_data_id": 109
+ },
+ "ss-lazio": {
+  "name": "SS Lazio",
+  "liga": "SA",
+  "stichwoerter": [
+   "lazio",
+   "ss lazio"
+  ],
+  "football_data_id": 110
+ },
+ "parma-calcio-1913": {
+  "name": "Parma Calcio 1913",
+  "liga": "SA",
+  "stichwoerter": [
+   "parma",
+   "parma calcio 1913"
+  ],
+  "football_data_id": 112
+ },
+ "ssc-napoli": {
+  "name": "SSC Napoli",
+  "liga": "SA",
+  "stichwoerter": [
+   "napoli",
+   "ssc napoli"
+  ],
+  "football_data_id": 113
+ },
+ "udinese-calcio": {
+  "name": "Udinese Calcio",
+  "liga": "SA",
+  "stichwoerter": [
+   "udinese",
+   "udinese calcio"
+  ],
+  "football_data_id": 115
+ },
+ "venezia-fc": {
+  "name": "Venezia FC",
+  "liga": "SA",
+  "stichwoerter": [
+   "venezia fc"
+  ],
+  "football_data_id": 454
+ },
+ "frosinone-calcio": {
+  "name": "Frosinone Calcio",
+  "liga": "SA",
+  "stichwoerter": [
+   "frosinone",
+   "frosinone calcio"
+  ],
+  "football_data_id": 470
+ },
+ "us-sassuolo-calcio": {
+  "name": "US Sassuolo Calcio",
+  "liga": "SA",
+  "stichwoerter": [
+   "sassuolo",
+   "us sassuolo calcio"
+  ],
+  "football_data_id": 471
+ },
+ "torino-fc": {
+  "name": "Torino FC",
+  "liga": "SA",
+  "stichwoerter": [
+   "torino",
+   "torino fc"
+  ],
+  "football_data_id": 586
+ },
+ "us-lecce": {
+  "name": "US Lecce",
+  "liga": "SA",
+  "stichwoerter": [
+   "lecce",
+   "us lecce"
+  ],
+  "football_data_id": 5890
+ },
+ "ac-monza": {
+  "name": "AC Monza",
+  "liga": "SA",
+  "stichwoerter": [
+   "monza",
+   "ac monza"
+  ],
+  "football_data_id": 5911
+ },
+ "como-1907": {
+  "name": "Como 1907",
+  "liga": "SA",
+  "stichwoerter": [
+   "como 1907"
+  ],
+  "football_data_id": 7397
+ },
+ "toulouse-fc": {
+  "name": "Toulouse FC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "toulouse",
+   "toulouse fc"
+  ],
+  "football_data_id": 511
+ },
+ "stade-brestois-29": {
+  "name": "Stade Brestois 29",
+  "liga": "FL1",
+  "stichwoerter": [
+   "brest",
+   "stade brestois 29"
+  ],
+  "football_data_id": 512
+ },
+ "olympique-de-marseille": {
+  "name": "Olympique de Marseille",
+  "liga": "FL1",
+  "stichwoerter": [
+   "marseille",
+   "olympique de marseille"
+  ],
+  "football_data_id": 516
+ },
+ "aj-auxerre": {
+  "name": "AJ Auxerre",
+  "liga": "FL1",
+  "stichwoerter": [
+   "auxerre",
+   "aj auxerre"
+  ],
+  "football_data_id": 519
+ },
+ "lille-osc": {
+  "name": "Lille OSC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "lille",
+   "lille osc"
+  ],
+  "football_data_id": 521
+ },
+ "ogc-nice": {
+  "name": "OGC Nice",
+  "liga": "FL1",
+  "stichwoerter": [
+   "nice",
+   "ogc nice"
+  ],
+  "football_data_id": 522
+ },
+ "olympique-lyonnais": {
+  "name": "Olympique Lyonnais",
+  "liga": "FL1",
+  "stichwoerter": [
+   "olympique lyon",
+   "olympique lyonnais"
+  ],
+  "football_data_id": 523
+ },
+ "paris-saint-germain-fc": {
+  "name": "Paris Saint-Germain FC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "psg",
+   "paris saint germain fc"
+  ],
+  "football_data_id": 524
+ },
+ "fc-lorient": {
+  "name": "FC Lorient",
+  "liga": "FL1",
+  "stichwoerter": [
+   "lorient",
+   "fc lorient"
+  ],
+  "football_data_id": 525
+ },
+ "stade-rennais-fc-1901": {
+  "name": "Stade Rennais FC 1901",
+  "liga": "FL1",
+  "stichwoerter": [
+   "stade rennais",
+   "stade rennais fc 1901"
+  ],
+  "football_data_id": 529
+ },
+ "es-troyes-ac": {
+  "name": "ES Troyes AC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "troyes",
+   "es troyes ac"
+  ],
+  "football_data_id": 531
+ },
+ "angers-sco": {
+  "name": "Angers SCO",
+  "liga": "FL1",
+  "stichwoerter": [
+   "angers sco"
+  ],
+  "football_data_id": 532
+ },
+ "le-havre-ac": {
+  "name": "Le Havre AC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "le havre",
+   "le havre ac"
+  ],
+  "football_data_id": 533
+ },
+ "le-mans-fc": {
+  "name": "Le Mans FC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "le mans",
+   "le mans fc"
+  ],
+  "football_data_id": 535
+ },
+ "racing-club-de-lens": {
+  "name": "Racing Club de Lens",
+  "liga": "FL1",
+  "stichwoerter": [
+   "rc lens",
+   "racing club de lens"
+  ],
+  "football_data_id": 546
+ },
+ "as-monaco-fc": {
+  "name": "AS Monaco FC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "monaco",
+   "as monaco fc"
+  ],
+  "football_data_id": 548
+ },
+ "rc-strasbourg-alsace": {
+  "name": "RC Strasbourg Alsace",
+  "liga": "FL1",
+  "stichwoerter": [
+   "strasbourg",
+   "rc strasbourg alsace"
+  ],
+  "football_data_id": 576
+ },
+ "paris-fc": {
+  "name": "Paris FC",
+  "liga": "FL1",
+  "stichwoerter": [
+   "paris fc"
+  ],
+  "football_data_id": 1045
+ },
+ "fc-twente-65": {
+  "name": "FC Twente '65",
+  "liga": "DED",
+  "stichwoerter": [
+   "twente",
+   "fc twente 65"
+  ],
+  "football_data_id": 666
+ },
+ "sbv-excelsior": {
+  "name": "SBV Excelsior",
+  "liga": "DED",
+  "stichwoerter": [
+   "excelsior",
+   "sbv excelsior"
+  ],
+  "football_data_id": 670
+ },
+ "willem-ii-tilburg": {
+  "name": "Willem II Tilburg",
+  "liga": "DED",
+  "stichwoerter": [
+   "willem ii",
+   "willem ii tilburg"
+  ],
+  "football_data_id": 672
+ },
+ "sc-heerenveen": {
+  "name": "SC Heerenveen",
+  "liga": "DED",
+  "stichwoerter": [
+   "heerenveen",
+   "sc heerenveen"
+  ],
+  "football_data_id": 673
+ },
+ "psv": {
+  "name": "PSV",
+  "liga": "DED",
+  "stichwoerter": [
+   "psv"
+  ],
+  "football_data_id": 674
+ },
+ "feyenoord-rotterdam": {
+  "name": "Feyenoord Rotterdam",
+  "liga": "DED",
+  "stichwoerter": [
+   "feyenoord",
+   "feyenoord rotterdam"
+  ],
+  "football_data_id": 675
+ },
+ "fc-utrecht": {
+  "name": "FC Utrecht",
+  "liga": "DED",
+  "stichwoerter": [
+   "utrecht",
+   "fc utrecht"
+  ],
+  "football_data_id": 676
+ },
+ "fc-groningen": {
+  "name": "FC Groningen",
+  "liga": "DED",
+  "stichwoerter": [
+   "groningen",
+   "fc groningen"
+  ],
+  "football_data_id": 677
+ },
+ "afc-ajax": {
+  "name": "AFC Ajax",
+  "liga": "DED",
+  "stichwoerter": [
+   "ajax",
+   "afc ajax"
+  ],
+  "football_data_id": 678
+ },
+ "ado-den-haag": {
+  "name": "ADO Den Haag",
+  "liga": "DED",
+  "stichwoerter": [
+   "den haag",
+   "ado den haag"
+  ],
+  "football_data_id": 680
+ },
+ "az": {
+  "name": "AZ",
+  "liga": "DED",
+  "stichwoerter": [
+   "az"
+  ],
+  "football_data_id": 682
+ },
+ "pec-zwolle": {
+  "name": "PEC Zwolle",
+  "liga": "DED",
+  "stichwoerter": [
+   "zwolle",
+   "pec zwolle"
+  ],
+  "football_data_id": 684
+ },
+ "go-ahead-eagles": {
+  "name": "Go Ahead Eagles",
+  "liga": "DED",
+  "stichwoerter": [
+   "go ahead",
+   "go ahead eagles"
+  ],
+  "football_data_id": 718
+ },
+ "sc-cambuur-leeuwarden": {
+  "name": "SC Cambuur-Leeuwarden",
+  "liga": "DED",
+  "stichwoerter": [
+   "cambuur",
+   "sc cambuur leeuwarden"
+  ],
+  "football_data_id": 1909
+ },
+ "telstar-1963": {
+  "name": "Telstar 1963",
+  "liga": "DED",
+  "stichwoerter": [
+   "telstar",
+   "telstar 1963"
+  ],
+  "football_data_id": 1912
+ },
+ "nec": {
+  "name": "NEC",
+  "liga": "DED",
+  "stichwoerter": [
+   "nec"
+  ],
+  "football_data_id": 1915
+ },
+ "fortuna-sittard": {
+  "name": "Fortuna Sittard",
+  "liga": "DED",
+  "stichwoerter": [
+   "sittard",
+   "fortuna sittard"
+  ],
+  "football_data_id": 1920
+ },
+ "sparta-rotterdam": {
+  "name": "Sparta Rotterdam",
+  "liga": "DED",
+  "stichwoerter": [
+   "sparta",
+   "sparta rotterdam"
+  ],
+  "football_data_id": 6806
+ },
+ "rio-ave-fc": {
+  "name": "Rio Ave FC",
+  "liga": "PPL",
+  "stichwoerter": [
+   "rio ave",
+   "rio ave fc"
+  ],
+  "football_data_id": 496
+ },
+ "sporting-clube-de-portugal": {
+  "name": "Sporting Clube de Portugal",
+  "liga": "PPL",
+  "stichwoerter": [
+   "sporting cp",
+   "sporting clube de portugal"
+  ],
+  "football_data_id": 498
+ },
+ "fc-porto": {
+  "name": "FC Porto",
+  "liga": "PPL",
+  "stichwoerter": [
+   "porto",
+   "fc porto"
+  ],
+  "football_data_id": 503
+ },
+ "gd-estoril-praia": {
+  "name": "GD Estoril Praia",
+  "liga": "PPL",
+  "stichwoerter": [
+   "estoril praia",
+   "gd estoril praia"
+  ],
+  "football_data_id": 582
+ },
+ "moreirense-fc": {
+  "name": "Moreirense FC",
+  "liga": "PPL",
+  "stichwoerter": [
+   "moreirense",
+   "moreirense fc"
+  ],
+  "football_data_id": 583
+ },
+ "fc-arouca": {
+  "name": "FC Arouca",
+  "liga": "PPL",
+  "stichwoerter": [
+   "arouca",
+   "fc arouca"
+  ],
+  "football_data_id": 712
+ },
+ "sport-lisboa-e-benfica": {
+  "name": "Sport Lisboa e Benfica",
+  "liga": "PPL",
+  "stichwoerter": [
+   "sl benfica",
+   "sport lisboa e benfica"
+  ],
+  "football_data_id": 1903
+ },
+ "academico-de-viseu-fc": {
+  "name": "Académico de Viseu FC",
+  "liga": "PPL",
+  "stichwoerter": [
+   "acad viseu",
+   "academico de viseu fc"
+  ],
+  "football_data_id": 5527
+ },
+ "cd-nacional": {
+  "name": "CD Nacional",
+  "liga": "PPL",
+  "stichwoerter": [
+   "cd nacional"
+  ],
+  "football_data_id": 5529
+ },
+ "cd-santa-clara": {
+  "name": "CD Santa Clara",
+  "liga": "PPL",
+  "stichwoerter": [
+   "santa clara",
+   "cd santa clara"
+  ],
+  "football_data_id": 5530
+ },
+ "fc-famalicao": {
+  "name": "FC Famalicão",
+  "liga": "PPL",
+  "stichwoerter": [
+   "famalicao",
+   "fc famalicao"
+  ],
+  "football_data_id": 5531
+ },
+ "gil-vicente-fc": {
+  "name": "Gil Vicente FC",
+  "liga": "PPL",
+  "stichwoerter": [
+   "gil vicente",
+   "gil vicente fc"
+  ],
+  "football_data_id": 5533
+ },
+ "vitoria-sc": {
+  "name": "Vitória SC",
+  "liga": "PPL",
+  "stichwoerter": [
+   "vitoria sc"
+  ],
+  "football_data_id": 5543
+ },
+ "cs-maritimo": {
+  "name": "CS Marítimo",
+  "liga": "PPL",
+  "stichwoerter": [
+   "maritimo",
+   "cs maritimo"
+  ],
+  "football_data_id": 5575
+ },
+ "sporting-clube-de-braga": {
+  "name": "Sporting Clube de Braga",
+  "liga": "PPL",
+  "stichwoerter": [
+   "braga",
+   "sporting clube de braga"
+  ],
+  "football_data_id": 5613
+ },
+ "casa-pia-ac": {
+  "name": "Casa Pia AC",
+  "liga": "PPL",
+  "stichwoerter": [
+   "casa pia",
+   "casa pia ac"
+  ],
+  "football_data_id": 6618
+ },
+ "fc-alverca": {
+  "name": "FC Alverca",
+  "liga": "PPL",
+  "stichwoerter": [
+   "alverca",
+   "fc alverca"
+  ],
+  "football_data_id": 7822
+ },
+ "cf-estrela-da-amadora": {
+  "name": "CF Estrela da Amadora",
+  "liga": "PPL",
+  "stichwoerter": [
+   "amadora",
+   "cf estrela da amadora"
+  ],
+  "football_data_id": 9136
  }
 }
